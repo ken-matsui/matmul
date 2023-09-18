@@ -2,7 +2,7 @@
 #include <stdio.h>   // for printf, fprintf, FILE
 #include <stdlib.h>  // for free, malloc, posix_memalign
 
-#include "./Matmul.h"
+#include "./Gemm.h"
 
 int main(void) {
   uint8_t *restrict A;
@@ -23,7 +23,7 @@ int main(void) {
     C[i] = 0;
   }
 
-  Gemm(A, B, C);
+  Gemm_32_128_16(A, B, C);
 
   // Write the result to gemm.txt
   FILE *fp = fopen("gemm.txt", "w");

@@ -7,6 +7,8 @@ naive_bench
 # auto-generated files
 Blis.h
 Blis_*.c
+Gemm.h
+Gemm_*.c
 
 blis_run
 blis_bench
