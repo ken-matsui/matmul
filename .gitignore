@@ -1,10 +1,12 @@
-/poac-out
 *.o
 *.a
-# *.txt
 
 naive_run
 naive_bench
+
+# auto-generated files
+Blis.h
+Blis_*.c
 
 blis_run
 blis_bench
