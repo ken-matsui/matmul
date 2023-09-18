@@ -3,9 +3,14 @@
 *.a
 *.txt
 
-naive_bench
 naive_run
-blis_autotune
+naive_bench
+
 blis_run
-gemm_autotune
+blis_autotune
+
 gemm_run
+gemm_autotune
+
+morello_run
+morello_bench
