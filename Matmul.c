@@ -12,7 +12,7 @@ void Naive(uint8_t *restrict A, uint8_t *restrict B, uint8_t *restrict C) {
   }
 }
 
-#define nc 12
+#define nc 32
 #define kc 128
 #define mc 16
 
