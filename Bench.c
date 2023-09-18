@@ -12,8 +12,4 @@ struct timespec TsDiff(struct timespec start, struct timespec end) {
     temp.tv_nsec = end.tv_nsec - start.tv_nsec;
   }
   return temp;
-
-
-
-
 }
