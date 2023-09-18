@@ -34,5 +34,12 @@ libmatmul.a: $(OBJS) $(HEADERS)
 %.o: %.c $(HEADERS)
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
 
+check: naive_run blis_run gemm_run
+	./naive_run
+	./blis_run
+	./gemm_run
+	diff -s naive.txt blis.txt
+	diff -s naive.txt gemm.txt
+
 clean:
-	rm -f *.o $(EXECS) libmatmul.a
+	rm -f *.o *.txt $(EXECS) libmatmul.a
