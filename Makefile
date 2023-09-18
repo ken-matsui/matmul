@@ -21,19 +21,19 @@ OBJS = $(SRCS:.c=.o)
 all: naive_bench blis_autotune gemm_autotune
 
 naive_bench: naive_bench.o libmatmul.a $(HEADERS)
-	$(CC) $(CFLAGS) -o $@ naive_bench.o libmatmul.a $(LDFLAGS)
+	$(CC) $(CFLAGS) $(BENCH_CFLAGS) -o $@ naive_bench.o libmatmul.a $(LDFLAGS)
 
 blis_autotune: blis_autotune.o libmatmul.a $(HEADERS)
-	$(CC) $(CFLAGS) -o $@ blis_autotune.o libmatmul.a $(LDFLAGS)
+	$(CC) $(CFLAGS) $(BENCH_CFLAGS) -o $@ blis_autotune.o libmatmul.a $(LDFLAGS)
 
 gemm_autotune: gemm_autotune.o libmatmul.a $(HEADERS)
-	$(CC) $(CFLAGS) -o $@ gemm_autotune.o libmatmul.a $(LDFLAGS)
+	$(CC) $(CFLAGS) $(BENCH_CFLAGS) -o $@ gemm_autotune.o libmatmul.a $(LDFLAGS)
 
 libmatmul.a: $(OBJS) $(HEADERS)
 	$(AR) $(ARFLAGS) $@ $(OBJS)
 
 %.o: %.c $(HEADERS)
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) $(BENCH_CFLAGS) -c $< -o $@
 
 clean:
 	rm -f *.o naive_bench blis_autotune gemm_autotune libmatmul.a
