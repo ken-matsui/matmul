@@ -1,7 +1,11 @@
 /poac-out
 *.o
 *.a
+*.txt
 
 naive_bench
+naive_run
 blis_autotune
+blis_run
 gemm_autotune
+gemm_run

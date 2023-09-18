@@ -21,7 +21,7 @@ HEADERS = $(SRCS:.c=.h)
 OBJS = $(SRCS:.c=.o)
 
 # Executable files
-EXECS = naive_bench blis_autotune gemm_autotune
+EXECS = naive_bench naive_run blis_autotune blis_run gemm_autotune gemm_run
 
 all: $(EXECS)
 
