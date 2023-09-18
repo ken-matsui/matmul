@@ -35,4 +35,4 @@ libmatmul.a: $(OBJS) $(HEADERS)
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
 
 clean:
-	rm -f *.o naive_bench blis_autotune gemm_autotune libmatmul.a
+	rm -f *.o $(EXECS) libmatmul.a
