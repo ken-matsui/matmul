@@ -1,7 +1,7 @@
 /poac-out
 *.o
 *.a
-*.txt
+# *.txt
 
 naive_run
 naive_bench
