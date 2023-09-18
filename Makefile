@@ -21,7 +21,7 @@ HEADERS = $(SRCS:.c=.h)
 OBJS = $(SRCS:.c=.o)
 
 # Executable files
-EXECS = naive_run naive_bench blis_run blis_autotune gemm_run gemm_autotune morello_run morello_bench
+EXECS = naive_run naive_bench blis_run blis_bench gemm_run morello_run morello_bench # blis_autotune gemm_autotune
 
 all: $(EXECS)
 
@@ -44,4 +44,4 @@ check: naive_run blis_run gemm_run morello_run
 	diff -s --brief naive.txt morello.txt
 
 clean:
-	rm -f *.o *.txt $(EXECS) libmatmul.a
+	rm -f *.o $(EXECS) libmatmul.a

@@ -8,13 +8,13 @@ int main(void) {
   uint8_t *restrict A;
   posix_memalign((void **)&A, 128, M * K * sizeof(uint8_t));
   for (int i = 0; i < M * K; ++i) {
-    A[i] = i % 5;
+    A[i] = (uint8_t)arc4random();
   }
 
   uint8_t *restrict B;
   posix_memalign((void **)&B, 128, K * N * sizeof(uint8_t));
   for (int i = 0; i < K * N; ++i) {
-    B[i] = i % 5;
+    B[i] = (uint8_t)arc4random();
   }
 
   uint8_t *restrict C;
@@ -23,7 +23,7 @@ int main(void) {
     C[i] = 0;
   }
 
-  Blis(A, B, C, 32, 128, 16);
+  Blis(A, B, C);
 
   // Write the result to blis.txt
   FILE *fp = fopen("blis.txt", "w");

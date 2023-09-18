@@ -8,8 +8,6 @@
 
 void Naive(uint8_t *restrict A, uint8_t *restrict B, uint8_t *restrict C);
 
-void Blis(uint8_t *A, uint8_t *B, uint8_t *restrict C, const int nc,
-          const int kc, const int mc);
+void Blis(uint8_t *A, uint8_t *B, uint8_t *restrict C);
 
-void Gemm(uint8_t *A, uint8_t *B, uint8_t *restrict C, const int nc,
-          const int kc, const int mc);
+void Gemm(uint8_t *A, uint8_t *B, uint8_t *restrict C);

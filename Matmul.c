@@ -12,8 +12,11 @@ void Naive(uint8_t *restrict A, uint8_t *restrict B, uint8_t *restrict C) {
   }
 }
 
-void Blis(uint8_t *A, uint8_t *B, uint8_t *restrict C, const int nc,
-          const int kc, const int mc) {
+#define nc 12
+#define kc 128
+#define mc 16
+
+void Blis(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   for (int j = 0; j < N; j += nc) {
     for (int p = 0; p < K; p += kc) {
       for (int i = 0; i < M; i += mc) {
@@ -53,8 +56,7 @@ void Blis(uint8_t *A, uint8_t *B, uint8_t *restrict C, const int nc,
   }
 }
 
-void Gemm(uint8_t *A, uint8_t *B, uint8_t *restrict C, const int nc,
-          const int kc, const int mc) {
+void Gemm(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   for (int j = 0; j < N; j += nc) {
     for (int p = 0; p < K; p += kc) {
       // Pack into B
