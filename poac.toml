@@ -1,0 +1,5 @@
+[package]
+authors = []
+edition = 2020
+name = "matmul"
+version = "0.1.0"
