@@ -34,7 +34,8 @@ int main(void) {
     clock_gettime(CLOCK_MONOTONIC, &start);
     Naive(A, B, C);
     clock_gettime(CLOCK_MONOTONIC, &end);
-    printf("%ld %ld\n", TsDiff(start, end).tv_sec, TsDiff(start, end).tv_nsec);
+    printf("%lds %ldns\n", TsDiff(start, end).tv_sec,
+           TsDiff(start, end).tv_nsec);
   }
 
   free(A);
