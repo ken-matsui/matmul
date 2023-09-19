@@ -44,7 +44,7 @@ BLIS_OBJS = $(BLIS_SRCS:.c=.o)
 GEMM_OBJS = $(GEMM_SRCS:.c=.o)
 
 # Executable files
-EXECS = naive_run naive_bench blis_run blis_bench gemm_run morello_run morello_bench # blis_autotune gemm_autotune
+EXECS = naive_run naive_bench blis_run blis_bench blis_old_bench gemm_run morello_run morello_bench # blis_autotune gemm_autotune
 
 all: $(EXECS)
 
@@ -97,6 +97,17 @@ $(BLIS_SRCS): Blis.c.in
 
 Blis_%_%.o: Blis_%_%.c Blis.h
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
+
+
+blis_old_bench: blis_old_bench.o BlisOld.o BlisOld.h $(COMMON_OBJS) $(COMMON_HEADERS)
+	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< BlisOld.o $(COMMON_OBJS)
+
+blis_old_bench.o: blis_old_bench.c BlisOld.h
+	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
+
+BlisOld.o: BlisOld.c BlisOld.h
+	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
+
 
 gemm_run: gemm_run.o $(GEMM_OBJS) libgemm.a $(GEMM_HEADERS)
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< $(GEMM_OBJS) libgemm.a $(LDFLAGS) -lgemm
