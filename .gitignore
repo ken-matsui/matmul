@@ -5,10 +5,7 @@ naive_run
 naive_bench
 
 # auto-generated files
-Naive.h
-Blis.h
 Blis_*.c
-Gemm.h
 Gemm_*.c
 
 blis_run
