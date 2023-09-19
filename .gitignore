@@ -4,15 +4,9 @@
 naive_run
 naive_bench
 
-# auto-generated files
-Blis_*.c
-Gemm_*.c
-
 blis_run
 blis_bench
 blis_autotune
-
-!blis_old_bench.c
 blis_old_bench
 
 gemm_run
