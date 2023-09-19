@@ -23,7 +23,7 @@ int main(void) {
     C[i] = 0;
   }
 
-  Blis_32_128_16(A, B, C);
+  Blis_16_32_128(A, B, C);
 
   // Write the result to blis.txt
   FILE *fp = fopen("blis.txt", "w");

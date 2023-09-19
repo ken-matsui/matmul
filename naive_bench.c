@@ -4,7 +4,7 @@
 #include <time.h>    // for clock_gettime, timespec, CLOCK_MONOTONIC
 
 #include "./Bench.h"
-#include "./Matmul.h"
+#include "./Naive.h"
 
 int main(void) {
   uint8_t *restrict A;

@@ -23,7 +23,7 @@ int main(void) {
     C[i] = 0;
   }
 
-  Gemm_32_128_16(A, B, C);
+  Gemm_16_32_128(A, B, C);
 
   // Write the result to gemm.txt
   FILE *fp = fopen("gemm.txt", "w");

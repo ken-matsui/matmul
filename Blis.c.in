@@ -3,11 +3,11 @@
 #include <stdint.h>  // for uint8_t
 #include <stdlib.h>  // for free, malloc
 
+#define mc @MC_VALUE@
 #define nc @NC_VALUE@
 #define kc @KC_VALUE@
-#define mc @MC_VALUE@
 
-void Blis_@NC_VALUE@_@KC_VALUE@_@MC_VALUE@(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
+void Blis_@MC_VALUE@_@NC_VALUE@_@KC_VALUE@(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   for (int j = 0; j < N; j += nc) {
     for (int p = 0; p < K; p += kc) {
       for (int i = 0; i < M; i += mc) {

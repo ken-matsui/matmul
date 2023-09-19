@@ -1,6 +1,4 @@
-#include "Matmul.h"
-
-#include <stdlib.h>  // for free, malloc
+#include "Naive.h"
 
 void Naive(uint8_t *restrict A, uint8_t *restrict B, uint8_t *restrict C) {
   for (int j = 0; j < N; ++j) {

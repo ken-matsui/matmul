@@ -2,7 +2,7 @@
 #include <stdio.h>   // for printf, fprintf, FILE
 #include <stdlib.h>  // for free, malloc, posix_memalign
 
-#include "./Matmul.h"
+#include "./Naive.h"
 
 int main(void) {
   uint8_t *restrict A;
