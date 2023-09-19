@@ -12,7 +12,7 @@ ARFLAGS = rcs
 
 
 # Matrix size (2^11 = 2048)
-SIZE = 11
+SIZE ?= 11
 
 # Source files
 SRCS = Bench.c
