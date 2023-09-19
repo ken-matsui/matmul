@@ -113,6 +113,13 @@ morello_%.o: morello_%.c
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
 
 
+# Used for CI
+test: naive_run blis_run gemm_run
+	./naive_run
+	./blis_run
+	./gemm_run
+	diff -s --brief naive.txt blis.txt
+	diff -s --brief naive.txt gemm.txt
 check: naive_run blis_run gemm_run morello_run
 	./naive_run
 	./blis_run
