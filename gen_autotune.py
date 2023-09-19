@@ -4,7 +4,7 @@ import sys
 headers = """
 #include <stdint.h>  // for uint8_t
 #include <stdio.h>   // for printf
-#include <stdlib.h>  // for arc4random, free, posix_memalign
+#include <stdlib.h>  // for rand, free, posix_memalign
 #include <time.h>    // for clock_gettime, timespec, CLOCK_MONOTONIC
 
 #include "./Bench.h"
@@ -18,13 +18,13 @@ static struct timespec call_kernel_{mc}_{nc}_{kc}(void) {{
   uint8_t *A;
   posix_memalign((void **)&A, 128, M * K * sizeof(uint8_t));
   for (int i = 0; i < M * K; ++i) {{
-    A[i] = (uint8_t)arc4random();
+    A[i] = (uint8_t)rand();
   }}
 
   uint8_t *B;
   posix_memalign((void **)&B, 128, K * N * sizeof(uint8_t));
   for (int i = 0; i < K * N; ++i) {{
-    B[i] = (uint8_t)arc4random();
+    B[i] = (uint8_t)rand();
   }}
 
   uint8_t *restrict C;
