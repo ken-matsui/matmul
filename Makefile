@@ -22,7 +22,7 @@ HEADERS = Bench.h
 OBJS = $(SRCS:.c=.o)
 
 # Executable files
-EXECS = naive_run naive_bench blis_run blis_bench blis_autotune blis_old_bench gemm_run gemm_autotune morello_run morello_bench
+EXECS = naive_run naive_bench blis_run blis_bench blis_autotune blis_old_bench gemm_run gemm_autotune
 
 all: $(EXECS)
 
@@ -130,4 +130,4 @@ check: naive_run blis_run gemm_run morello_run
 	diff -s --brief naive.txt morello.txt
 
 clean:
-	rm -f *.o $(EXECS) Naive.h Blis.c Blis.h blis_autotune.c Gemm.c gemm_autotune.c Gemm.h
+	rm -f *.o $(EXECS) morello_run morello_bench Naive.h Blis.c Blis.h blis_autotune.c Gemm.c gemm_autotune.c Gemm.h
