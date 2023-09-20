@@ -33,6 +33,7 @@ int main(void) {
     }
     fprintf(fp, "\n");
   }
+  fclose(fp);
 
   free(A);
   free(B);

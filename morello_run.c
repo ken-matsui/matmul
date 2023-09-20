@@ -136,6 +136,7 @@ int main(int argc, char *argv[]) {
     }
     fprintf(fp, "\n");
   }
+  fclose(fp);
 
   //   struct timespec start, end;
   //   clock_gettime(CLOCK_MONOTONIC, &start);
