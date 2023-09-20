@@ -70,7 +70,7 @@ static struct timespec call_kernel_{mc}_{nc}_{kc}(void) {{
   struct timespec avg_time;
   avg_time.tv_sec = (total_time.tv_sec / num_iterations);
   avg_time.tv_nsec = (total_time.tv_nsec / num_iterations);
-  tee("(mc: %d, nc: %d, kc: %d): ave. %lds %ldns\\n", {mc}, {nc}, {kc},
+  tee("(mc: %d, nc: %d, kc: %d): ave. %lds %09ldns\\n", {mc}, {nc}, {kc},
       avg_time.tv_sec, avg_time.tv_nsec);
 
   free(A);
@@ -110,14 +110,14 @@ kernel_call = """
     struct Param new_param = {{{mc}, {nc}, {kc}}};
     min_param = new_param;
   }}
-  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\\n\\n",
-      min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
+  tee("Current best params: (mc: %d, nc: %d, kc: %d): %lds %09ldns\\n\\n",
+      min_param.mc, min_param.nc, min_param.kc, min_time.tv_sec,
       min_time.tv_nsec);
 """
 
 main_epilogue = """
-  tee("Best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\\n",
-      min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
+  tee("Best params: (mc: %d, nc: %d, kc: %d): %lds %09ldns\\n",
+      min_param.mc, min_param.nc, min_param.kc, min_time.tv_sec,
       min_time.tv_nsec);
 
   return 0;
