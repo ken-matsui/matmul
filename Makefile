@@ -1,6 +1,6 @@
 # Compiler settings
 CC = clang
-CFLAGS = -Wall -Wpedantic -std=gnu99 # -fopenmp
+CFLAGS = -Wall -Wpedantic -std=gnu99 -flto # -fopenmp
 LDFLAGS = -L.
 
 # MORE_CFLAGS = -O1 -g -fsanitize=address
