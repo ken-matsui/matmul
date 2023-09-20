@@ -4,7 +4,7 @@
 #include <time.h>    // for clock_gettime, timespec, CLOCK_MONOTONIC
 
 #include "./Bench.h"
-#include "./Blis.h"
+#include "./Pack.h"
 
 int main(void) {
   uint8_t *restrict A;
@@ -26,13 +26,13 @@ int main(void) {
   }
 
   // Inlined kernel follows. This is for warm-up.
-  Blis_16_32_128(A, B, C);
+  Pack_16_32_128(A, B, C);
 
   struct timespec start, end;
 #pragma clang loop unroll(disable)
   for (int i = 0; i < 10; ++i) {
     clock_gettime(CLOCK_MONOTONIC, &start);
-    Blis_16_32_128(A, B, C);
+    Pack_16_32_128(A, B, C);
     clock_gettime(CLOCK_MONOTONIC, &end);
     printf("%lds %ldns\n", TsDiff(start, end).tv_sec,
            TsDiff(start, end).tv_nsec);

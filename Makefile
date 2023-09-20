@@ -1,6 +1,6 @@
 # Compiler settings
 CC = clang
-CFLAGS = -Wall -Wpedantic -std=gnu99 -flto # -fopenmp
+CFLAGS = -Wall -Wpedantic -std=gnu99 -flto
 LDFLAGS = -L.
 
 # MORE_CFLAGS = -O1 -g -fsanitize=address
@@ -22,28 +22,28 @@ HEADERS = Bench.h
 OBJS = $(SRCS:.c=.o)
 
 # Executable files
-EXECS = naive_run naive_bench blis_run blis_bench blis_autotune gemm_run gemm_autotune
+EXECS = naive_run naive_bench block_run block_autotune pack_run pack_bench pack_autotune
 
 all: $(EXECS)
 
 # Used for CI
-test: naive_run blis_run gemm_run
+test: naive_run block_run pack_run
 	./naive_run
-	./blis_run
-	./gemm_run
-	diff -s --brief naive.txt blis.txt
-	diff -s --brief naive.txt gemm.txt
-check: naive_run blis_run gemm_run morello_run
+	./block_run
+	./pack_run
+	diff -s --brief naive.txt block.txt
+	diff -s --brief naive.txt pack.txt
+check: naive_run block_run pack_run morello_run
 	./naive_run
-	./blis_run
-	./gemm_run
+	./block_run
+	./pack_run
 	./morello_run
-	diff -s --brief naive.txt blis.txt
-	diff -s --brief naive.txt gemm.txt
+	diff -s --brief naive.txt block.txt
+	diff -s --brief naive.txt pack.txt
 	diff -s --brief naive.txt morello.txt
 
 clean:
-	rm -f *.o $(EXECS) morello_run morello_bench Naive.h Blis.c Blis.h blis_autotune.c Gemm.c gemm_autotune.c Gemm.h
+	rm -f *.o $(EXECS) blis_old_bench morello_run morello_bench Naive.h Block.c block_autotune.c Block.h Pack.c Pack.h pack_autotune.c
 
 $(OBJS): $(SRCS) $(HEADERS)
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
@@ -65,50 +65,50 @@ Naive.o: Naive.c Naive.h
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
 
 
-blis_run: blis_run.o Blis.o
-	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< Blis.o
+block_run: block_run.o Block.o
+	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< Block.o
 
-blis_bench: blis_bench.o Blis.o $(OBJS)
-	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< Blis.o $(OBJS)
+block_autotune: block_autotune.o Block.o $(OBJS)
+	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< Block.o $(OBJS)
 
-blis_autotune: blis_autotune.o Blis.o $(OBJS)
-	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< Blis.o $(OBJS)
-
-blis_%.o: blis_%.c Blis.h
+block_%.o: block_%.c Block.h
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
 
-blis_autotune.c: gen_autotune.py
-	python3 $< $(SIZE) Blis > $@
+block_autotune.c: gen_autotune.py
+	python3 $< $(SIZE) Block > $@
 
-Blis.h: gen_header.py
-	python3 $< $(SIZE) Blis > $@
+Block.h: gen_header.py
+	python3 $< $(SIZE) Block > $@
 
-Blis.c: gen_source.py
-	python3 $< $(SIZE) Blis > $@
+Block.c: gen_source.py
+	python3 $< $(SIZE) Block > $@
 
-Blis.o: Blis.c Blis.h
+Block.o: Block.c Block.h
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
 
 
-gemm_run: gemm_run.o Gemm.o
-	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< Gemm.o
+pack_run: pack_run.o Pack.o
+	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< Pack.o
 
-gemm_autotune: gemm_autotune.o Gemm.o $(OBJS)
-	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< Gemm.o $(OBJS)
+pack_bench: pack_bench.o Pack.o $(OBJS)
+	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< Pack.o $(OBJS)
 
-gemm_%.o: gemm_%.c Gemm.h
+pack_autotune: pack_autotune.o Pack.o $(OBJS)
+	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< Pack.o $(OBJS)
+
+pack_%.o: pack_%.c Pack.h
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
 
-gemm_autotune.c: gen_autotune.py
-	python3 $< $(SIZE) Gemm > $@
+pack_autotune.c: gen_autotune.py
+	python3 $< $(SIZE) Pack > $@
 
-Gemm.h: gen_header.py
-	python3 $< $(SIZE) Gemm > $@
+Pack.h: gen_header.py
+	python3 $< $(SIZE) Pack > $@
 
-Gemm.c: gen_source.py
-	python3 $< $(SIZE) Gemm > $@
+Pack.c: gen_source.py
+	python3 $< $(SIZE) Pack > $@
 
-Gemm.o: Gemm.c Gemm.h
+Pack.o: Pack.c Pack.h
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
 
 

@@ -15,7 +15,7 @@ decl = """
 void {name}(uint8_t *restrict A, uint8_t *restrict B, uint8_t *restrict C);"""
 
 
-# name: Naive, Blis, or Gemm
+# name: Naive, Block, or Pack
 def generate_code(size, name):
     size = int(size)
 

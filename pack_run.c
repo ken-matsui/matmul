@@ -2,7 +2,7 @@
 #include <stdio.h>   // for printf, fprintf, FILE
 #include <stdlib.h>  // for free, malloc, posix_memalign
 
-#include "./Blis.h"
+#include "./Pack.h"
 
 int main(void) {
   uint8_t *restrict A;
@@ -23,10 +23,10 @@ int main(void) {
     C[i] = 0;
   }
 
-  Blis_16_32_128(A, B, C);
+  Pack_16_32_128(A, B, C);
 
-  // Write the result to blis.txt
-  FILE *fp = fopen("blis.txt", "w");
+  // Write the result to pack.txt
+  FILE *fp = fopen("pack.txt", "w");
   for (int i = 0; i < M; ++i) {
     for (int j = 0; j < N; ++j) {
       fprintf(fp, "%d ", C[i * N + j]);

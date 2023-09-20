@@ -4,13 +4,13 @@
 naive_run
 naive_bench
 
-blis_run
-blis_bench
-blis_autotune
-blis_old_bench
+block_run
+block_autotune
 
-gemm_run
-gemm_autotune
+pack_run
+pack_bench
+pack_autotune
+pack_old_bench
 
 morello_run
 morello_bench

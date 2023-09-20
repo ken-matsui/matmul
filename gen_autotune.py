@@ -97,7 +97,7 @@ main_epilogue = """
 """
 
 
-# name: Blis or Gemm
+# name: Block or Pack
 def generate_code(size, name):
     size = int(size) + 1
 
