@@ -12,8 +12,7 @@ headers = """
 """
 
 decl = """
-void {name}(uint8_t *restrict A, uint8_t *restrict B, uint8_t *restrict C);
-"""
+void {name}(uint8_t *restrict A, uint8_t *restrict B, uint8_t *restrict C);"""
 
 
 # name: Naive, Blis, or Gemm

@@ -9,4 +9,3 @@
 #define K 2048
 
 void Naive(uint8_t *restrict A, uint8_t *restrict B, uint8_t *restrict C);
-
