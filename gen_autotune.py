@@ -64,7 +64,7 @@ static struct timespec call_kernel_{mc}_{nc}_{kc}(void) {{
 
     total_time.tv_sec += TsDiff(start, end).tv_sec;
     total_time.tv_nsec += TsDiff(start, end).tv_nsec;
-    tee("%d: %lds %ldns\\n", i, TsDiff(start, end).tv_sec,
+    tee("%d: %lds %09ldns\\n", i, TsDiff(start, end).tv_sec,
         TsDiff(start, end).tv_nsec);
   }}
   struct timespec avg_time;
