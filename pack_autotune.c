@@ -84708,7 +84708,7 @@ int main(void) {
   struct Param min_param = {0, 0, 0};
   struct timespec avg_time;
 
-  // Delete the file if it exists
+  // Erase the existing content of the file.
   FILE *fp = fopen("Pack_autotune.txt", "w");
   if (fp) {
     fclose(fp);
@@ -108907,7 +108907,7 @@ int main(void) {
       min_time.tv_nsec);
 
   tee("Pack_autotune.txt",
-      "Final min_param: (nc: %d, kc: %d, mc: %d): %lds %ldns\n",
+      "Best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
