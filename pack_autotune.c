@@ -84723,7 +84723,7 @@ int main(void) {
     struct Param new_param = {1, 1, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84736,7 +84736,7 @@ int main(void) {
     struct Param new_param = {1, 1, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84749,7 +84749,7 @@ int main(void) {
     struct Param new_param = {1, 1, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84762,7 +84762,7 @@ int main(void) {
     struct Param new_param = {1, 1, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84775,7 +84775,7 @@ int main(void) {
     struct Param new_param = {1, 1, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84788,7 +84788,7 @@ int main(void) {
     struct Param new_param = {1, 1, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84801,7 +84801,7 @@ int main(void) {
     struct Param new_param = {1, 1, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84814,7 +84814,7 @@ int main(void) {
     struct Param new_param = {1, 1, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84827,7 +84827,7 @@ int main(void) {
     struct Param new_param = {1, 1, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84840,7 +84840,7 @@ int main(void) {
     struct Param new_param = {1, 1, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84853,7 +84853,7 @@ int main(void) {
     struct Param new_param = {1, 1, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84866,7 +84866,7 @@ int main(void) {
     struct Param new_param = {1, 1, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84879,7 +84879,7 @@ int main(void) {
     struct Param new_param = {1, 2, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84892,7 +84892,7 @@ int main(void) {
     struct Param new_param = {1, 2, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84905,7 +84905,7 @@ int main(void) {
     struct Param new_param = {1, 2, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84918,7 +84918,7 @@ int main(void) {
     struct Param new_param = {1, 2, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84931,7 +84931,7 @@ int main(void) {
     struct Param new_param = {1, 2, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84944,7 +84944,7 @@ int main(void) {
     struct Param new_param = {1, 2, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84957,7 +84957,7 @@ int main(void) {
     struct Param new_param = {1, 2, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84970,7 +84970,7 @@ int main(void) {
     struct Param new_param = {1, 2, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84983,7 +84983,7 @@ int main(void) {
     struct Param new_param = {1, 2, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -84996,7 +84996,7 @@ int main(void) {
     struct Param new_param = {1, 2, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85009,7 +85009,7 @@ int main(void) {
     struct Param new_param = {1, 2, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85022,7 +85022,7 @@ int main(void) {
     struct Param new_param = {1, 2, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85035,7 +85035,7 @@ int main(void) {
     struct Param new_param = {1, 4, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85048,7 +85048,7 @@ int main(void) {
     struct Param new_param = {1, 4, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85061,7 +85061,7 @@ int main(void) {
     struct Param new_param = {1, 4, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85074,7 +85074,7 @@ int main(void) {
     struct Param new_param = {1, 4, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85087,7 +85087,7 @@ int main(void) {
     struct Param new_param = {1, 4, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85100,7 +85100,7 @@ int main(void) {
     struct Param new_param = {1, 4, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85113,7 +85113,7 @@ int main(void) {
     struct Param new_param = {1, 4, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85126,7 +85126,7 @@ int main(void) {
     struct Param new_param = {1, 4, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85139,7 +85139,7 @@ int main(void) {
     struct Param new_param = {1, 4, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85152,7 +85152,7 @@ int main(void) {
     struct Param new_param = {1, 4, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85165,7 +85165,7 @@ int main(void) {
     struct Param new_param = {1, 4, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85178,7 +85178,7 @@ int main(void) {
     struct Param new_param = {1, 4, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85191,7 +85191,7 @@ int main(void) {
     struct Param new_param = {1, 8, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85204,7 +85204,7 @@ int main(void) {
     struct Param new_param = {1, 8, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85217,7 +85217,7 @@ int main(void) {
     struct Param new_param = {1, 8, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85230,7 +85230,7 @@ int main(void) {
     struct Param new_param = {1, 8, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85243,7 +85243,7 @@ int main(void) {
     struct Param new_param = {1, 8, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85256,7 +85256,7 @@ int main(void) {
     struct Param new_param = {1, 8, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85269,7 +85269,7 @@ int main(void) {
     struct Param new_param = {1, 8, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85282,7 +85282,7 @@ int main(void) {
     struct Param new_param = {1, 8, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85295,7 +85295,7 @@ int main(void) {
     struct Param new_param = {1, 8, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85308,7 +85308,7 @@ int main(void) {
     struct Param new_param = {1, 8, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85321,7 +85321,7 @@ int main(void) {
     struct Param new_param = {1, 8, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85334,7 +85334,7 @@ int main(void) {
     struct Param new_param = {1, 8, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85347,7 +85347,7 @@ int main(void) {
     struct Param new_param = {1, 16, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85360,7 +85360,7 @@ int main(void) {
     struct Param new_param = {1, 16, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85373,7 +85373,7 @@ int main(void) {
     struct Param new_param = {1, 16, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85386,7 +85386,7 @@ int main(void) {
     struct Param new_param = {1, 16, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85399,7 +85399,7 @@ int main(void) {
     struct Param new_param = {1, 16, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85412,7 +85412,7 @@ int main(void) {
     struct Param new_param = {1, 16, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85425,7 +85425,7 @@ int main(void) {
     struct Param new_param = {1, 16, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85438,7 +85438,7 @@ int main(void) {
     struct Param new_param = {1, 16, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85451,7 +85451,7 @@ int main(void) {
     struct Param new_param = {1, 16, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85464,7 +85464,7 @@ int main(void) {
     struct Param new_param = {1, 16, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85477,7 +85477,7 @@ int main(void) {
     struct Param new_param = {1, 16, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85490,7 +85490,7 @@ int main(void) {
     struct Param new_param = {1, 16, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85503,7 +85503,7 @@ int main(void) {
     struct Param new_param = {1, 32, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85516,7 +85516,7 @@ int main(void) {
     struct Param new_param = {1, 32, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85529,7 +85529,7 @@ int main(void) {
     struct Param new_param = {1, 32, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85542,7 +85542,7 @@ int main(void) {
     struct Param new_param = {1, 32, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85555,7 +85555,7 @@ int main(void) {
     struct Param new_param = {1, 32, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85568,7 +85568,7 @@ int main(void) {
     struct Param new_param = {1, 32, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85581,7 +85581,7 @@ int main(void) {
     struct Param new_param = {1, 32, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85594,7 +85594,7 @@ int main(void) {
     struct Param new_param = {1, 32, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85607,7 +85607,7 @@ int main(void) {
     struct Param new_param = {1, 32, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85620,7 +85620,7 @@ int main(void) {
     struct Param new_param = {1, 32, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85633,7 +85633,7 @@ int main(void) {
     struct Param new_param = {1, 32, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85646,7 +85646,7 @@ int main(void) {
     struct Param new_param = {1, 32, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85659,7 +85659,7 @@ int main(void) {
     struct Param new_param = {1, 64, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85672,7 +85672,7 @@ int main(void) {
     struct Param new_param = {1, 64, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85685,7 +85685,7 @@ int main(void) {
     struct Param new_param = {1, 64, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85698,7 +85698,7 @@ int main(void) {
     struct Param new_param = {1, 64, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85711,7 +85711,7 @@ int main(void) {
     struct Param new_param = {1, 64, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85724,7 +85724,7 @@ int main(void) {
     struct Param new_param = {1, 64, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85737,7 +85737,7 @@ int main(void) {
     struct Param new_param = {1, 64, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85750,7 +85750,7 @@ int main(void) {
     struct Param new_param = {1, 64, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85763,7 +85763,7 @@ int main(void) {
     struct Param new_param = {1, 64, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85776,7 +85776,7 @@ int main(void) {
     struct Param new_param = {1, 64, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85789,7 +85789,7 @@ int main(void) {
     struct Param new_param = {1, 64, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85802,7 +85802,7 @@ int main(void) {
     struct Param new_param = {1, 64, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85815,7 +85815,7 @@ int main(void) {
     struct Param new_param = {1, 128, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85828,7 +85828,7 @@ int main(void) {
     struct Param new_param = {1, 128, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85841,7 +85841,7 @@ int main(void) {
     struct Param new_param = {1, 128, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85854,7 +85854,7 @@ int main(void) {
     struct Param new_param = {1, 128, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85867,7 +85867,7 @@ int main(void) {
     struct Param new_param = {1, 128, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85880,7 +85880,7 @@ int main(void) {
     struct Param new_param = {1, 128, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85893,7 +85893,7 @@ int main(void) {
     struct Param new_param = {1, 128, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85906,7 +85906,7 @@ int main(void) {
     struct Param new_param = {1, 128, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85919,7 +85919,7 @@ int main(void) {
     struct Param new_param = {1, 128, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85932,7 +85932,7 @@ int main(void) {
     struct Param new_param = {1, 128, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85945,7 +85945,7 @@ int main(void) {
     struct Param new_param = {1, 128, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85958,7 +85958,7 @@ int main(void) {
     struct Param new_param = {1, 128, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85971,7 +85971,7 @@ int main(void) {
     struct Param new_param = {1, 256, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85984,7 +85984,7 @@ int main(void) {
     struct Param new_param = {1, 256, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -85997,7 +85997,7 @@ int main(void) {
     struct Param new_param = {1, 256, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86010,7 +86010,7 @@ int main(void) {
     struct Param new_param = {1, 256, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86023,7 +86023,7 @@ int main(void) {
     struct Param new_param = {1, 256, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86036,7 +86036,7 @@ int main(void) {
     struct Param new_param = {1, 256, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86049,7 +86049,7 @@ int main(void) {
     struct Param new_param = {1, 256, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86062,7 +86062,7 @@ int main(void) {
     struct Param new_param = {1, 256, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86075,7 +86075,7 @@ int main(void) {
     struct Param new_param = {1, 256, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86088,7 +86088,7 @@ int main(void) {
     struct Param new_param = {1, 256, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86101,7 +86101,7 @@ int main(void) {
     struct Param new_param = {1, 256, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86114,7 +86114,7 @@ int main(void) {
     struct Param new_param = {1, 256, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86127,7 +86127,7 @@ int main(void) {
     struct Param new_param = {1, 512, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86140,7 +86140,7 @@ int main(void) {
     struct Param new_param = {1, 512, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86153,7 +86153,7 @@ int main(void) {
     struct Param new_param = {1, 512, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86166,7 +86166,7 @@ int main(void) {
     struct Param new_param = {1, 512, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86179,7 +86179,7 @@ int main(void) {
     struct Param new_param = {1, 512, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86192,7 +86192,7 @@ int main(void) {
     struct Param new_param = {1, 512, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86205,7 +86205,7 @@ int main(void) {
     struct Param new_param = {1, 512, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86218,7 +86218,7 @@ int main(void) {
     struct Param new_param = {1, 512, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86231,7 +86231,7 @@ int main(void) {
     struct Param new_param = {1, 512, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86244,7 +86244,7 @@ int main(void) {
     struct Param new_param = {1, 512, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86257,7 +86257,7 @@ int main(void) {
     struct Param new_param = {1, 512, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86270,7 +86270,7 @@ int main(void) {
     struct Param new_param = {1, 512, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86283,7 +86283,7 @@ int main(void) {
     struct Param new_param = {1, 1024, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86296,7 +86296,7 @@ int main(void) {
     struct Param new_param = {1, 1024, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86309,7 +86309,7 @@ int main(void) {
     struct Param new_param = {1, 1024, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86322,7 +86322,7 @@ int main(void) {
     struct Param new_param = {1, 1024, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86335,7 +86335,7 @@ int main(void) {
     struct Param new_param = {1, 1024, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86348,7 +86348,7 @@ int main(void) {
     struct Param new_param = {1, 1024, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86361,7 +86361,7 @@ int main(void) {
     struct Param new_param = {1, 1024, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86374,7 +86374,7 @@ int main(void) {
     struct Param new_param = {1, 1024, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86387,7 +86387,7 @@ int main(void) {
     struct Param new_param = {1, 1024, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86400,7 +86400,7 @@ int main(void) {
     struct Param new_param = {1, 1024, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86413,7 +86413,7 @@ int main(void) {
     struct Param new_param = {1, 1024, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86426,7 +86426,7 @@ int main(void) {
     struct Param new_param = {1, 1024, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86439,7 +86439,7 @@ int main(void) {
     struct Param new_param = {1, 2048, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86452,7 +86452,7 @@ int main(void) {
     struct Param new_param = {1, 2048, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86465,7 +86465,7 @@ int main(void) {
     struct Param new_param = {1, 2048, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86478,7 +86478,7 @@ int main(void) {
     struct Param new_param = {1, 2048, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86491,7 +86491,7 @@ int main(void) {
     struct Param new_param = {1, 2048, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86504,7 +86504,7 @@ int main(void) {
     struct Param new_param = {1, 2048, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86517,7 +86517,7 @@ int main(void) {
     struct Param new_param = {1, 2048, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86530,7 +86530,7 @@ int main(void) {
     struct Param new_param = {1, 2048, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86543,7 +86543,7 @@ int main(void) {
     struct Param new_param = {1, 2048, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86556,7 +86556,7 @@ int main(void) {
     struct Param new_param = {1, 2048, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86569,7 +86569,7 @@ int main(void) {
     struct Param new_param = {1, 2048, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86582,7 +86582,7 @@ int main(void) {
     struct Param new_param = {1, 2048, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86595,7 +86595,7 @@ int main(void) {
     struct Param new_param = {2, 1, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86608,7 +86608,7 @@ int main(void) {
     struct Param new_param = {2, 1, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86621,7 +86621,7 @@ int main(void) {
     struct Param new_param = {2, 1, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86634,7 +86634,7 @@ int main(void) {
     struct Param new_param = {2, 1, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86647,7 +86647,7 @@ int main(void) {
     struct Param new_param = {2, 1, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86660,7 +86660,7 @@ int main(void) {
     struct Param new_param = {2, 1, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86673,7 +86673,7 @@ int main(void) {
     struct Param new_param = {2, 1, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86686,7 +86686,7 @@ int main(void) {
     struct Param new_param = {2, 1, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86699,7 +86699,7 @@ int main(void) {
     struct Param new_param = {2, 1, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86712,7 +86712,7 @@ int main(void) {
     struct Param new_param = {2, 1, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86725,7 +86725,7 @@ int main(void) {
     struct Param new_param = {2, 1, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86738,7 +86738,7 @@ int main(void) {
     struct Param new_param = {2, 1, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86751,7 +86751,7 @@ int main(void) {
     struct Param new_param = {2, 2, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86764,7 +86764,7 @@ int main(void) {
     struct Param new_param = {2, 2, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86777,7 +86777,7 @@ int main(void) {
     struct Param new_param = {2, 2, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86790,7 +86790,7 @@ int main(void) {
     struct Param new_param = {2, 2, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86803,7 +86803,7 @@ int main(void) {
     struct Param new_param = {2, 2, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86816,7 +86816,7 @@ int main(void) {
     struct Param new_param = {2, 2, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86829,7 +86829,7 @@ int main(void) {
     struct Param new_param = {2, 2, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86842,7 +86842,7 @@ int main(void) {
     struct Param new_param = {2, 2, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86855,7 +86855,7 @@ int main(void) {
     struct Param new_param = {2, 2, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86868,7 +86868,7 @@ int main(void) {
     struct Param new_param = {2, 2, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86881,7 +86881,7 @@ int main(void) {
     struct Param new_param = {2, 2, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86894,7 +86894,7 @@ int main(void) {
     struct Param new_param = {2, 2, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86907,7 +86907,7 @@ int main(void) {
     struct Param new_param = {2, 4, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86920,7 +86920,7 @@ int main(void) {
     struct Param new_param = {2, 4, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86933,7 +86933,7 @@ int main(void) {
     struct Param new_param = {2, 4, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86946,7 +86946,7 @@ int main(void) {
     struct Param new_param = {2, 4, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86959,7 +86959,7 @@ int main(void) {
     struct Param new_param = {2, 4, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86972,7 +86972,7 @@ int main(void) {
     struct Param new_param = {2, 4, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86985,7 +86985,7 @@ int main(void) {
     struct Param new_param = {2, 4, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -86998,7 +86998,7 @@ int main(void) {
     struct Param new_param = {2, 4, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87011,7 +87011,7 @@ int main(void) {
     struct Param new_param = {2, 4, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87024,7 +87024,7 @@ int main(void) {
     struct Param new_param = {2, 4, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87037,7 +87037,7 @@ int main(void) {
     struct Param new_param = {2, 4, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87050,7 +87050,7 @@ int main(void) {
     struct Param new_param = {2, 4, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87063,7 +87063,7 @@ int main(void) {
     struct Param new_param = {2, 8, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87076,7 +87076,7 @@ int main(void) {
     struct Param new_param = {2, 8, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87089,7 +87089,7 @@ int main(void) {
     struct Param new_param = {2, 8, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87102,7 +87102,7 @@ int main(void) {
     struct Param new_param = {2, 8, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87115,7 +87115,7 @@ int main(void) {
     struct Param new_param = {2, 8, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87128,7 +87128,7 @@ int main(void) {
     struct Param new_param = {2, 8, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87141,7 +87141,7 @@ int main(void) {
     struct Param new_param = {2, 8, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87154,7 +87154,7 @@ int main(void) {
     struct Param new_param = {2, 8, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87167,7 +87167,7 @@ int main(void) {
     struct Param new_param = {2, 8, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87180,7 +87180,7 @@ int main(void) {
     struct Param new_param = {2, 8, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87193,7 +87193,7 @@ int main(void) {
     struct Param new_param = {2, 8, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87206,7 +87206,7 @@ int main(void) {
     struct Param new_param = {2, 8, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87219,7 +87219,7 @@ int main(void) {
     struct Param new_param = {2, 16, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87232,7 +87232,7 @@ int main(void) {
     struct Param new_param = {2, 16, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87245,7 +87245,7 @@ int main(void) {
     struct Param new_param = {2, 16, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87258,7 +87258,7 @@ int main(void) {
     struct Param new_param = {2, 16, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87271,7 +87271,7 @@ int main(void) {
     struct Param new_param = {2, 16, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87284,7 +87284,7 @@ int main(void) {
     struct Param new_param = {2, 16, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87297,7 +87297,7 @@ int main(void) {
     struct Param new_param = {2, 16, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87310,7 +87310,7 @@ int main(void) {
     struct Param new_param = {2, 16, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87323,7 +87323,7 @@ int main(void) {
     struct Param new_param = {2, 16, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87336,7 +87336,7 @@ int main(void) {
     struct Param new_param = {2, 16, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87349,7 +87349,7 @@ int main(void) {
     struct Param new_param = {2, 16, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87362,7 +87362,7 @@ int main(void) {
     struct Param new_param = {2, 16, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87375,7 +87375,7 @@ int main(void) {
     struct Param new_param = {2, 32, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87388,7 +87388,7 @@ int main(void) {
     struct Param new_param = {2, 32, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87401,7 +87401,7 @@ int main(void) {
     struct Param new_param = {2, 32, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87414,7 +87414,7 @@ int main(void) {
     struct Param new_param = {2, 32, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87427,7 +87427,7 @@ int main(void) {
     struct Param new_param = {2, 32, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87440,7 +87440,7 @@ int main(void) {
     struct Param new_param = {2, 32, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87453,7 +87453,7 @@ int main(void) {
     struct Param new_param = {2, 32, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87466,7 +87466,7 @@ int main(void) {
     struct Param new_param = {2, 32, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87479,7 +87479,7 @@ int main(void) {
     struct Param new_param = {2, 32, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87492,7 +87492,7 @@ int main(void) {
     struct Param new_param = {2, 32, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87505,7 +87505,7 @@ int main(void) {
     struct Param new_param = {2, 32, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87518,7 +87518,7 @@ int main(void) {
     struct Param new_param = {2, 32, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87531,7 +87531,7 @@ int main(void) {
     struct Param new_param = {2, 64, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87544,7 +87544,7 @@ int main(void) {
     struct Param new_param = {2, 64, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87557,7 +87557,7 @@ int main(void) {
     struct Param new_param = {2, 64, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87570,7 +87570,7 @@ int main(void) {
     struct Param new_param = {2, 64, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87583,7 +87583,7 @@ int main(void) {
     struct Param new_param = {2, 64, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87596,7 +87596,7 @@ int main(void) {
     struct Param new_param = {2, 64, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87609,7 +87609,7 @@ int main(void) {
     struct Param new_param = {2, 64, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87622,7 +87622,7 @@ int main(void) {
     struct Param new_param = {2, 64, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87635,7 +87635,7 @@ int main(void) {
     struct Param new_param = {2, 64, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87648,7 +87648,7 @@ int main(void) {
     struct Param new_param = {2, 64, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87661,7 +87661,7 @@ int main(void) {
     struct Param new_param = {2, 64, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87674,7 +87674,7 @@ int main(void) {
     struct Param new_param = {2, 64, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87687,7 +87687,7 @@ int main(void) {
     struct Param new_param = {2, 128, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87700,7 +87700,7 @@ int main(void) {
     struct Param new_param = {2, 128, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87713,7 +87713,7 @@ int main(void) {
     struct Param new_param = {2, 128, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87726,7 +87726,7 @@ int main(void) {
     struct Param new_param = {2, 128, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87739,7 +87739,7 @@ int main(void) {
     struct Param new_param = {2, 128, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87752,7 +87752,7 @@ int main(void) {
     struct Param new_param = {2, 128, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87765,7 +87765,7 @@ int main(void) {
     struct Param new_param = {2, 128, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87778,7 +87778,7 @@ int main(void) {
     struct Param new_param = {2, 128, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87791,7 +87791,7 @@ int main(void) {
     struct Param new_param = {2, 128, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87804,7 +87804,7 @@ int main(void) {
     struct Param new_param = {2, 128, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87817,7 +87817,7 @@ int main(void) {
     struct Param new_param = {2, 128, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87830,7 +87830,7 @@ int main(void) {
     struct Param new_param = {2, 128, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87843,7 +87843,7 @@ int main(void) {
     struct Param new_param = {2, 256, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87856,7 +87856,7 @@ int main(void) {
     struct Param new_param = {2, 256, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87869,7 +87869,7 @@ int main(void) {
     struct Param new_param = {2, 256, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87882,7 +87882,7 @@ int main(void) {
     struct Param new_param = {2, 256, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87895,7 +87895,7 @@ int main(void) {
     struct Param new_param = {2, 256, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87908,7 +87908,7 @@ int main(void) {
     struct Param new_param = {2, 256, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87921,7 +87921,7 @@ int main(void) {
     struct Param new_param = {2, 256, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87934,7 +87934,7 @@ int main(void) {
     struct Param new_param = {2, 256, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87947,7 +87947,7 @@ int main(void) {
     struct Param new_param = {2, 256, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87960,7 +87960,7 @@ int main(void) {
     struct Param new_param = {2, 256, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87973,7 +87973,7 @@ int main(void) {
     struct Param new_param = {2, 256, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87986,7 +87986,7 @@ int main(void) {
     struct Param new_param = {2, 256, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -87999,7 +87999,7 @@ int main(void) {
     struct Param new_param = {2, 512, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88012,7 +88012,7 @@ int main(void) {
     struct Param new_param = {2, 512, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88025,7 +88025,7 @@ int main(void) {
     struct Param new_param = {2, 512, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88038,7 +88038,7 @@ int main(void) {
     struct Param new_param = {2, 512, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88051,7 +88051,7 @@ int main(void) {
     struct Param new_param = {2, 512, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88064,7 +88064,7 @@ int main(void) {
     struct Param new_param = {2, 512, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88077,7 +88077,7 @@ int main(void) {
     struct Param new_param = {2, 512, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88090,7 +88090,7 @@ int main(void) {
     struct Param new_param = {2, 512, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88103,7 +88103,7 @@ int main(void) {
     struct Param new_param = {2, 512, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88116,7 +88116,7 @@ int main(void) {
     struct Param new_param = {2, 512, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88129,7 +88129,7 @@ int main(void) {
     struct Param new_param = {2, 512, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88142,7 +88142,7 @@ int main(void) {
     struct Param new_param = {2, 512, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88155,7 +88155,7 @@ int main(void) {
     struct Param new_param = {2, 1024, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88168,7 +88168,7 @@ int main(void) {
     struct Param new_param = {2, 1024, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88181,7 +88181,7 @@ int main(void) {
     struct Param new_param = {2, 1024, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88194,7 +88194,7 @@ int main(void) {
     struct Param new_param = {2, 1024, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88207,7 +88207,7 @@ int main(void) {
     struct Param new_param = {2, 1024, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88220,7 +88220,7 @@ int main(void) {
     struct Param new_param = {2, 1024, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88233,7 +88233,7 @@ int main(void) {
     struct Param new_param = {2, 1024, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88246,7 +88246,7 @@ int main(void) {
     struct Param new_param = {2, 1024, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88259,7 +88259,7 @@ int main(void) {
     struct Param new_param = {2, 1024, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88272,7 +88272,7 @@ int main(void) {
     struct Param new_param = {2, 1024, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88285,7 +88285,7 @@ int main(void) {
     struct Param new_param = {2, 1024, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88298,7 +88298,7 @@ int main(void) {
     struct Param new_param = {2, 1024, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88311,7 +88311,7 @@ int main(void) {
     struct Param new_param = {2, 2048, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88324,7 +88324,7 @@ int main(void) {
     struct Param new_param = {2, 2048, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88337,7 +88337,7 @@ int main(void) {
     struct Param new_param = {2, 2048, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88350,7 +88350,7 @@ int main(void) {
     struct Param new_param = {2, 2048, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88363,7 +88363,7 @@ int main(void) {
     struct Param new_param = {2, 2048, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88376,7 +88376,7 @@ int main(void) {
     struct Param new_param = {2, 2048, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88389,7 +88389,7 @@ int main(void) {
     struct Param new_param = {2, 2048, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88402,7 +88402,7 @@ int main(void) {
     struct Param new_param = {2, 2048, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88415,7 +88415,7 @@ int main(void) {
     struct Param new_param = {2, 2048, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88428,7 +88428,7 @@ int main(void) {
     struct Param new_param = {2, 2048, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88441,7 +88441,7 @@ int main(void) {
     struct Param new_param = {2, 2048, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88454,7 +88454,7 @@ int main(void) {
     struct Param new_param = {2, 2048, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88467,7 +88467,7 @@ int main(void) {
     struct Param new_param = {4, 1, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88480,7 +88480,7 @@ int main(void) {
     struct Param new_param = {4, 1, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88493,7 +88493,7 @@ int main(void) {
     struct Param new_param = {4, 1, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88506,7 +88506,7 @@ int main(void) {
     struct Param new_param = {4, 1, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88519,7 +88519,7 @@ int main(void) {
     struct Param new_param = {4, 1, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88532,7 +88532,7 @@ int main(void) {
     struct Param new_param = {4, 1, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88545,7 +88545,7 @@ int main(void) {
     struct Param new_param = {4, 1, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88558,7 +88558,7 @@ int main(void) {
     struct Param new_param = {4, 1, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88571,7 +88571,7 @@ int main(void) {
     struct Param new_param = {4, 1, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88584,7 +88584,7 @@ int main(void) {
     struct Param new_param = {4, 1, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88597,7 +88597,7 @@ int main(void) {
     struct Param new_param = {4, 1, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88610,7 +88610,7 @@ int main(void) {
     struct Param new_param = {4, 1, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88623,7 +88623,7 @@ int main(void) {
     struct Param new_param = {4, 2, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88636,7 +88636,7 @@ int main(void) {
     struct Param new_param = {4, 2, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88649,7 +88649,7 @@ int main(void) {
     struct Param new_param = {4, 2, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88662,7 +88662,7 @@ int main(void) {
     struct Param new_param = {4, 2, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88675,7 +88675,7 @@ int main(void) {
     struct Param new_param = {4, 2, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88688,7 +88688,7 @@ int main(void) {
     struct Param new_param = {4, 2, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88701,7 +88701,7 @@ int main(void) {
     struct Param new_param = {4, 2, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88714,7 +88714,7 @@ int main(void) {
     struct Param new_param = {4, 2, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88727,7 +88727,7 @@ int main(void) {
     struct Param new_param = {4, 2, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88740,7 +88740,7 @@ int main(void) {
     struct Param new_param = {4, 2, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88753,7 +88753,7 @@ int main(void) {
     struct Param new_param = {4, 2, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88766,7 +88766,7 @@ int main(void) {
     struct Param new_param = {4, 2, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88779,7 +88779,7 @@ int main(void) {
     struct Param new_param = {4, 4, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88792,7 +88792,7 @@ int main(void) {
     struct Param new_param = {4, 4, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88805,7 +88805,7 @@ int main(void) {
     struct Param new_param = {4, 4, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88818,7 +88818,7 @@ int main(void) {
     struct Param new_param = {4, 4, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88831,7 +88831,7 @@ int main(void) {
     struct Param new_param = {4, 4, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88844,7 +88844,7 @@ int main(void) {
     struct Param new_param = {4, 4, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88857,7 +88857,7 @@ int main(void) {
     struct Param new_param = {4, 4, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88870,7 +88870,7 @@ int main(void) {
     struct Param new_param = {4, 4, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88883,7 +88883,7 @@ int main(void) {
     struct Param new_param = {4, 4, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88896,7 +88896,7 @@ int main(void) {
     struct Param new_param = {4, 4, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88909,7 +88909,7 @@ int main(void) {
     struct Param new_param = {4, 4, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88922,7 +88922,7 @@ int main(void) {
     struct Param new_param = {4, 4, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88935,7 +88935,7 @@ int main(void) {
     struct Param new_param = {4, 8, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88948,7 +88948,7 @@ int main(void) {
     struct Param new_param = {4, 8, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88961,7 +88961,7 @@ int main(void) {
     struct Param new_param = {4, 8, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88974,7 +88974,7 @@ int main(void) {
     struct Param new_param = {4, 8, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -88987,7 +88987,7 @@ int main(void) {
     struct Param new_param = {4, 8, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89000,7 +89000,7 @@ int main(void) {
     struct Param new_param = {4, 8, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89013,7 +89013,7 @@ int main(void) {
     struct Param new_param = {4, 8, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89026,7 +89026,7 @@ int main(void) {
     struct Param new_param = {4, 8, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89039,7 +89039,7 @@ int main(void) {
     struct Param new_param = {4, 8, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89052,7 +89052,7 @@ int main(void) {
     struct Param new_param = {4, 8, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89065,7 +89065,7 @@ int main(void) {
     struct Param new_param = {4, 8, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89078,7 +89078,7 @@ int main(void) {
     struct Param new_param = {4, 8, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89091,7 +89091,7 @@ int main(void) {
     struct Param new_param = {4, 16, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89104,7 +89104,7 @@ int main(void) {
     struct Param new_param = {4, 16, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89117,7 +89117,7 @@ int main(void) {
     struct Param new_param = {4, 16, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89130,7 +89130,7 @@ int main(void) {
     struct Param new_param = {4, 16, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89143,7 +89143,7 @@ int main(void) {
     struct Param new_param = {4, 16, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89156,7 +89156,7 @@ int main(void) {
     struct Param new_param = {4, 16, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89169,7 +89169,7 @@ int main(void) {
     struct Param new_param = {4, 16, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89182,7 +89182,7 @@ int main(void) {
     struct Param new_param = {4, 16, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89195,7 +89195,7 @@ int main(void) {
     struct Param new_param = {4, 16, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89208,7 +89208,7 @@ int main(void) {
     struct Param new_param = {4, 16, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89221,7 +89221,7 @@ int main(void) {
     struct Param new_param = {4, 16, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89234,7 +89234,7 @@ int main(void) {
     struct Param new_param = {4, 16, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89247,7 +89247,7 @@ int main(void) {
     struct Param new_param = {4, 32, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89260,7 +89260,7 @@ int main(void) {
     struct Param new_param = {4, 32, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89273,7 +89273,7 @@ int main(void) {
     struct Param new_param = {4, 32, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89286,7 +89286,7 @@ int main(void) {
     struct Param new_param = {4, 32, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89299,7 +89299,7 @@ int main(void) {
     struct Param new_param = {4, 32, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89312,7 +89312,7 @@ int main(void) {
     struct Param new_param = {4, 32, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89325,7 +89325,7 @@ int main(void) {
     struct Param new_param = {4, 32, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89338,7 +89338,7 @@ int main(void) {
     struct Param new_param = {4, 32, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89351,7 +89351,7 @@ int main(void) {
     struct Param new_param = {4, 32, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89364,7 +89364,7 @@ int main(void) {
     struct Param new_param = {4, 32, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89377,7 +89377,7 @@ int main(void) {
     struct Param new_param = {4, 32, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89390,7 +89390,7 @@ int main(void) {
     struct Param new_param = {4, 32, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89403,7 +89403,7 @@ int main(void) {
     struct Param new_param = {4, 64, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89416,7 +89416,7 @@ int main(void) {
     struct Param new_param = {4, 64, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89429,7 +89429,7 @@ int main(void) {
     struct Param new_param = {4, 64, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89442,7 +89442,7 @@ int main(void) {
     struct Param new_param = {4, 64, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89455,7 +89455,7 @@ int main(void) {
     struct Param new_param = {4, 64, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89468,7 +89468,7 @@ int main(void) {
     struct Param new_param = {4, 64, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89481,7 +89481,7 @@ int main(void) {
     struct Param new_param = {4, 64, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89494,7 +89494,7 @@ int main(void) {
     struct Param new_param = {4, 64, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89507,7 +89507,7 @@ int main(void) {
     struct Param new_param = {4, 64, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89520,7 +89520,7 @@ int main(void) {
     struct Param new_param = {4, 64, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89533,7 +89533,7 @@ int main(void) {
     struct Param new_param = {4, 64, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89546,7 +89546,7 @@ int main(void) {
     struct Param new_param = {4, 64, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89559,7 +89559,7 @@ int main(void) {
     struct Param new_param = {4, 128, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89572,7 +89572,7 @@ int main(void) {
     struct Param new_param = {4, 128, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89585,7 +89585,7 @@ int main(void) {
     struct Param new_param = {4, 128, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89598,7 +89598,7 @@ int main(void) {
     struct Param new_param = {4, 128, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89611,7 +89611,7 @@ int main(void) {
     struct Param new_param = {4, 128, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89624,7 +89624,7 @@ int main(void) {
     struct Param new_param = {4, 128, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89637,7 +89637,7 @@ int main(void) {
     struct Param new_param = {4, 128, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89650,7 +89650,7 @@ int main(void) {
     struct Param new_param = {4, 128, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89663,7 +89663,7 @@ int main(void) {
     struct Param new_param = {4, 128, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89676,7 +89676,7 @@ int main(void) {
     struct Param new_param = {4, 128, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89689,7 +89689,7 @@ int main(void) {
     struct Param new_param = {4, 128, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89702,7 +89702,7 @@ int main(void) {
     struct Param new_param = {4, 128, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89715,7 +89715,7 @@ int main(void) {
     struct Param new_param = {4, 256, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89728,7 +89728,7 @@ int main(void) {
     struct Param new_param = {4, 256, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89741,7 +89741,7 @@ int main(void) {
     struct Param new_param = {4, 256, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89754,7 +89754,7 @@ int main(void) {
     struct Param new_param = {4, 256, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89767,7 +89767,7 @@ int main(void) {
     struct Param new_param = {4, 256, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89780,7 +89780,7 @@ int main(void) {
     struct Param new_param = {4, 256, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89793,7 +89793,7 @@ int main(void) {
     struct Param new_param = {4, 256, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89806,7 +89806,7 @@ int main(void) {
     struct Param new_param = {4, 256, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89819,7 +89819,7 @@ int main(void) {
     struct Param new_param = {4, 256, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89832,7 +89832,7 @@ int main(void) {
     struct Param new_param = {4, 256, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89845,7 +89845,7 @@ int main(void) {
     struct Param new_param = {4, 256, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89858,7 +89858,7 @@ int main(void) {
     struct Param new_param = {4, 256, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89871,7 +89871,7 @@ int main(void) {
     struct Param new_param = {4, 512, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89884,7 +89884,7 @@ int main(void) {
     struct Param new_param = {4, 512, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89897,7 +89897,7 @@ int main(void) {
     struct Param new_param = {4, 512, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89910,7 +89910,7 @@ int main(void) {
     struct Param new_param = {4, 512, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89923,7 +89923,7 @@ int main(void) {
     struct Param new_param = {4, 512, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89936,7 +89936,7 @@ int main(void) {
     struct Param new_param = {4, 512, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89949,7 +89949,7 @@ int main(void) {
     struct Param new_param = {4, 512, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89962,7 +89962,7 @@ int main(void) {
     struct Param new_param = {4, 512, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89975,7 +89975,7 @@ int main(void) {
     struct Param new_param = {4, 512, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -89988,7 +89988,7 @@ int main(void) {
     struct Param new_param = {4, 512, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90001,7 +90001,7 @@ int main(void) {
     struct Param new_param = {4, 512, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90014,7 +90014,7 @@ int main(void) {
     struct Param new_param = {4, 512, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90027,7 +90027,7 @@ int main(void) {
     struct Param new_param = {4, 1024, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90040,7 +90040,7 @@ int main(void) {
     struct Param new_param = {4, 1024, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90053,7 +90053,7 @@ int main(void) {
     struct Param new_param = {4, 1024, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90066,7 +90066,7 @@ int main(void) {
     struct Param new_param = {4, 1024, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90079,7 +90079,7 @@ int main(void) {
     struct Param new_param = {4, 1024, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90092,7 +90092,7 @@ int main(void) {
     struct Param new_param = {4, 1024, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90105,7 +90105,7 @@ int main(void) {
     struct Param new_param = {4, 1024, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90118,7 +90118,7 @@ int main(void) {
     struct Param new_param = {4, 1024, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90131,7 +90131,7 @@ int main(void) {
     struct Param new_param = {4, 1024, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90144,7 +90144,7 @@ int main(void) {
     struct Param new_param = {4, 1024, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90157,7 +90157,7 @@ int main(void) {
     struct Param new_param = {4, 1024, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90170,7 +90170,7 @@ int main(void) {
     struct Param new_param = {4, 1024, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90183,7 +90183,7 @@ int main(void) {
     struct Param new_param = {4, 2048, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90196,7 +90196,7 @@ int main(void) {
     struct Param new_param = {4, 2048, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90209,7 +90209,7 @@ int main(void) {
     struct Param new_param = {4, 2048, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90222,7 +90222,7 @@ int main(void) {
     struct Param new_param = {4, 2048, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90235,7 +90235,7 @@ int main(void) {
     struct Param new_param = {4, 2048, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90248,7 +90248,7 @@ int main(void) {
     struct Param new_param = {4, 2048, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90261,7 +90261,7 @@ int main(void) {
     struct Param new_param = {4, 2048, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90274,7 +90274,7 @@ int main(void) {
     struct Param new_param = {4, 2048, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90287,7 +90287,7 @@ int main(void) {
     struct Param new_param = {4, 2048, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90300,7 +90300,7 @@ int main(void) {
     struct Param new_param = {4, 2048, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90313,7 +90313,7 @@ int main(void) {
     struct Param new_param = {4, 2048, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90326,7 +90326,7 @@ int main(void) {
     struct Param new_param = {4, 2048, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90339,7 +90339,7 @@ int main(void) {
     struct Param new_param = {8, 1, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90352,7 +90352,7 @@ int main(void) {
     struct Param new_param = {8, 1, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90365,7 +90365,7 @@ int main(void) {
     struct Param new_param = {8, 1, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90378,7 +90378,7 @@ int main(void) {
     struct Param new_param = {8, 1, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90391,7 +90391,7 @@ int main(void) {
     struct Param new_param = {8, 1, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90404,7 +90404,7 @@ int main(void) {
     struct Param new_param = {8, 1, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90417,7 +90417,7 @@ int main(void) {
     struct Param new_param = {8, 1, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90430,7 +90430,7 @@ int main(void) {
     struct Param new_param = {8, 1, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90443,7 +90443,7 @@ int main(void) {
     struct Param new_param = {8, 1, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90456,7 +90456,7 @@ int main(void) {
     struct Param new_param = {8, 1, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90469,7 +90469,7 @@ int main(void) {
     struct Param new_param = {8, 1, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90482,7 +90482,7 @@ int main(void) {
     struct Param new_param = {8, 1, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90495,7 +90495,7 @@ int main(void) {
     struct Param new_param = {8, 2, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90508,7 +90508,7 @@ int main(void) {
     struct Param new_param = {8, 2, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90521,7 +90521,7 @@ int main(void) {
     struct Param new_param = {8, 2, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90534,7 +90534,7 @@ int main(void) {
     struct Param new_param = {8, 2, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90547,7 +90547,7 @@ int main(void) {
     struct Param new_param = {8, 2, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90560,7 +90560,7 @@ int main(void) {
     struct Param new_param = {8, 2, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90573,7 +90573,7 @@ int main(void) {
     struct Param new_param = {8, 2, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90586,7 +90586,7 @@ int main(void) {
     struct Param new_param = {8, 2, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90599,7 +90599,7 @@ int main(void) {
     struct Param new_param = {8, 2, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90612,7 +90612,7 @@ int main(void) {
     struct Param new_param = {8, 2, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90625,7 +90625,7 @@ int main(void) {
     struct Param new_param = {8, 2, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90638,7 +90638,7 @@ int main(void) {
     struct Param new_param = {8, 2, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90651,7 +90651,7 @@ int main(void) {
     struct Param new_param = {8, 4, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90664,7 +90664,7 @@ int main(void) {
     struct Param new_param = {8, 4, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90677,7 +90677,7 @@ int main(void) {
     struct Param new_param = {8, 4, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90690,7 +90690,7 @@ int main(void) {
     struct Param new_param = {8, 4, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90703,7 +90703,7 @@ int main(void) {
     struct Param new_param = {8, 4, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90716,7 +90716,7 @@ int main(void) {
     struct Param new_param = {8, 4, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90729,7 +90729,7 @@ int main(void) {
     struct Param new_param = {8, 4, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90742,7 +90742,7 @@ int main(void) {
     struct Param new_param = {8, 4, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90755,7 +90755,7 @@ int main(void) {
     struct Param new_param = {8, 4, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90768,7 +90768,7 @@ int main(void) {
     struct Param new_param = {8, 4, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90781,7 +90781,7 @@ int main(void) {
     struct Param new_param = {8, 4, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90794,7 +90794,7 @@ int main(void) {
     struct Param new_param = {8, 4, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90807,7 +90807,7 @@ int main(void) {
     struct Param new_param = {8, 8, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90820,7 +90820,7 @@ int main(void) {
     struct Param new_param = {8, 8, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90833,7 +90833,7 @@ int main(void) {
     struct Param new_param = {8, 8, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90846,7 +90846,7 @@ int main(void) {
     struct Param new_param = {8, 8, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90859,7 +90859,7 @@ int main(void) {
     struct Param new_param = {8, 8, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90872,7 +90872,7 @@ int main(void) {
     struct Param new_param = {8, 8, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90885,7 +90885,7 @@ int main(void) {
     struct Param new_param = {8, 8, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90898,7 +90898,7 @@ int main(void) {
     struct Param new_param = {8, 8, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90911,7 +90911,7 @@ int main(void) {
     struct Param new_param = {8, 8, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90924,7 +90924,7 @@ int main(void) {
     struct Param new_param = {8, 8, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90937,7 +90937,7 @@ int main(void) {
     struct Param new_param = {8, 8, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90950,7 +90950,7 @@ int main(void) {
     struct Param new_param = {8, 8, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90963,7 +90963,7 @@ int main(void) {
     struct Param new_param = {8, 16, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90976,7 +90976,7 @@ int main(void) {
     struct Param new_param = {8, 16, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -90989,7 +90989,7 @@ int main(void) {
     struct Param new_param = {8, 16, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91002,7 +91002,7 @@ int main(void) {
     struct Param new_param = {8, 16, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91015,7 +91015,7 @@ int main(void) {
     struct Param new_param = {8, 16, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91028,7 +91028,7 @@ int main(void) {
     struct Param new_param = {8, 16, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91041,7 +91041,7 @@ int main(void) {
     struct Param new_param = {8, 16, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91054,7 +91054,7 @@ int main(void) {
     struct Param new_param = {8, 16, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91067,7 +91067,7 @@ int main(void) {
     struct Param new_param = {8, 16, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91080,7 +91080,7 @@ int main(void) {
     struct Param new_param = {8, 16, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91093,7 +91093,7 @@ int main(void) {
     struct Param new_param = {8, 16, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91106,7 +91106,7 @@ int main(void) {
     struct Param new_param = {8, 16, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91119,7 +91119,7 @@ int main(void) {
     struct Param new_param = {8, 32, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91132,7 +91132,7 @@ int main(void) {
     struct Param new_param = {8, 32, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91145,7 +91145,7 @@ int main(void) {
     struct Param new_param = {8, 32, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91158,7 +91158,7 @@ int main(void) {
     struct Param new_param = {8, 32, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91171,7 +91171,7 @@ int main(void) {
     struct Param new_param = {8, 32, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91184,7 +91184,7 @@ int main(void) {
     struct Param new_param = {8, 32, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91197,7 +91197,7 @@ int main(void) {
     struct Param new_param = {8, 32, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91210,7 +91210,7 @@ int main(void) {
     struct Param new_param = {8, 32, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91223,7 +91223,7 @@ int main(void) {
     struct Param new_param = {8, 32, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91236,7 +91236,7 @@ int main(void) {
     struct Param new_param = {8, 32, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91249,7 +91249,7 @@ int main(void) {
     struct Param new_param = {8, 32, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91262,7 +91262,7 @@ int main(void) {
     struct Param new_param = {8, 32, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91275,7 +91275,7 @@ int main(void) {
     struct Param new_param = {8, 64, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91288,7 +91288,7 @@ int main(void) {
     struct Param new_param = {8, 64, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91301,7 +91301,7 @@ int main(void) {
     struct Param new_param = {8, 64, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91314,7 +91314,7 @@ int main(void) {
     struct Param new_param = {8, 64, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91327,7 +91327,7 @@ int main(void) {
     struct Param new_param = {8, 64, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91340,7 +91340,7 @@ int main(void) {
     struct Param new_param = {8, 64, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91353,7 +91353,7 @@ int main(void) {
     struct Param new_param = {8, 64, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91366,7 +91366,7 @@ int main(void) {
     struct Param new_param = {8, 64, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91379,7 +91379,7 @@ int main(void) {
     struct Param new_param = {8, 64, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91392,7 +91392,7 @@ int main(void) {
     struct Param new_param = {8, 64, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91405,7 +91405,7 @@ int main(void) {
     struct Param new_param = {8, 64, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91418,7 +91418,7 @@ int main(void) {
     struct Param new_param = {8, 64, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91431,7 +91431,7 @@ int main(void) {
     struct Param new_param = {8, 128, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91444,7 +91444,7 @@ int main(void) {
     struct Param new_param = {8, 128, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91457,7 +91457,7 @@ int main(void) {
     struct Param new_param = {8, 128, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91470,7 +91470,7 @@ int main(void) {
     struct Param new_param = {8, 128, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91483,7 +91483,7 @@ int main(void) {
     struct Param new_param = {8, 128, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91496,7 +91496,7 @@ int main(void) {
     struct Param new_param = {8, 128, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91509,7 +91509,7 @@ int main(void) {
     struct Param new_param = {8, 128, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91522,7 +91522,7 @@ int main(void) {
     struct Param new_param = {8, 128, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91535,7 +91535,7 @@ int main(void) {
     struct Param new_param = {8, 128, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91548,7 +91548,7 @@ int main(void) {
     struct Param new_param = {8, 128, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91561,7 +91561,7 @@ int main(void) {
     struct Param new_param = {8, 128, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91574,7 +91574,7 @@ int main(void) {
     struct Param new_param = {8, 128, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91587,7 +91587,7 @@ int main(void) {
     struct Param new_param = {8, 256, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91600,7 +91600,7 @@ int main(void) {
     struct Param new_param = {8, 256, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91613,7 +91613,7 @@ int main(void) {
     struct Param new_param = {8, 256, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91626,7 +91626,7 @@ int main(void) {
     struct Param new_param = {8, 256, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91639,7 +91639,7 @@ int main(void) {
     struct Param new_param = {8, 256, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91652,7 +91652,7 @@ int main(void) {
     struct Param new_param = {8, 256, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91665,7 +91665,7 @@ int main(void) {
     struct Param new_param = {8, 256, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91678,7 +91678,7 @@ int main(void) {
     struct Param new_param = {8, 256, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91691,7 +91691,7 @@ int main(void) {
     struct Param new_param = {8, 256, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91704,7 +91704,7 @@ int main(void) {
     struct Param new_param = {8, 256, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91717,7 +91717,7 @@ int main(void) {
     struct Param new_param = {8, 256, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91730,7 +91730,7 @@ int main(void) {
     struct Param new_param = {8, 256, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91743,7 +91743,7 @@ int main(void) {
     struct Param new_param = {8, 512, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91756,7 +91756,7 @@ int main(void) {
     struct Param new_param = {8, 512, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91769,7 +91769,7 @@ int main(void) {
     struct Param new_param = {8, 512, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91782,7 +91782,7 @@ int main(void) {
     struct Param new_param = {8, 512, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91795,7 +91795,7 @@ int main(void) {
     struct Param new_param = {8, 512, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91808,7 +91808,7 @@ int main(void) {
     struct Param new_param = {8, 512, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91821,7 +91821,7 @@ int main(void) {
     struct Param new_param = {8, 512, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91834,7 +91834,7 @@ int main(void) {
     struct Param new_param = {8, 512, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91847,7 +91847,7 @@ int main(void) {
     struct Param new_param = {8, 512, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91860,7 +91860,7 @@ int main(void) {
     struct Param new_param = {8, 512, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91873,7 +91873,7 @@ int main(void) {
     struct Param new_param = {8, 512, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91886,7 +91886,7 @@ int main(void) {
     struct Param new_param = {8, 512, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91899,7 +91899,7 @@ int main(void) {
     struct Param new_param = {8, 1024, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91912,7 +91912,7 @@ int main(void) {
     struct Param new_param = {8, 1024, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91925,7 +91925,7 @@ int main(void) {
     struct Param new_param = {8, 1024, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91938,7 +91938,7 @@ int main(void) {
     struct Param new_param = {8, 1024, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91951,7 +91951,7 @@ int main(void) {
     struct Param new_param = {8, 1024, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91964,7 +91964,7 @@ int main(void) {
     struct Param new_param = {8, 1024, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91977,7 +91977,7 @@ int main(void) {
     struct Param new_param = {8, 1024, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -91990,7 +91990,7 @@ int main(void) {
     struct Param new_param = {8, 1024, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92003,7 +92003,7 @@ int main(void) {
     struct Param new_param = {8, 1024, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92016,7 +92016,7 @@ int main(void) {
     struct Param new_param = {8, 1024, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92029,7 +92029,7 @@ int main(void) {
     struct Param new_param = {8, 1024, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92042,7 +92042,7 @@ int main(void) {
     struct Param new_param = {8, 1024, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92055,7 +92055,7 @@ int main(void) {
     struct Param new_param = {8, 2048, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92068,7 +92068,7 @@ int main(void) {
     struct Param new_param = {8, 2048, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92081,7 +92081,7 @@ int main(void) {
     struct Param new_param = {8, 2048, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92094,7 +92094,7 @@ int main(void) {
     struct Param new_param = {8, 2048, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92107,7 +92107,7 @@ int main(void) {
     struct Param new_param = {8, 2048, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92120,7 +92120,7 @@ int main(void) {
     struct Param new_param = {8, 2048, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92133,7 +92133,7 @@ int main(void) {
     struct Param new_param = {8, 2048, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92146,7 +92146,7 @@ int main(void) {
     struct Param new_param = {8, 2048, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92159,7 +92159,7 @@ int main(void) {
     struct Param new_param = {8, 2048, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92172,7 +92172,7 @@ int main(void) {
     struct Param new_param = {8, 2048, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92185,7 +92185,7 @@ int main(void) {
     struct Param new_param = {8, 2048, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92198,7 +92198,7 @@ int main(void) {
     struct Param new_param = {8, 2048, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92211,7 +92211,7 @@ int main(void) {
     struct Param new_param = {16, 1, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92224,7 +92224,7 @@ int main(void) {
     struct Param new_param = {16, 1, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92237,7 +92237,7 @@ int main(void) {
     struct Param new_param = {16, 1, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92250,7 +92250,7 @@ int main(void) {
     struct Param new_param = {16, 1, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92263,7 +92263,7 @@ int main(void) {
     struct Param new_param = {16, 1, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92276,7 +92276,7 @@ int main(void) {
     struct Param new_param = {16, 1, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92289,7 +92289,7 @@ int main(void) {
     struct Param new_param = {16, 1, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92302,7 +92302,7 @@ int main(void) {
     struct Param new_param = {16, 1, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92315,7 +92315,7 @@ int main(void) {
     struct Param new_param = {16, 1, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92328,7 +92328,7 @@ int main(void) {
     struct Param new_param = {16, 1, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92341,7 +92341,7 @@ int main(void) {
     struct Param new_param = {16, 1, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92354,7 +92354,7 @@ int main(void) {
     struct Param new_param = {16, 1, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92367,7 +92367,7 @@ int main(void) {
     struct Param new_param = {16, 2, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92380,7 +92380,7 @@ int main(void) {
     struct Param new_param = {16, 2, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92393,7 +92393,7 @@ int main(void) {
     struct Param new_param = {16, 2, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92406,7 +92406,7 @@ int main(void) {
     struct Param new_param = {16, 2, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92419,7 +92419,7 @@ int main(void) {
     struct Param new_param = {16, 2, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92432,7 +92432,7 @@ int main(void) {
     struct Param new_param = {16, 2, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92445,7 +92445,7 @@ int main(void) {
     struct Param new_param = {16, 2, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92458,7 +92458,7 @@ int main(void) {
     struct Param new_param = {16, 2, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92471,7 +92471,7 @@ int main(void) {
     struct Param new_param = {16, 2, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92484,7 +92484,7 @@ int main(void) {
     struct Param new_param = {16, 2, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92497,7 +92497,7 @@ int main(void) {
     struct Param new_param = {16, 2, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92510,7 +92510,7 @@ int main(void) {
     struct Param new_param = {16, 2, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92523,7 +92523,7 @@ int main(void) {
     struct Param new_param = {16, 4, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92536,7 +92536,7 @@ int main(void) {
     struct Param new_param = {16, 4, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92549,7 +92549,7 @@ int main(void) {
     struct Param new_param = {16, 4, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92562,7 +92562,7 @@ int main(void) {
     struct Param new_param = {16, 4, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92575,7 +92575,7 @@ int main(void) {
     struct Param new_param = {16, 4, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92588,7 +92588,7 @@ int main(void) {
     struct Param new_param = {16, 4, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92601,7 +92601,7 @@ int main(void) {
     struct Param new_param = {16, 4, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92614,7 +92614,7 @@ int main(void) {
     struct Param new_param = {16, 4, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92627,7 +92627,7 @@ int main(void) {
     struct Param new_param = {16, 4, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92640,7 +92640,7 @@ int main(void) {
     struct Param new_param = {16, 4, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92653,7 +92653,7 @@ int main(void) {
     struct Param new_param = {16, 4, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92666,7 +92666,7 @@ int main(void) {
     struct Param new_param = {16, 4, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92679,7 +92679,7 @@ int main(void) {
     struct Param new_param = {16, 8, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92692,7 +92692,7 @@ int main(void) {
     struct Param new_param = {16, 8, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92705,7 +92705,7 @@ int main(void) {
     struct Param new_param = {16, 8, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92718,7 +92718,7 @@ int main(void) {
     struct Param new_param = {16, 8, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92731,7 +92731,7 @@ int main(void) {
     struct Param new_param = {16, 8, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92744,7 +92744,7 @@ int main(void) {
     struct Param new_param = {16, 8, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92757,7 +92757,7 @@ int main(void) {
     struct Param new_param = {16, 8, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92770,7 +92770,7 @@ int main(void) {
     struct Param new_param = {16, 8, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92783,7 +92783,7 @@ int main(void) {
     struct Param new_param = {16, 8, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92796,7 +92796,7 @@ int main(void) {
     struct Param new_param = {16, 8, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92809,7 +92809,7 @@ int main(void) {
     struct Param new_param = {16, 8, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92822,7 +92822,7 @@ int main(void) {
     struct Param new_param = {16, 8, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92835,7 +92835,7 @@ int main(void) {
     struct Param new_param = {16, 16, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92848,7 +92848,7 @@ int main(void) {
     struct Param new_param = {16, 16, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92861,7 +92861,7 @@ int main(void) {
     struct Param new_param = {16, 16, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92874,7 +92874,7 @@ int main(void) {
     struct Param new_param = {16, 16, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92887,7 +92887,7 @@ int main(void) {
     struct Param new_param = {16, 16, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92900,7 +92900,7 @@ int main(void) {
     struct Param new_param = {16, 16, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92913,7 +92913,7 @@ int main(void) {
     struct Param new_param = {16, 16, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92926,7 +92926,7 @@ int main(void) {
     struct Param new_param = {16, 16, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92939,7 +92939,7 @@ int main(void) {
     struct Param new_param = {16, 16, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92952,7 +92952,7 @@ int main(void) {
     struct Param new_param = {16, 16, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92965,7 +92965,7 @@ int main(void) {
     struct Param new_param = {16, 16, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92978,7 +92978,7 @@ int main(void) {
     struct Param new_param = {16, 16, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -92991,7 +92991,7 @@ int main(void) {
     struct Param new_param = {16, 32, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93004,7 +93004,7 @@ int main(void) {
     struct Param new_param = {16, 32, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93017,7 +93017,7 @@ int main(void) {
     struct Param new_param = {16, 32, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93030,7 +93030,7 @@ int main(void) {
     struct Param new_param = {16, 32, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93043,7 +93043,7 @@ int main(void) {
     struct Param new_param = {16, 32, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93056,7 +93056,7 @@ int main(void) {
     struct Param new_param = {16, 32, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93069,7 +93069,7 @@ int main(void) {
     struct Param new_param = {16, 32, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93082,7 +93082,7 @@ int main(void) {
     struct Param new_param = {16, 32, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93095,7 +93095,7 @@ int main(void) {
     struct Param new_param = {16, 32, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93108,7 +93108,7 @@ int main(void) {
     struct Param new_param = {16, 32, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93121,7 +93121,7 @@ int main(void) {
     struct Param new_param = {16, 32, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93134,7 +93134,7 @@ int main(void) {
     struct Param new_param = {16, 32, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93147,7 +93147,7 @@ int main(void) {
     struct Param new_param = {16, 64, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93160,7 +93160,7 @@ int main(void) {
     struct Param new_param = {16, 64, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93173,7 +93173,7 @@ int main(void) {
     struct Param new_param = {16, 64, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93186,7 +93186,7 @@ int main(void) {
     struct Param new_param = {16, 64, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93199,7 +93199,7 @@ int main(void) {
     struct Param new_param = {16, 64, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93212,7 +93212,7 @@ int main(void) {
     struct Param new_param = {16, 64, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93225,7 +93225,7 @@ int main(void) {
     struct Param new_param = {16, 64, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93238,7 +93238,7 @@ int main(void) {
     struct Param new_param = {16, 64, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93251,7 +93251,7 @@ int main(void) {
     struct Param new_param = {16, 64, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93264,7 +93264,7 @@ int main(void) {
     struct Param new_param = {16, 64, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93277,7 +93277,7 @@ int main(void) {
     struct Param new_param = {16, 64, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93290,7 +93290,7 @@ int main(void) {
     struct Param new_param = {16, 64, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93303,7 +93303,7 @@ int main(void) {
     struct Param new_param = {16, 128, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93316,7 +93316,7 @@ int main(void) {
     struct Param new_param = {16, 128, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93329,7 +93329,7 @@ int main(void) {
     struct Param new_param = {16, 128, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93342,7 +93342,7 @@ int main(void) {
     struct Param new_param = {16, 128, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93355,7 +93355,7 @@ int main(void) {
     struct Param new_param = {16, 128, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93368,7 +93368,7 @@ int main(void) {
     struct Param new_param = {16, 128, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93381,7 +93381,7 @@ int main(void) {
     struct Param new_param = {16, 128, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93394,7 +93394,7 @@ int main(void) {
     struct Param new_param = {16, 128, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93407,7 +93407,7 @@ int main(void) {
     struct Param new_param = {16, 128, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93420,7 +93420,7 @@ int main(void) {
     struct Param new_param = {16, 128, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93433,7 +93433,7 @@ int main(void) {
     struct Param new_param = {16, 128, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93446,7 +93446,7 @@ int main(void) {
     struct Param new_param = {16, 128, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93459,7 +93459,7 @@ int main(void) {
     struct Param new_param = {16, 256, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93472,7 +93472,7 @@ int main(void) {
     struct Param new_param = {16, 256, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93485,7 +93485,7 @@ int main(void) {
     struct Param new_param = {16, 256, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93498,7 +93498,7 @@ int main(void) {
     struct Param new_param = {16, 256, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93511,7 +93511,7 @@ int main(void) {
     struct Param new_param = {16, 256, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93524,7 +93524,7 @@ int main(void) {
     struct Param new_param = {16, 256, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93537,7 +93537,7 @@ int main(void) {
     struct Param new_param = {16, 256, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93550,7 +93550,7 @@ int main(void) {
     struct Param new_param = {16, 256, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93563,7 +93563,7 @@ int main(void) {
     struct Param new_param = {16, 256, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93576,7 +93576,7 @@ int main(void) {
     struct Param new_param = {16, 256, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93589,7 +93589,7 @@ int main(void) {
     struct Param new_param = {16, 256, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93602,7 +93602,7 @@ int main(void) {
     struct Param new_param = {16, 256, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93615,7 +93615,7 @@ int main(void) {
     struct Param new_param = {16, 512, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93628,7 +93628,7 @@ int main(void) {
     struct Param new_param = {16, 512, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93641,7 +93641,7 @@ int main(void) {
     struct Param new_param = {16, 512, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93654,7 +93654,7 @@ int main(void) {
     struct Param new_param = {16, 512, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93667,7 +93667,7 @@ int main(void) {
     struct Param new_param = {16, 512, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93680,7 +93680,7 @@ int main(void) {
     struct Param new_param = {16, 512, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93693,7 +93693,7 @@ int main(void) {
     struct Param new_param = {16, 512, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93706,7 +93706,7 @@ int main(void) {
     struct Param new_param = {16, 512, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93719,7 +93719,7 @@ int main(void) {
     struct Param new_param = {16, 512, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93732,7 +93732,7 @@ int main(void) {
     struct Param new_param = {16, 512, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93745,7 +93745,7 @@ int main(void) {
     struct Param new_param = {16, 512, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93758,7 +93758,7 @@ int main(void) {
     struct Param new_param = {16, 512, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93771,7 +93771,7 @@ int main(void) {
     struct Param new_param = {16, 1024, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93784,7 +93784,7 @@ int main(void) {
     struct Param new_param = {16, 1024, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93797,7 +93797,7 @@ int main(void) {
     struct Param new_param = {16, 1024, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93810,7 +93810,7 @@ int main(void) {
     struct Param new_param = {16, 1024, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93823,7 +93823,7 @@ int main(void) {
     struct Param new_param = {16, 1024, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93836,7 +93836,7 @@ int main(void) {
     struct Param new_param = {16, 1024, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93849,7 +93849,7 @@ int main(void) {
     struct Param new_param = {16, 1024, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93862,7 +93862,7 @@ int main(void) {
     struct Param new_param = {16, 1024, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93875,7 +93875,7 @@ int main(void) {
     struct Param new_param = {16, 1024, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93888,7 +93888,7 @@ int main(void) {
     struct Param new_param = {16, 1024, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93901,7 +93901,7 @@ int main(void) {
     struct Param new_param = {16, 1024, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93914,7 +93914,7 @@ int main(void) {
     struct Param new_param = {16, 1024, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93927,7 +93927,7 @@ int main(void) {
     struct Param new_param = {16, 2048, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93940,7 +93940,7 @@ int main(void) {
     struct Param new_param = {16, 2048, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93953,7 +93953,7 @@ int main(void) {
     struct Param new_param = {16, 2048, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93966,7 +93966,7 @@ int main(void) {
     struct Param new_param = {16, 2048, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93979,7 +93979,7 @@ int main(void) {
     struct Param new_param = {16, 2048, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -93992,7 +93992,7 @@ int main(void) {
     struct Param new_param = {16, 2048, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94005,7 +94005,7 @@ int main(void) {
     struct Param new_param = {16, 2048, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94018,7 +94018,7 @@ int main(void) {
     struct Param new_param = {16, 2048, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94031,7 +94031,7 @@ int main(void) {
     struct Param new_param = {16, 2048, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94044,7 +94044,7 @@ int main(void) {
     struct Param new_param = {16, 2048, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94057,7 +94057,7 @@ int main(void) {
     struct Param new_param = {16, 2048, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94070,7 +94070,7 @@ int main(void) {
     struct Param new_param = {16, 2048, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94083,7 +94083,7 @@ int main(void) {
     struct Param new_param = {32, 1, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94096,7 +94096,7 @@ int main(void) {
     struct Param new_param = {32, 1, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94109,7 +94109,7 @@ int main(void) {
     struct Param new_param = {32, 1, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94122,7 +94122,7 @@ int main(void) {
     struct Param new_param = {32, 1, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94135,7 +94135,7 @@ int main(void) {
     struct Param new_param = {32, 1, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94148,7 +94148,7 @@ int main(void) {
     struct Param new_param = {32, 1, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94161,7 +94161,7 @@ int main(void) {
     struct Param new_param = {32, 1, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94174,7 +94174,7 @@ int main(void) {
     struct Param new_param = {32, 1, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94187,7 +94187,7 @@ int main(void) {
     struct Param new_param = {32, 1, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94200,7 +94200,7 @@ int main(void) {
     struct Param new_param = {32, 1, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94213,7 +94213,7 @@ int main(void) {
     struct Param new_param = {32, 1, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94226,7 +94226,7 @@ int main(void) {
     struct Param new_param = {32, 1, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94239,7 +94239,7 @@ int main(void) {
     struct Param new_param = {32, 2, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94252,7 +94252,7 @@ int main(void) {
     struct Param new_param = {32, 2, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94265,7 +94265,7 @@ int main(void) {
     struct Param new_param = {32, 2, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94278,7 +94278,7 @@ int main(void) {
     struct Param new_param = {32, 2, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94291,7 +94291,7 @@ int main(void) {
     struct Param new_param = {32, 2, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94304,7 +94304,7 @@ int main(void) {
     struct Param new_param = {32, 2, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94317,7 +94317,7 @@ int main(void) {
     struct Param new_param = {32, 2, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94330,7 +94330,7 @@ int main(void) {
     struct Param new_param = {32, 2, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94343,7 +94343,7 @@ int main(void) {
     struct Param new_param = {32, 2, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94356,7 +94356,7 @@ int main(void) {
     struct Param new_param = {32, 2, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94369,7 +94369,7 @@ int main(void) {
     struct Param new_param = {32, 2, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94382,7 +94382,7 @@ int main(void) {
     struct Param new_param = {32, 2, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94395,7 +94395,7 @@ int main(void) {
     struct Param new_param = {32, 4, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94408,7 +94408,7 @@ int main(void) {
     struct Param new_param = {32, 4, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94421,7 +94421,7 @@ int main(void) {
     struct Param new_param = {32, 4, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94434,7 +94434,7 @@ int main(void) {
     struct Param new_param = {32, 4, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94447,7 +94447,7 @@ int main(void) {
     struct Param new_param = {32, 4, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94460,7 +94460,7 @@ int main(void) {
     struct Param new_param = {32, 4, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94473,7 +94473,7 @@ int main(void) {
     struct Param new_param = {32, 4, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94486,7 +94486,7 @@ int main(void) {
     struct Param new_param = {32, 4, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94499,7 +94499,7 @@ int main(void) {
     struct Param new_param = {32, 4, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94512,7 +94512,7 @@ int main(void) {
     struct Param new_param = {32, 4, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94525,7 +94525,7 @@ int main(void) {
     struct Param new_param = {32, 4, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94538,7 +94538,7 @@ int main(void) {
     struct Param new_param = {32, 4, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94551,7 +94551,7 @@ int main(void) {
     struct Param new_param = {32, 8, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94564,7 +94564,7 @@ int main(void) {
     struct Param new_param = {32, 8, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94577,7 +94577,7 @@ int main(void) {
     struct Param new_param = {32, 8, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94590,7 +94590,7 @@ int main(void) {
     struct Param new_param = {32, 8, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94603,7 +94603,7 @@ int main(void) {
     struct Param new_param = {32, 8, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94616,7 +94616,7 @@ int main(void) {
     struct Param new_param = {32, 8, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94629,7 +94629,7 @@ int main(void) {
     struct Param new_param = {32, 8, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94642,7 +94642,7 @@ int main(void) {
     struct Param new_param = {32, 8, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94655,7 +94655,7 @@ int main(void) {
     struct Param new_param = {32, 8, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94668,7 +94668,7 @@ int main(void) {
     struct Param new_param = {32, 8, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94681,7 +94681,7 @@ int main(void) {
     struct Param new_param = {32, 8, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94694,7 +94694,7 @@ int main(void) {
     struct Param new_param = {32, 8, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94707,7 +94707,7 @@ int main(void) {
     struct Param new_param = {32, 16, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94720,7 +94720,7 @@ int main(void) {
     struct Param new_param = {32, 16, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94733,7 +94733,7 @@ int main(void) {
     struct Param new_param = {32, 16, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94746,7 +94746,7 @@ int main(void) {
     struct Param new_param = {32, 16, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94759,7 +94759,7 @@ int main(void) {
     struct Param new_param = {32, 16, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94772,7 +94772,7 @@ int main(void) {
     struct Param new_param = {32, 16, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94785,7 +94785,7 @@ int main(void) {
     struct Param new_param = {32, 16, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94798,7 +94798,7 @@ int main(void) {
     struct Param new_param = {32, 16, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94811,7 +94811,7 @@ int main(void) {
     struct Param new_param = {32, 16, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94824,7 +94824,7 @@ int main(void) {
     struct Param new_param = {32, 16, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94837,7 +94837,7 @@ int main(void) {
     struct Param new_param = {32, 16, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94850,7 +94850,7 @@ int main(void) {
     struct Param new_param = {32, 16, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94863,7 +94863,7 @@ int main(void) {
     struct Param new_param = {32, 32, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94876,7 +94876,7 @@ int main(void) {
     struct Param new_param = {32, 32, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94889,7 +94889,7 @@ int main(void) {
     struct Param new_param = {32, 32, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94902,7 +94902,7 @@ int main(void) {
     struct Param new_param = {32, 32, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94915,7 +94915,7 @@ int main(void) {
     struct Param new_param = {32, 32, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94928,7 +94928,7 @@ int main(void) {
     struct Param new_param = {32, 32, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94941,7 +94941,7 @@ int main(void) {
     struct Param new_param = {32, 32, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94954,7 +94954,7 @@ int main(void) {
     struct Param new_param = {32, 32, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94967,7 +94967,7 @@ int main(void) {
     struct Param new_param = {32, 32, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94980,7 +94980,7 @@ int main(void) {
     struct Param new_param = {32, 32, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -94993,7 +94993,7 @@ int main(void) {
     struct Param new_param = {32, 32, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95006,7 +95006,7 @@ int main(void) {
     struct Param new_param = {32, 32, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95019,7 +95019,7 @@ int main(void) {
     struct Param new_param = {32, 64, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95032,7 +95032,7 @@ int main(void) {
     struct Param new_param = {32, 64, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95045,7 +95045,7 @@ int main(void) {
     struct Param new_param = {32, 64, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95058,7 +95058,7 @@ int main(void) {
     struct Param new_param = {32, 64, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95071,7 +95071,7 @@ int main(void) {
     struct Param new_param = {32, 64, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95084,7 +95084,7 @@ int main(void) {
     struct Param new_param = {32, 64, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95097,7 +95097,7 @@ int main(void) {
     struct Param new_param = {32, 64, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95110,7 +95110,7 @@ int main(void) {
     struct Param new_param = {32, 64, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95123,7 +95123,7 @@ int main(void) {
     struct Param new_param = {32, 64, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95136,7 +95136,7 @@ int main(void) {
     struct Param new_param = {32, 64, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95149,7 +95149,7 @@ int main(void) {
     struct Param new_param = {32, 64, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95162,7 +95162,7 @@ int main(void) {
     struct Param new_param = {32, 64, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95175,7 +95175,7 @@ int main(void) {
     struct Param new_param = {32, 128, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95188,7 +95188,7 @@ int main(void) {
     struct Param new_param = {32, 128, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95201,7 +95201,7 @@ int main(void) {
     struct Param new_param = {32, 128, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95214,7 +95214,7 @@ int main(void) {
     struct Param new_param = {32, 128, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95227,7 +95227,7 @@ int main(void) {
     struct Param new_param = {32, 128, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95240,7 +95240,7 @@ int main(void) {
     struct Param new_param = {32, 128, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95253,7 +95253,7 @@ int main(void) {
     struct Param new_param = {32, 128, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95266,7 +95266,7 @@ int main(void) {
     struct Param new_param = {32, 128, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95279,7 +95279,7 @@ int main(void) {
     struct Param new_param = {32, 128, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95292,7 +95292,7 @@ int main(void) {
     struct Param new_param = {32, 128, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95305,7 +95305,7 @@ int main(void) {
     struct Param new_param = {32, 128, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95318,7 +95318,7 @@ int main(void) {
     struct Param new_param = {32, 128, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95331,7 +95331,7 @@ int main(void) {
     struct Param new_param = {32, 256, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95344,7 +95344,7 @@ int main(void) {
     struct Param new_param = {32, 256, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95357,7 +95357,7 @@ int main(void) {
     struct Param new_param = {32, 256, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95370,7 +95370,7 @@ int main(void) {
     struct Param new_param = {32, 256, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95383,7 +95383,7 @@ int main(void) {
     struct Param new_param = {32, 256, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95396,7 +95396,7 @@ int main(void) {
     struct Param new_param = {32, 256, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95409,7 +95409,7 @@ int main(void) {
     struct Param new_param = {32, 256, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95422,7 +95422,7 @@ int main(void) {
     struct Param new_param = {32, 256, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95435,7 +95435,7 @@ int main(void) {
     struct Param new_param = {32, 256, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95448,7 +95448,7 @@ int main(void) {
     struct Param new_param = {32, 256, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95461,7 +95461,7 @@ int main(void) {
     struct Param new_param = {32, 256, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95474,7 +95474,7 @@ int main(void) {
     struct Param new_param = {32, 256, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95487,7 +95487,7 @@ int main(void) {
     struct Param new_param = {32, 512, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95500,7 +95500,7 @@ int main(void) {
     struct Param new_param = {32, 512, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95513,7 +95513,7 @@ int main(void) {
     struct Param new_param = {32, 512, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95526,7 +95526,7 @@ int main(void) {
     struct Param new_param = {32, 512, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95539,7 +95539,7 @@ int main(void) {
     struct Param new_param = {32, 512, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95552,7 +95552,7 @@ int main(void) {
     struct Param new_param = {32, 512, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95565,7 +95565,7 @@ int main(void) {
     struct Param new_param = {32, 512, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95578,7 +95578,7 @@ int main(void) {
     struct Param new_param = {32, 512, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95591,7 +95591,7 @@ int main(void) {
     struct Param new_param = {32, 512, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95604,7 +95604,7 @@ int main(void) {
     struct Param new_param = {32, 512, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95617,7 +95617,7 @@ int main(void) {
     struct Param new_param = {32, 512, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95630,7 +95630,7 @@ int main(void) {
     struct Param new_param = {32, 512, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95643,7 +95643,7 @@ int main(void) {
     struct Param new_param = {32, 1024, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95656,7 +95656,7 @@ int main(void) {
     struct Param new_param = {32, 1024, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95669,7 +95669,7 @@ int main(void) {
     struct Param new_param = {32, 1024, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95682,7 +95682,7 @@ int main(void) {
     struct Param new_param = {32, 1024, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95695,7 +95695,7 @@ int main(void) {
     struct Param new_param = {32, 1024, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95708,7 +95708,7 @@ int main(void) {
     struct Param new_param = {32, 1024, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95721,7 +95721,7 @@ int main(void) {
     struct Param new_param = {32, 1024, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95734,7 +95734,7 @@ int main(void) {
     struct Param new_param = {32, 1024, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95747,7 +95747,7 @@ int main(void) {
     struct Param new_param = {32, 1024, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95760,7 +95760,7 @@ int main(void) {
     struct Param new_param = {32, 1024, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95773,7 +95773,7 @@ int main(void) {
     struct Param new_param = {32, 1024, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95786,7 +95786,7 @@ int main(void) {
     struct Param new_param = {32, 1024, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95799,7 +95799,7 @@ int main(void) {
     struct Param new_param = {32, 2048, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95812,7 +95812,7 @@ int main(void) {
     struct Param new_param = {32, 2048, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95825,7 +95825,7 @@ int main(void) {
     struct Param new_param = {32, 2048, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95838,7 +95838,7 @@ int main(void) {
     struct Param new_param = {32, 2048, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95851,7 +95851,7 @@ int main(void) {
     struct Param new_param = {32, 2048, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95864,7 +95864,7 @@ int main(void) {
     struct Param new_param = {32, 2048, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95877,7 +95877,7 @@ int main(void) {
     struct Param new_param = {32, 2048, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95890,7 +95890,7 @@ int main(void) {
     struct Param new_param = {32, 2048, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95903,7 +95903,7 @@ int main(void) {
     struct Param new_param = {32, 2048, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95916,7 +95916,7 @@ int main(void) {
     struct Param new_param = {32, 2048, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95929,7 +95929,7 @@ int main(void) {
     struct Param new_param = {32, 2048, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95942,7 +95942,7 @@ int main(void) {
     struct Param new_param = {32, 2048, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95955,7 +95955,7 @@ int main(void) {
     struct Param new_param = {64, 1, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95968,7 +95968,7 @@ int main(void) {
     struct Param new_param = {64, 1, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95981,7 +95981,7 @@ int main(void) {
     struct Param new_param = {64, 1, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -95994,7 +95994,7 @@ int main(void) {
     struct Param new_param = {64, 1, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96007,7 +96007,7 @@ int main(void) {
     struct Param new_param = {64, 1, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96020,7 +96020,7 @@ int main(void) {
     struct Param new_param = {64, 1, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96033,7 +96033,7 @@ int main(void) {
     struct Param new_param = {64, 1, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96046,7 +96046,7 @@ int main(void) {
     struct Param new_param = {64, 1, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96059,7 +96059,7 @@ int main(void) {
     struct Param new_param = {64, 1, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96072,7 +96072,7 @@ int main(void) {
     struct Param new_param = {64, 1, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96085,7 +96085,7 @@ int main(void) {
     struct Param new_param = {64, 1, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96098,7 +96098,7 @@ int main(void) {
     struct Param new_param = {64, 1, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96111,7 +96111,7 @@ int main(void) {
     struct Param new_param = {64, 2, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96124,7 +96124,7 @@ int main(void) {
     struct Param new_param = {64, 2, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96137,7 +96137,7 @@ int main(void) {
     struct Param new_param = {64, 2, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96150,7 +96150,7 @@ int main(void) {
     struct Param new_param = {64, 2, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96163,7 +96163,7 @@ int main(void) {
     struct Param new_param = {64, 2, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96176,7 +96176,7 @@ int main(void) {
     struct Param new_param = {64, 2, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96189,7 +96189,7 @@ int main(void) {
     struct Param new_param = {64, 2, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96202,7 +96202,7 @@ int main(void) {
     struct Param new_param = {64, 2, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96215,7 +96215,7 @@ int main(void) {
     struct Param new_param = {64, 2, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96228,7 +96228,7 @@ int main(void) {
     struct Param new_param = {64, 2, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96241,7 +96241,7 @@ int main(void) {
     struct Param new_param = {64, 2, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96254,7 +96254,7 @@ int main(void) {
     struct Param new_param = {64, 2, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96267,7 +96267,7 @@ int main(void) {
     struct Param new_param = {64, 4, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96280,7 +96280,7 @@ int main(void) {
     struct Param new_param = {64, 4, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96293,7 +96293,7 @@ int main(void) {
     struct Param new_param = {64, 4, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96306,7 +96306,7 @@ int main(void) {
     struct Param new_param = {64, 4, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96319,7 +96319,7 @@ int main(void) {
     struct Param new_param = {64, 4, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96332,7 +96332,7 @@ int main(void) {
     struct Param new_param = {64, 4, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96345,7 +96345,7 @@ int main(void) {
     struct Param new_param = {64, 4, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96358,7 +96358,7 @@ int main(void) {
     struct Param new_param = {64, 4, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96371,7 +96371,7 @@ int main(void) {
     struct Param new_param = {64, 4, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96384,7 +96384,7 @@ int main(void) {
     struct Param new_param = {64, 4, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96397,7 +96397,7 @@ int main(void) {
     struct Param new_param = {64, 4, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96410,7 +96410,7 @@ int main(void) {
     struct Param new_param = {64, 4, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96423,7 +96423,7 @@ int main(void) {
     struct Param new_param = {64, 8, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96436,7 +96436,7 @@ int main(void) {
     struct Param new_param = {64, 8, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96449,7 +96449,7 @@ int main(void) {
     struct Param new_param = {64, 8, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96462,7 +96462,7 @@ int main(void) {
     struct Param new_param = {64, 8, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96475,7 +96475,7 @@ int main(void) {
     struct Param new_param = {64, 8, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96488,7 +96488,7 @@ int main(void) {
     struct Param new_param = {64, 8, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96501,7 +96501,7 @@ int main(void) {
     struct Param new_param = {64, 8, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96514,7 +96514,7 @@ int main(void) {
     struct Param new_param = {64, 8, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96527,7 +96527,7 @@ int main(void) {
     struct Param new_param = {64, 8, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96540,7 +96540,7 @@ int main(void) {
     struct Param new_param = {64, 8, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96553,7 +96553,7 @@ int main(void) {
     struct Param new_param = {64, 8, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96566,7 +96566,7 @@ int main(void) {
     struct Param new_param = {64, 8, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96579,7 +96579,7 @@ int main(void) {
     struct Param new_param = {64, 16, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96592,7 +96592,7 @@ int main(void) {
     struct Param new_param = {64, 16, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96605,7 +96605,7 @@ int main(void) {
     struct Param new_param = {64, 16, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96618,7 +96618,7 @@ int main(void) {
     struct Param new_param = {64, 16, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96631,7 +96631,7 @@ int main(void) {
     struct Param new_param = {64, 16, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96644,7 +96644,7 @@ int main(void) {
     struct Param new_param = {64, 16, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96657,7 +96657,7 @@ int main(void) {
     struct Param new_param = {64, 16, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96670,7 +96670,7 @@ int main(void) {
     struct Param new_param = {64, 16, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96683,7 +96683,7 @@ int main(void) {
     struct Param new_param = {64, 16, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96696,7 +96696,7 @@ int main(void) {
     struct Param new_param = {64, 16, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96709,7 +96709,7 @@ int main(void) {
     struct Param new_param = {64, 16, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96722,7 +96722,7 @@ int main(void) {
     struct Param new_param = {64, 16, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96735,7 +96735,7 @@ int main(void) {
     struct Param new_param = {64, 32, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96748,7 +96748,7 @@ int main(void) {
     struct Param new_param = {64, 32, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96761,7 +96761,7 @@ int main(void) {
     struct Param new_param = {64, 32, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96774,7 +96774,7 @@ int main(void) {
     struct Param new_param = {64, 32, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96787,7 +96787,7 @@ int main(void) {
     struct Param new_param = {64, 32, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96800,7 +96800,7 @@ int main(void) {
     struct Param new_param = {64, 32, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96813,7 +96813,7 @@ int main(void) {
     struct Param new_param = {64, 32, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96826,7 +96826,7 @@ int main(void) {
     struct Param new_param = {64, 32, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96839,7 +96839,7 @@ int main(void) {
     struct Param new_param = {64, 32, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96852,7 +96852,7 @@ int main(void) {
     struct Param new_param = {64, 32, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96865,7 +96865,7 @@ int main(void) {
     struct Param new_param = {64, 32, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96878,7 +96878,7 @@ int main(void) {
     struct Param new_param = {64, 32, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96891,7 +96891,7 @@ int main(void) {
     struct Param new_param = {64, 64, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96904,7 +96904,7 @@ int main(void) {
     struct Param new_param = {64, 64, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96917,7 +96917,7 @@ int main(void) {
     struct Param new_param = {64, 64, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96930,7 +96930,7 @@ int main(void) {
     struct Param new_param = {64, 64, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96943,7 +96943,7 @@ int main(void) {
     struct Param new_param = {64, 64, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96956,7 +96956,7 @@ int main(void) {
     struct Param new_param = {64, 64, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96969,7 +96969,7 @@ int main(void) {
     struct Param new_param = {64, 64, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96982,7 +96982,7 @@ int main(void) {
     struct Param new_param = {64, 64, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -96995,7 +96995,7 @@ int main(void) {
     struct Param new_param = {64, 64, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97008,7 +97008,7 @@ int main(void) {
     struct Param new_param = {64, 64, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97021,7 +97021,7 @@ int main(void) {
     struct Param new_param = {64, 64, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97034,7 +97034,7 @@ int main(void) {
     struct Param new_param = {64, 64, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97047,7 +97047,7 @@ int main(void) {
     struct Param new_param = {64, 128, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97060,7 +97060,7 @@ int main(void) {
     struct Param new_param = {64, 128, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97073,7 +97073,7 @@ int main(void) {
     struct Param new_param = {64, 128, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97086,7 +97086,7 @@ int main(void) {
     struct Param new_param = {64, 128, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97099,7 +97099,7 @@ int main(void) {
     struct Param new_param = {64, 128, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97112,7 +97112,7 @@ int main(void) {
     struct Param new_param = {64, 128, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97125,7 +97125,7 @@ int main(void) {
     struct Param new_param = {64, 128, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97138,7 +97138,7 @@ int main(void) {
     struct Param new_param = {64, 128, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97151,7 +97151,7 @@ int main(void) {
     struct Param new_param = {64, 128, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97164,7 +97164,7 @@ int main(void) {
     struct Param new_param = {64, 128, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97177,7 +97177,7 @@ int main(void) {
     struct Param new_param = {64, 128, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97190,7 +97190,7 @@ int main(void) {
     struct Param new_param = {64, 128, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97203,7 +97203,7 @@ int main(void) {
     struct Param new_param = {64, 256, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97216,7 +97216,7 @@ int main(void) {
     struct Param new_param = {64, 256, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97229,7 +97229,7 @@ int main(void) {
     struct Param new_param = {64, 256, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97242,7 +97242,7 @@ int main(void) {
     struct Param new_param = {64, 256, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97255,7 +97255,7 @@ int main(void) {
     struct Param new_param = {64, 256, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97268,7 +97268,7 @@ int main(void) {
     struct Param new_param = {64, 256, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97281,7 +97281,7 @@ int main(void) {
     struct Param new_param = {64, 256, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97294,7 +97294,7 @@ int main(void) {
     struct Param new_param = {64, 256, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97307,7 +97307,7 @@ int main(void) {
     struct Param new_param = {64, 256, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97320,7 +97320,7 @@ int main(void) {
     struct Param new_param = {64, 256, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97333,7 +97333,7 @@ int main(void) {
     struct Param new_param = {64, 256, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97346,7 +97346,7 @@ int main(void) {
     struct Param new_param = {64, 256, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97359,7 +97359,7 @@ int main(void) {
     struct Param new_param = {64, 512, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97372,7 +97372,7 @@ int main(void) {
     struct Param new_param = {64, 512, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97385,7 +97385,7 @@ int main(void) {
     struct Param new_param = {64, 512, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97398,7 +97398,7 @@ int main(void) {
     struct Param new_param = {64, 512, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97411,7 +97411,7 @@ int main(void) {
     struct Param new_param = {64, 512, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97424,7 +97424,7 @@ int main(void) {
     struct Param new_param = {64, 512, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97437,7 +97437,7 @@ int main(void) {
     struct Param new_param = {64, 512, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97450,7 +97450,7 @@ int main(void) {
     struct Param new_param = {64, 512, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97463,7 +97463,7 @@ int main(void) {
     struct Param new_param = {64, 512, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97476,7 +97476,7 @@ int main(void) {
     struct Param new_param = {64, 512, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97489,7 +97489,7 @@ int main(void) {
     struct Param new_param = {64, 512, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97502,7 +97502,7 @@ int main(void) {
     struct Param new_param = {64, 512, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97515,7 +97515,7 @@ int main(void) {
     struct Param new_param = {64, 1024, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97528,7 +97528,7 @@ int main(void) {
     struct Param new_param = {64, 1024, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97541,7 +97541,7 @@ int main(void) {
     struct Param new_param = {64, 1024, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97554,7 +97554,7 @@ int main(void) {
     struct Param new_param = {64, 1024, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97567,7 +97567,7 @@ int main(void) {
     struct Param new_param = {64, 1024, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97580,7 +97580,7 @@ int main(void) {
     struct Param new_param = {64, 1024, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97593,7 +97593,7 @@ int main(void) {
     struct Param new_param = {64, 1024, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97606,7 +97606,7 @@ int main(void) {
     struct Param new_param = {64, 1024, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97619,7 +97619,7 @@ int main(void) {
     struct Param new_param = {64, 1024, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97632,7 +97632,7 @@ int main(void) {
     struct Param new_param = {64, 1024, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97645,7 +97645,7 @@ int main(void) {
     struct Param new_param = {64, 1024, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97658,7 +97658,7 @@ int main(void) {
     struct Param new_param = {64, 1024, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97671,7 +97671,7 @@ int main(void) {
     struct Param new_param = {64, 2048, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97684,7 +97684,7 @@ int main(void) {
     struct Param new_param = {64, 2048, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97697,7 +97697,7 @@ int main(void) {
     struct Param new_param = {64, 2048, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97710,7 +97710,7 @@ int main(void) {
     struct Param new_param = {64, 2048, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97723,7 +97723,7 @@ int main(void) {
     struct Param new_param = {64, 2048, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97736,7 +97736,7 @@ int main(void) {
     struct Param new_param = {64, 2048, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97749,7 +97749,7 @@ int main(void) {
     struct Param new_param = {64, 2048, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97762,7 +97762,7 @@ int main(void) {
     struct Param new_param = {64, 2048, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97775,7 +97775,7 @@ int main(void) {
     struct Param new_param = {64, 2048, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97788,7 +97788,7 @@ int main(void) {
     struct Param new_param = {64, 2048, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97801,7 +97801,7 @@ int main(void) {
     struct Param new_param = {64, 2048, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97814,7 +97814,7 @@ int main(void) {
     struct Param new_param = {64, 2048, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97827,7 +97827,7 @@ int main(void) {
     struct Param new_param = {128, 1, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97840,7 +97840,7 @@ int main(void) {
     struct Param new_param = {128, 1, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97853,7 +97853,7 @@ int main(void) {
     struct Param new_param = {128, 1, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97866,7 +97866,7 @@ int main(void) {
     struct Param new_param = {128, 1, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97879,7 +97879,7 @@ int main(void) {
     struct Param new_param = {128, 1, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97892,7 +97892,7 @@ int main(void) {
     struct Param new_param = {128, 1, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97905,7 +97905,7 @@ int main(void) {
     struct Param new_param = {128, 1, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97918,7 +97918,7 @@ int main(void) {
     struct Param new_param = {128, 1, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97931,7 +97931,7 @@ int main(void) {
     struct Param new_param = {128, 1, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97944,7 +97944,7 @@ int main(void) {
     struct Param new_param = {128, 1, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97957,7 +97957,7 @@ int main(void) {
     struct Param new_param = {128, 1, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97970,7 +97970,7 @@ int main(void) {
     struct Param new_param = {128, 1, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97983,7 +97983,7 @@ int main(void) {
     struct Param new_param = {128, 2, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -97996,7 +97996,7 @@ int main(void) {
     struct Param new_param = {128, 2, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98009,7 +98009,7 @@ int main(void) {
     struct Param new_param = {128, 2, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98022,7 +98022,7 @@ int main(void) {
     struct Param new_param = {128, 2, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98035,7 +98035,7 @@ int main(void) {
     struct Param new_param = {128, 2, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98048,7 +98048,7 @@ int main(void) {
     struct Param new_param = {128, 2, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98061,7 +98061,7 @@ int main(void) {
     struct Param new_param = {128, 2, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98074,7 +98074,7 @@ int main(void) {
     struct Param new_param = {128, 2, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98087,7 +98087,7 @@ int main(void) {
     struct Param new_param = {128, 2, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98100,7 +98100,7 @@ int main(void) {
     struct Param new_param = {128, 2, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98113,7 +98113,7 @@ int main(void) {
     struct Param new_param = {128, 2, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98126,7 +98126,7 @@ int main(void) {
     struct Param new_param = {128, 2, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98139,7 +98139,7 @@ int main(void) {
     struct Param new_param = {128, 4, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98152,7 +98152,7 @@ int main(void) {
     struct Param new_param = {128, 4, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98165,7 +98165,7 @@ int main(void) {
     struct Param new_param = {128, 4, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98178,7 +98178,7 @@ int main(void) {
     struct Param new_param = {128, 4, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98191,7 +98191,7 @@ int main(void) {
     struct Param new_param = {128, 4, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98204,7 +98204,7 @@ int main(void) {
     struct Param new_param = {128, 4, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98217,7 +98217,7 @@ int main(void) {
     struct Param new_param = {128, 4, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98230,7 +98230,7 @@ int main(void) {
     struct Param new_param = {128, 4, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98243,7 +98243,7 @@ int main(void) {
     struct Param new_param = {128, 4, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98256,7 +98256,7 @@ int main(void) {
     struct Param new_param = {128, 4, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98269,7 +98269,7 @@ int main(void) {
     struct Param new_param = {128, 4, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98282,7 +98282,7 @@ int main(void) {
     struct Param new_param = {128, 4, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98295,7 +98295,7 @@ int main(void) {
     struct Param new_param = {128, 8, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98308,7 +98308,7 @@ int main(void) {
     struct Param new_param = {128, 8, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98321,7 +98321,7 @@ int main(void) {
     struct Param new_param = {128, 8, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98334,7 +98334,7 @@ int main(void) {
     struct Param new_param = {128, 8, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98347,7 +98347,7 @@ int main(void) {
     struct Param new_param = {128, 8, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98360,7 +98360,7 @@ int main(void) {
     struct Param new_param = {128, 8, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98373,7 +98373,7 @@ int main(void) {
     struct Param new_param = {128, 8, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98386,7 +98386,7 @@ int main(void) {
     struct Param new_param = {128, 8, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98399,7 +98399,7 @@ int main(void) {
     struct Param new_param = {128, 8, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98412,7 +98412,7 @@ int main(void) {
     struct Param new_param = {128, 8, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98425,7 +98425,7 @@ int main(void) {
     struct Param new_param = {128, 8, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98438,7 +98438,7 @@ int main(void) {
     struct Param new_param = {128, 8, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98451,7 +98451,7 @@ int main(void) {
     struct Param new_param = {128, 16, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98464,7 +98464,7 @@ int main(void) {
     struct Param new_param = {128, 16, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98477,7 +98477,7 @@ int main(void) {
     struct Param new_param = {128, 16, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98490,7 +98490,7 @@ int main(void) {
     struct Param new_param = {128, 16, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98503,7 +98503,7 @@ int main(void) {
     struct Param new_param = {128, 16, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98516,7 +98516,7 @@ int main(void) {
     struct Param new_param = {128, 16, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98529,7 +98529,7 @@ int main(void) {
     struct Param new_param = {128, 16, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98542,7 +98542,7 @@ int main(void) {
     struct Param new_param = {128, 16, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98555,7 +98555,7 @@ int main(void) {
     struct Param new_param = {128, 16, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98568,7 +98568,7 @@ int main(void) {
     struct Param new_param = {128, 16, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98581,7 +98581,7 @@ int main(void) {
     struct Param new_param = {128, 16, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98594,7 +98594,7 @@ int main(void) {
     struct Param new_param = {128, 16, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98607,7 +98607,7 @@ int main(void) {
     struct Param new_param = {128, 32, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98620,7 +98620,7 @@ int main(void) {
     struct Param new_param = {128, 32, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98633,7 +98633,7 @@ int main(void) {
     struct Param new_param = {128, 32, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98646,7 +98646,7 @@ int main(void) {
     struct Param new_param = {128, 32, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98659,7 +98659,7 @@ int main(void) {
     struct Param new_param = {128, 32, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98672,7 +98672,7 @@ int main(void) {
     struct Param new_param = {128, 32, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98685,7 +98685,7 @@ int main(void) {
     struct Param new_param = {128, 32, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98698,7 +98698,7 @@ int main(void) {
     struct Param new_param = {128, 32, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98711,7 +98711,7 @@ int main(void) {
     struct Param new_param = {128, 32, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98724,7 +98724,7 @@ int main(void) {
     struct Param new_param = {128, 32, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98737,7 +98737,7 @@ int main(void) {
     struct Param new_param = {128, 32, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98750,7 +98750,7 @@ int main(void) {
     struct Param new_param = {128, 32, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98763,7 +98763,7 @@ int main(void) {
     struct Param new_param = {128, 64, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98776,7 +98776,7 @@ int main(void) {
     struct Param new_param = {128, 64, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98789,7 +98789,7 @@ int main(void) {
     struct Param new_param = {128, 64, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98802,7 +98802,7 @@ int main(void) {
     struct Param new_param = {128, 64, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98815,7 +98815,7 @@ int main(void) {
     struct Param new_param = {128, 64, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98828,7 +98828,7 @@ int main(void) {
     struct Param new_param = {128, 64, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98841,7 +98841,7 @@ int main(void) {
     struct Param new_param = {128, 64, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98854,7 +98854,7 @@ int main(void) {
     struct Param new_param = {128, 64, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98867,7 +98867,7 @@ int main(void) {
     struct Param new_param = {128, 64, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98880,7 +98880,7 @@ int main(void) {
     struct Param new_param = {128, 64, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98893,7 +98893,7 @@ int main(void) {
     struct Param new_param = {128, 64, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98906,7 +98906,7 @@ int main(void) {
     struct Param new_param = {128, 64, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98919,7 +98919,7 @@ int main(void) {
     struct Param new_param = {128, 128, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98932,7 +98932,7 @@ int main(void) {
     struct Param new_param = {128, 128, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98945,7 +98945,7 @@ int main(void) {
     struct Param new_param = {128, 128, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98958,7 +98958,7 @@ int main(void) {
     struct Param new_param = {128, 128, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98971,7 +98971,7 @@ int main(void) {
     struct Param new_param = {128, 128, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98984,7 +98984,7 @@ int main(void) {
     struct Param new_param = {128, 128, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -98997,7 +98997,7 @@ int main(void) {
     struct Param new_param = {128, 128, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99010,7 +99010,7 @@ int main(void) {
     struct Param new_param = {128, 128, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99023,7 +99023,7 @@ int main(void) {
     struct Param new_param = {128, 128, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99036,7 +99036,7 @@ int main(void) {
     struct Param new_param = {128, 128, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99049,7 +99049,7 @@ int main(void) {
     struct Param new_param = {128, 128, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99062,7 +99062,7 @@ int main(void) {
     struct Param new_param = {128, 128, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99075,7 +99075,7 @@ int main(void) {
     struct Param new_param = {128, 256, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99088,7 +99088,7 @@ int main(void) {
     struct Param new_param = {128, 256, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99101,7 +99101,7 @@ int main(void) {
     struct Param new_param = {128, 256, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99114,7 +99114,7 @@ int main(void) {
     struct Param new_param = {128, 256, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99127,7 +99127,7 @@ int main(void) {
     struct Param new_param = {128, 256, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99140,7 +99140,7 @@ int main(void) {
     struct Param new_param = {128, 256, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99153,7 +99153,7 @@ int main(void) {
     struct Param new_param = {128, 256, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99166,7 +99166,7 @@ int main(void) {
     struct Param new_param = {128, 256, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99179,7 +99179,7 @@ int main(void) {
     struct Param new_param = {128, 256, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99192,7 +99192,7 @@ int main(void) {
     struct Param new_param = {128, 256, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99205,7 +99205,7 @@ int main(void) {
     struct Param new_param = {128, 256, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99218,7 +99218,7 @@ int main(void) {
     struct Param new_param = {128, 256, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99231,7 +99231,7 @@ int main(void) {
     struct Param new_param = {128, 512, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99244,7 +99244,7 @@ int main(void) {
     struct Param new_param = {128, 512, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99257,7 +99257,7 @@ int main(void) {
     struct Param new_param = {128, 512, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99270,7 +99270,7 @@ int main(void) {
     struct Param new_param = {128, 512, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99283,7 +99283,7 @@ int main(void) {
     struct Param new_param = {128, 512, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99296,7 +99296,7 @@ int main(void) {
     struct Param new_param = {128, 512, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99309,7 +99309,7 @@ int main(void) {
     struct Param new_param = {128, 512, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99322,7 +99322,7 @@ int main(void) {
     struct Param new_param = {128, 512, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99335,7 +99335,7 @@ int main(void) {
     struct Param new_param = {128, 512, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99348,7 +99348,7 @@ int main(void) {
     struct Param new_param = {128, 512, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99361,7 +99361,7 @@ int main(void) {
     struct Param new_param = {128, 512, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99374,7 +99374,7 @@ int main(void) {
     struct Param new_param = {128, 512, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99387,7 +99387,7 @@ int main(void) {
     struct Param new_param = {128, 1024, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99400,7 +99400,7 @@ int main(void) {
     struct Param new_param = {128, 1024, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99413,7 +99413,7 @@ int main(void) {
     struct Param new_param = {128, 1024, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99426,7 +99426,7 @@ int main(void) {
     struct Param new_param = {128, 1024, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99439,7 +99439,7 @@ int main(void) {
     struct Param new_param = {128, 1024, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99452,7 +99452,7 @@ int main(void) {
     struct Param new_param = {128, 1024, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99465,7 +99465,7 @@ int main(void) {
     struct Param new_param = {128, 1024, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99478,7 +99478,7 @@ int main(void) {
     struct Param new_param = {128, 1024, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99491,7 +99491,7 @@ int main(void) {
     struct Param new_param = {128, 1024, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99504,7 +99504,7 @@ int main(void) {
     struct Param new_param = {128, 1024, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99517,7 +99517,7 @@ int main(void) {
     struct Param new_param = {128, 1024, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99530,7 +99530,7 @@ int main(void) {
     struct Param new_param = {128, 1024, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99543,7 +99543,7 @@ int main(void) {
     struct Param new_param = {128, 2048, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99556,7 +99556,7 @@ int main(void) {
     struct Param new_param = {128, 2048, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99569,7 +99569,7 @@ int main(void) {
     struct Param new_param = {128, 2048, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99582,7 +99582,7 @@ int main(void) {
     struct Param new_param = {128, 2048, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99595,7 +99595,7 @@ int main(void) {
     struct Param new_param = {128, 2048, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99608,7 +99608,7 @@ int main(void) {
     struct Param new_param = {128, 2048, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99621,7 +99621,7 @@ int main(void) {
     struct Param new_param = {128, 2048, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99634,7 +99634,7 @@ int main(void) {
     struct Param new_param = {128, 2048, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99647,7 +99647,7 @@ int main(void) {
     struct Param new_param = {128, 2048, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99660,7 +99660,7 @@ int main(void) {
     struct Param new_param = {128, 2048, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99673,7 +99673,7 @@ int main(void) {
     struct Param new_param = {128, 2048, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99686,7 +99686,7 @@ int main(void) {
     struct Param new_param = {128, 2048, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99699,7 +99699,7 @@ int main(void) {
     struct Param new_param = {256, 1, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99712,7 +99712,7 @@ int main(void) {
     struct Param new_param = {256, 1, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99725,7 +99725,7 @@ int main(void) {
     struct Param new_param = {256, 1, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99738,7 +99738,7 @@ int main(void) {
     struct Param new_param = {256, 1, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99751,7 +99751,7 @@ int main(void) {
     struct Param new_param = {256, 1, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99764,7 +99764,7 @@ int main(void) {
     struct Param new_param = {256, 1, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99777,7 +99777,7 @@ int main(void) {
     struct Param new_param = {256, 1, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99790,7 +99790,7 @@ int main(void) {
     struct Param new_param = {256, 1, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99803,7 +99803,7 @@ int main(void) {
     struct Param new_param = {256, 1, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99816,7 +99816,7 @@ int main(void) {
     struct Param new_param = {256, 1, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99829,7 +99829,7 @@ int main(void) {
     struct Param new_param = {256, 1, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99842,7 +99842,7 @@ int main(void) {
     struct Param new_param = {256, 1, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99855,7 +99855,7 @@ int main(void) {
     struct Param new_param = {256, 2, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99868,7 +99868,7 @@ int main(void) {
     struct Param new_param = {256, 2, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99881,7 +99881,7 @@ int main(void) {
     struct Param new_param = {256, 2, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99894,7 +99894,7 @@ int main(void) {
     struct Param new_param = {256, 2, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99907,7 +99907,7 @@ int main(void) {
     struct Param new_param = {256, 2, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99920,7 +99920,7 @@ int main(void) {
     struct Param new_param = {256, 2, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99933,7 +99933,7 @@ int main(void) {
     struct Param new_param = {256, 2, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99946,7 +99946,7 @@ int main(void) {
     struct Param new_param = {256, 2, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99959,7 +99959,7 @@ int main(void) {
     struct Param new_param = {256, 2, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99972,7 +99972,7 @@ int main(void) {
     struct Param new_param = {256, 2, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99985,7 +99985,7 @@ int main(void) {
     struct Param new_param = {256, 2, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -99998,7 +99998,7 @@ int main(void) {
     struct Param new_param = {256, 2, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100011,7 +100011,7 @@ int main(void) {
     struct Param new_param = {256, 4, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100024,7 +100024,7 @@ int main(void) {
     struct Param new_param = {256, 4, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100037,7 +100037,7 @@ int main(void) {
     struct Param new_param = {256, 4, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100050,7 +100050,7 @@ int main(void) {
     struct Param new_param = {256, 4, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100063,7 +100063,7 @@ int main(void) {
     struct Param new_param = {256, 4, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100076,7 +100076,7 @@ int main(void) {
     struct Param new_param = {256, 4, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100089,7 +100089,7 @@ int main(void) {
     struct Param new_param = {256, 4, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100102,7 +100102,7 @@ int main(void) {
     struct Param new_param = {256, 4, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100115,7 +100115,7 @@ int main(void) {
     struct Param new_param = {256, 4, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100128,7 +100128,7 @@ int main(void) {
     struct Param new_param = {256, 4, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100141,7 +100141,7 @@ int main(void) {
     struct Param new_param = {256, 4, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100154,7 +100154,7 @@ int main(void) {
     struct Param new_param = {256, 4, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100167,7 +100167,7 @@ int main(void) {
     struct Param new_param = {256, 8, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100180,7 +100180,7 @@ int main(void) {
     struct Param new_param = {256, 8, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100193,7 +100193,7 @@ int main(void) {
     struct Param new_param = {256, 8, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100206,7 +100206,7 @@ int main(void) {
     struct Param new_param = {256, 8, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100219,7 +100219,7 @@ int main(void) {
     struct Param new_param = {256, 8, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100232,7 +100232,7 @@ int main(void) {
     struct Param new_param = {256, 8, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100245,7 +100245,7 @@ int main(void) {
     struct Param new_param = {256, 8, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100258,7 +100258,7 @@ int main(void) {
     struct Param new_param = {256, 8, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100271,7 +100271,7 @@ int main(void) {
     struct Param new_param = {256, 8, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100284,7 +100284,7 @@ int main(void) {
     struct Param new_param = {256, 8, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100297,7 +100297,7 @@ int main(void) {
     struct Param new_param = {256, 8, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100310,7 +100310,7 @@ int main(void) {
     struct Param new_param = {256, 8, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100323,7 +100323,7 @@ int main(void) {
     struct Param new_param = {256, 16, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100336,7 +100336,7 @@ int main(void) {
     struct Param new_param = {256, 16, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100349,7 +100349,7 @@ int main(void) {
     struct Param new_param = {256, 16, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100362,7 +100362,7 @@ int main(void) {
     struct Param new_param = {256, 16, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100375,7 +100375,7 @@ int main(void) {
     struct Param new_param = {256, 16, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100388,7 +100388,7 @@ int main(void) {
     struct Param new_param = {256, 16, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100401,7 +100401,7 @@ int main(void) {
     struct Param new_param = {256, 16, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100414,7 +100414,7 @@ int main(void) {
     struct Param new_param = {256, 16, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100427,7 +100427,7 @@ int main(void) {
     struct Param new_param = {256, 16, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100440,7 +100440,7 @@ int main(void) {
     struct Param new_param = {256, 16, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100453,7 +100453,7 @@ int main(void) {
     struct Param new_param = {256, 16, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100466,7 +100466,7 @@ int main(void) {
     struct Param new_param = {256, 16, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100479,7 +100479,7 @@ int main(void) {
     struct Param new_param = {256, 32, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100492,7 +100492,7 @@ int main(void) {
     struct Param new_param = {256, 32, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100505,7 +100505,7 @@ int main(void) {
     struct Param new_param = {256, 32, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100518,7 +100518,7 @@ int main(void) {
     struct Param new_param = {256, 32, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100531,7 +100531,7 @@ int main(void) {
     struct Param new_param = {256, 32, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100544,7 +100544,7 @@ int main(void) {
     struct Param new_param = {256, 32, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100557,7 +100557,7 @@ int main(void) {
     struct Param new_param = {256, 32, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100570,7 +100570,7 @@ int main(void) {
     struct Param new_param = {256, 32, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100583,7 +100583,7 @@ int main(void) {
     struct Param new_param = {256, 32, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100596,7 +100596,7 @@ int main(void) {
     struct Param new_param = {256, 32, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100609,7 +100609,7 @@ int main(void) {
     struct Param new_param = {256, 32, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100622,7 +100622,7 @@ int main(void) {
     struct Param new_param = {256, 32, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100635,7 +100635,7 @@ int main(void) {
     struct Param new_param = {256, 64, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100648,7 +100648,7 @@ int main(void) {
     struct Param new_param = {256, 64, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100661,7 +100661,7 @@ int main(void) {
     struct Param new_param = {256, 64, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100674,7 +100674,7 @@ int main(void) {
     struct Param new_param = {256, 64, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100687,7 +100687,7 @@ int main(void) {
     struct Param new_param = {256, 64, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100700,7 +100700,7 @@ int main(void) {
     struct Param new_param = {256, 64, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100713,7 +100713,7 @@ int main(void) {
     struct Param new_param = {256, 64, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100726,7 +100726,7 @@ int main(void) {
     struct Param new_param = {256, 64, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100739,7 +100739,7 @@ int main(void) {
     struct Param new_param = {256, 64, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100752,7 +100752,7 @@ int main(void) {
     struct Param new_param = {256, 64, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100765,7 +100765,7 @@ int main(void) {
     struct Param new_param = {256, 64, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100778,7 +100778,7 @@ int main(void) {
     struct Param new_param = {256, 64, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100791,7 +100791,7 @@ int main(void) {
     struct Param new_param = {256, 128, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100804,7 +100804,7 @@ int main(void) {
     struct Param new_param = {256, 128, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100817,7 +100817,7 @@ int main(void) {
     struct Param new_param = {256, 128, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100830,7 +100830,7 @@ int main(void) {
     struct Param new_param = {256, 128, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100843,7 +100843,7 @@ int main(void) {
     struct Param new_param = {256, 128, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100856,7 +100856,7 @@ int main(void) {
     struct Param new_param = {256, 128, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100869,7 +100869,7 @@ int main(void) {
     struct Param new_param = {256, 128, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100882,7 +100882,7 @@ int main(void) {
     struct Param new_param = {256, 128, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100895,7 +100895,7 @@ int main(void) {
     struct Param new_param = {256, 128, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100908,7 +100908,7 @@ int main(void) {
     struct Param new_param = {256, 128, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100921,7 +100921,7 @@ int main(void) {
     struct Param new_param = {256, 128, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100934,7 +100934,7 @@ int main(void) {
     struct Param new_param = {256, 128, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100947,7 +100947,7 @@ int main(void) {
     struct Param new_param = {256, 256, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100960,7 +100960,7 @@ int main(void) {
     struct Param new_param = {256, 256, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100973,7 +100973,7 @@ int main(void) {
     struct Param new_param = {256, 256, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100986,7 +100986,7 @@ int main(void) {
     struct Param new_param = {256, 256, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -100999,7 +100999,7 @@ int main(void) {
     struct Param new_param = {256, 256, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101012,7 +101012,7 @@ int main(void) {
     struct Param new_param = {256, 256, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101025,7 +101025,7 @@ int main(void) {
     struct Param new_param = {256, 256, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101038,7 +101038,7 @@ int main(void) {
     struct Param new_param = {256, 256, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101051,7 +101051,7 @@ int main(void) {
     struct Param new_param = {256, 256, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101064,7 +101064,7 @@ int main(void) {
     struct Param new_param = {256, 256, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101077,7 +101077,7 @@ int main(void) {
     struct Param new_param = {256, 256, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101090,7 +101090,7 @@ int main(void) {
     struct Param new_param = {256, 256, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101103,7 +101103,7 @@ int main(void) {
     struct Param new_param = {256, 512, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101116,7 +101116,7 @@ int main(void) {
     struct Param new_param = {256, 512, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101129,7 +101129,7 @@ int main(void) {
     struct Param new_param = {256, 512, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101142,7 +101142,7 @@ int main(void) {
     struct Param new_param = {256, 512, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101155,7 +101155,7 @@ int main(void) {
     struct Param new_param = {256, 512, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101168,7 +101168,7 @@ int main(void) {
     struct Param new_param = {256, 512, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101181,7 +101181,7 @@ int main(void) {
     struct Param new_param = {256, 512, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101194,7 +101194,7 @@ int main(void) {
     struct Param new_param = {256, 512, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101207,7 +101207,7 @@ int main(void) {
     struct Param new_param = {256, 512, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101220,7 +101220,7 @@ int main(void) {
     struct Param new_param = {256, 512, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101233,7 +101233,7 @@ int main(void) {
     struct Param new_param = {256, 512, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101246,7 +101246,7 @@ int main(void) {
     struct Param new_param = {256, 512, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101259,7 +101259,7 @@ int main(void) {
     struct Param new_param = {256, 1024, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101272,7 +101272,7 @@ int main(void) {
     struct Param new_param = {256, 1024, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101285,7 +101285,7 @@ int main(void) {
     struct Param new_param = {256, 1024, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101298,7 +101298,7 @@ int main(void) {
     struct Param new_param = {256, 1024, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101311,7 +101311,7 @@ int main(void) {
     struct Param new_param = {256, 1024, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101324,7 +101324,7 @@ int main(void) {
     struct Param new_param = {256, 1024, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101337,7 +101337,7 @@ int main(void) {
     struct Param new_param = {256, 1024, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101350,7 +101350,7 @@ int main(void) {
     struct Param new_param = {256, 1024, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101363,7 +101363,7 @@ int main(void) {
     struct Param new_param = {256, 1024, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101376,7 +101376,7 @@ int main(void) {
     struct Param new_param = {256, 1024, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101389,7 +101389,7 @@ int main(void) {
     struct Param new_param = {256, 1024, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101402,7 +101402,7 @@ int main(void) {
     struct Param new_param = {256, 1024, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101415,7 +101415,7 @@ int main(void) {
     struct Param new_param = {256, 2048, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101428,7 +101428,7 @@ int main(void) {
     struct Param new_param = {256, 2048, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101441,7 +101441,7 @@ int main(void) {
     struct Param new_param = {256, 2048, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101454,7 +101454,7 @@ int main(void) {
     struct Param new_param = {256, 2048, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101467,7 +101467,7 @@ int main(void) {
     struct Param new_param = {256, 2048, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101480,7 +101480,7 @@ int main(void) {
     struct Param new_param = {256, 2048, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101493,7 +101493,7 @@ int main(void) {
     struct Param new_param = {256, 2048, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101506,7 +101506,7 @@ int main(void) {
     struct Param new_param = {256, 2048, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101519,7 +101519,7 @@ int main(void) {
     struct Param new_param = {256, 2048, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101532,7 +101532,7 @@ int main(void) {
     struct Param new_param = {256, 2048, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101545,7 +101545,7 @@ int main(void) {
     struct Param new_param = {256, 2048, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101558,7 +101558,7 @@ int main(void) {
     struct Param new_param = {256, 2048, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101571,7 +101571,7 @@ int main(void) {
     struct Param new_param = {512, 1, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101584,7 +101584,7 @@ int main(void) {
     struct Param new_param = {512, 1, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101597,7 +101597,7 @@ int main(void) {
     struct Param new_param = {512, 1, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101610,7 +101610,7 @@ int main(void) {
     struct Param new_param = {512, 1, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101623,7 +101623,7 @@ int main(void) {
     struct Param new_param = {512, 1, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101636,7 +101636,7 @@ int main(void) {
     struct Param new_param = {512, 1, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101649,7 +101649,7 @@ int main(void) {
     struct Param new_param = {512, 1, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101662,7 +101662,7 @@ int main(void) {
     struct Param new_param = {512, 1, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101675,7 +101675,7 @@ int main(void) {
     struct Param new_param = {512, 1, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101688,7 +101688,7 @@ int main(void) {
     struct Param new_param = {512, 1, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101701,7 +101701,7 @@ int main(void) {
     struct Param new_param = {512, 1, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101714,7 +101714,7 @@ int main(void) {
     struct Param new_param = {512, 1, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101727,7 +101727,7 @@ int main(void) {
     struct Param new_param = {512, 2, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101740,7 +101740,7 @@ int main(void) {
     struct Param new_param = {512, 2, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101753,7 +101753,7 @@ int main(void) {
     struct Param new_param = {512, 2, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101766,7 +101766,7 @@ int main(void) {
     struct Param new_param = {512, 2, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101779,7 +101779,7 @@ int main(void) {
     struct Param new_param = {512, 2, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101792,7 +101792,7 @@ int main(void) {
     struct Param new_param = {512, 2, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101805,7 +101805,7 @@ int main(void) {
     struct Param new_param = {512, 2, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101818,7 +101818,7 @@ int main(void) {
     struct Param new_param = {512, 2, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101831,7 +101831,7 @@ int main(void) {
     struct Param new_param = {512, 2, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101844,7 +101844,7 @@ int main(void) {
     struct Param new_param = {512, 2, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101857,7 +101857,7 @@ int main(void) {
     struct Param new_param = {512, 2, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101870,7 +101870,7 @@ int main(void) {
     struct Param new_param = {512, 2, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101883,7 +101883,7 @@ int main(void) {
     struct Param new_param = {512, 4, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101896,7 +101896,7 @@ int main(void) {
     struct Param new_param = {512, 4, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101909,7 +101909,7 @@ int main(void) {
     struct Param new_param = {512, 4, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101922,7 +101922,7 @@ int main(void) {
     struct Param new_param = {512, 4, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101935,7 +101935,7 @@ int main(void) {
     struct Param new_param = {512, 4, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101948,7 +101948,7 @@ int main(void) {
     struct Param new_param = {512, 4, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101961,7 +101961,7 @@ int main(void) {
     struct Param new_param = {512, 4, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101974,7 +101974,7 @@ int main(void) {
     struct Param new_param = {512, 4, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -101987,7 +101987,7 @@ int main(void) {
     struct Param new_param = {512, 4, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102000,7 +102000,7 @@ int main(void) {
     struct Param new_param = {512, 4, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102013,7 +102013,7 @@ int main(void) {
     struct Param new_param = {512, 4, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102026,7 +102026,7 @@ int main(void) {
     struct Param new_param = {512, 4, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102039,7 +102039,7 @@ int main(void) {
     struct Param new_param = {512, 8, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102052,7 +102052,7 @@ int main(void) {
     struct Param new_param = {512, 8, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102065,7 +102065,7 @@ int main(void) {
     struct Param new_param = {512, 8, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102078,7 +102078,7 @@ int main(void) {
     struct Param new_param = {512, 8, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102091,7 +102091,7 @@ int main(void) {
     struct Param new_param = {512, 8, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102104,7 +102104,7 @@ int main(void) {
     struct Param new_param = {512, 8, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102117,7 +102117,7 @@ int main(void) {
     struct Param new_param = {512, 8, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102130,7 +102130,7 @@ int main(void) {
     struct Param new_param = {512, 8, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102143,7 +102143,7 @@ int main(void) {
     struct Param new_param = {512, 8, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102156,7 +102156,7 @@ int main(void) {
     struct Param new_param = {512, 8, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102169,7 +102169,7 @@ int main(void) {
     struct Param new_param = {512, 8, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102182,7 +102182,7 @@ int main(void) {
     struct Param new_param = {512, 8, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102195,7 +102195,7 @@ int main(void) {
     struct Param new_param = {512, 16, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102208,7 +102208,7 @@ int main(void) {
     struct Param new_param = {512, 16, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102221,7 +102221,7 @@ int main(void) {
     struct Param new_param = {512, 16, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102234,7 +102234,7 @@ int main(void) {
     struct Param new_param = {512, 16, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102247,7 +102247,7 @@ int main(void) {
     struct Param new_param = {512, 16, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102260,7 +102260,7 @@ int main(void) {
     struct Param new_param = {512, 16, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102273,7 +102273,7 @@ int main(void) {
     struct Param new_param = {512, 16, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102286,7 +102286,7 @@ int main(void) {
     struct Param new_param = {512, 16, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102299,7 +102299,7 @@ int main(void) {
     struct Param new_param = {512, 16, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102312,7 +102312,7 @@ int main(void) {
     struct Param new_param = {512, 16, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102325,7 +102325,7 @@ int main(void) {
     struct Param new_param = {512, 16, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102338,7 +102338,7 @@ int main(void) {
     struct Param new_param = {512, 16, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102351,7 +102351,7 @@ int main(void) {
     struct Param new_param = {512, 32, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102364,7 +102364,7 @@ int main(void) {
     struct Param new_param = {512, 32, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102377,7 +102377,7 @@ int main(void) {
     struct Param new_param = {512, 32, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102390,7 +102390,7 @@ int main(void) {
     struct Param new_param = {512, 32, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102403,7 +102403,7 @@ int main(void) {
     struct Param new_param = {512, 32, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102416,7 +102416,7 @@ int main(void) {
     struct Param new_param = {512, 32, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102429,7 +102429,7 @@ int main(void) {
     struct Param new_param = {512, 32, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102442,7 +102442,7 @@ int main(void) {
     struct Param new_param = {512, 32, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102455,7 +102455,7 @@ int main(void) {
     struct Param new_param = {512, 32, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102468,7 +102468,7 @@ int main(void) {
     struct Param new_param = {512, 32, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102481,7 +102481,7 @@ int main(void) {
     struct Param new_param = {512, 32, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102494,7 +102494,7 @@ int main(void) {
     struct Param new_param = {512, 32, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102507,7 +102507,7 @@ int main(void) {
     struct Param new_param = {512, 64, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102520,7 +102520,7 @@ int main(void) {
     struct Param new_param = {512, 64, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102533,7 +102533,7 @@ int main(void) {
     struct Param new_param = {512, 64, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102546,7 +102546,7 @@ int main(void) {
     struct Param new_param = {512, 64, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102559,7 +102559,7 @@ int main(void) {
     struct Param new_param = {512, 64, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102572,7 +102572,7 @@ int main(void) {
     struct Param new_param = {512, 64, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102585,7 +102585,7 @@ int main(void) {
     struct Param new_param = {512, 64, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102598,7 +102598,7 @@ int main(void) {
     struct Param new_param = {512, 64, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102611,7 +102611,7 @@ int main(void) {
     struct Param new_param = {512, 64, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102624,7 +102624,7 @@ int main(void) {
     struct Param new_param = {512, 64, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102637,7 +102637,7 @@ int main(void) {
     struct Param new_param = {512, 64, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102650,7 +102650,7 @@ int main(void) {
     struct Param new_param = {512, 64, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102663,7 +102663,7 @@ int main(void) {
     struct Param new_param = {512, 128, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102676,7 +102676,7 @@ int main(void) {
     struct Param new_param = {512, 128, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102689,7 +102689,7 @@ int main(void) {
     struct Param new_param = {512, 128, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102702,7 +102702,7 @@ int main(void) {
     struct Param new_param = {512, 128, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102715,7 +102715,7 @@ int main(void) {
     struct Param new_param = {512, 128, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102728,7 +102728,7 @@ int main(void) {
     struct Param new_param = {512, 128, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102741,7 +102741,7 @@ int main(void) {
     struct Param new_param = {512, 128, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102754,7 +102754,7 @@ int main(void) {
     struct Param new_param = {512, 128, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102767,7 +102767,7 @@ int main(void) {
     struct Param new_param = {512, 128, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102780,7 +102780,7 @@ int main(void) {
     struct Param new_param = {512, 128, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102793,7 +102793,7 @@ int main(void) {
     struct Param new_param = {512, 128, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102806,7 +102806,7 @@ int main(void) {
     struct Param new_param = {512, 128, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102819,7 +102819,7 @@ int main(void) {
     struct Param new_param = {512, 256, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102832,7 +102832,7 @@ int main(void) {
     struct Param new_param = {512, 256, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102845,7 +102845,7 @@ int main(void) {
     struct Param new_param = {512, 256, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102858,7 +102858,7 @@ int main(void) {
     struct Param new_param = {512, 256, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102871,7 +102871,7 @@ int main(void) {
     struct Param new_param = {512, 256, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102884,7 +102884,7 @@ int main(void) {
     struct Param new_param = {512, 256, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102897,7 +102897,7 @@ int main(void) {
     struct Param new_param = {512, 256, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102910,7 +102910,7 @@ int main(void) {
     struct Param new_param = {512, 256, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102923,7 +102923,7 @@ int main(void) {
     struct Param new_param = {512, 256, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102936,7 +102936,7 @@ int main(void) {
     struct Param new_param = {512, 256, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102949,7 +102949,7 @@ int main(void) {
     struct Param new_param = {512, 256, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102962,7 +102962,7 @@ int main(void) {
     struct Param new_param = {512, 256, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102975,7 +102975,7 @@ int main(void) {
     struct Param new_param = {512, 512, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -102988,7 +102988,7 @@ int main(void) {
     struct Param new_param = {512, 512, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103001,7 +103001,7 @@ int main(void) {
     struct Param new_param = {512, 512, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103014,7 +103014,7 @@ int main(void) {
     struct Param new_param = {512, 512, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103027,7 +103027,7 @@ int main(void) {
     struct Param new_param = {512, 512, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103040,7 +103040,7 @@ int main(void) {
     struct Param new_param = {512, 512, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103053,7 +103053,7 @@ int main(void) {
     struct Param new_param = {512, 512, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103066,7 +103066,7 @@ int main(void) {
     struct Param new_param = {512, 512, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103079,7 +103079,7 @@ int main(void) {
     struct Param new_param = {512, 512, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103092,7 +103092,7 @@ int main(void) {
     struct Param new_param = {512, 512, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103105,7 +103105,7 @@ int main(void) {
     struct Param new_param = {512, 512, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103118,7 +103118,7 @@ int main(void) {
     struct Param new_param = {512, 512, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103131,7 +103131,7 @@ int main(void) {
     struct Param new_param = {512, 1024, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103144,7 +103144,7 @@ int main(void) {
     struct Param new_param = {512, 1024, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103157,7 +103157,7 @@ int main(void) {
     struct Param new_param = {512, 1024, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103170,7 +103170,7 @@ int main(void) {
     struct Param new_param = {512, 1024, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103183,7 +103183,7 @@ int main(void) {
     struct Param new_param = {512, 1024, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103196,7 +103196,7 @@ int main(void) {
     struct Param new_param = {512, 1024, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103209,7 +103209,7 @@ int main(void) {
     struct Param new_param = {512, 1024, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103222,7 +103222,7 @@ int main(void) {
     struct Param new_param = {512, 1024, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103235,7 +103235,7 @@ int main(void) {
     struct Param new_param = {512, 1024, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103248,7 +103248,7 @@ int main(void) {
     struct Param new_param = {512, 1024, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103261,7 +103261,7 @@ int main(void) {
     struct Param new_param = {512, 1024, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103274,7 +103274,7 @@ int main(void) {
     struct Param new_param = {512, 1024, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103287,7 +103287,7 @@ int main(void) {
     struct Param new_param = {512, 2048, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103300,7 +103300,7 @@ int main(void) {
     struct Param new_param = {512, 2048, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103313,7 +103313,7 @@ int main(void) {
     struct Param new_param = {512, 2048, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103326,7 +103326,7 @@ int main(void) {
     struct Param new_param = {512, 2048, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103339,7 +103339,7 @@ int main(void) {
     struct Param new_param = {512, 2048, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103352,7 +103352,7 @@ int main(void) {
     struct Param new_param = {512, 2048, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103365,7 +103365,7 @@ int main(void) {
     struct Param new_param = {512, 2048, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103378,7 +103378,7 @@ int main(void) {
     struct Param new_param = {512, 2048, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103391,7 +103391,7 @@ int main(void) {
     struct Param new_param = {512, 2048, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103404,7 +103404,7 @@ int main(void) {
     struct Param new_param = {512, 2048, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103417,7 +103417,7 @@ int main(void) {
     struct Param new_param = {512, 2048, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103430,7 +103430,7 @@ int main(void) {
     struct Param new_param = {512, 2048, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103443,7 +103443,7 @@ int main(void) {
     struct Param new_param = {1024, 1, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103456,7 +103456,7 @@ int main(void) {
     struct Param new_param = {1024, 1, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103469,7 +103469,7 @@ int main(void) {
     struct Param new_param = {1024, 1, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103482,7 +103482,7 @@ int main(void) {
     struct Param new_param = {1024, 1, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103495,7 +103495,7 @@ int main(void) {
     struct Param new_param = {1024, 1, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103508,7 +103508,7 @@ int main(void) {
     struct Param new_param = {1024, 1, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103521,7 +103521,7 @@ int main(void) {
     struct Param new_param = {1024, 1, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103534,7 +103534,7 @@ int main(void) {
     struct Param new_param = {1024, 1, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103547,7 +103547,7 @@ int main(void) {
     struct Param new_param = {1024, 1, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103560,7 +103560,7 @@ int main(void) {
     struct Param new_param = {1024, 1, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103573,7 +103573,7 @@ int main(void) {
     struct Param new_param = {1024, 1, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103586,7 +103586,7 @@ int main(void) {
     struct Param new_param = {1024, 1, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103599,7 +103599,7 @@ int main(void) {
     struct Param new_param = {1024, 2, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103612,7 +103612,7 @@ int main(void) {
     struct Param new_param = {1024, 2, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103625,7 +103625,7 @@ int main(void) {
     struct Param new_param = {1024, 2, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103638,7 +103638,7 @@ int main(void) {
     struct Param new_param = {1024, 2, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103651,7 +103651,7 @@ int main(void) {
     struct Param new_param = {1024, 2, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103664,7 +103664,7 @@ int main(void) {
     struct Param new_param = {1024, 2, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103677,7 +103677,7 @@ int main(void) {
     struct Param new_param = {1024, 2, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103690,7 +103690,7 @@ int main(void) {
     struct Param new_param = {1024, 2, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103703,7 +103703,7 @@ int main(void) {
     struct Param new_param = {1024, 2, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103716,7 +103716,7 @@ int main(void) {
     struct Param new_param = {1024, 2, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103729,7 +103729,7 @@ int main(void) {
     struct Param new_param = {1024, 2, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103742,7 +103742,7 @@ int main(void) {
     struct Param new_param = {1024, 2, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103755,7 +103755,7 @@ int main(void) {
     struct Param new_param = {1024, 4, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103768,7 +103768,7 @@ int main(void) {
     struct Param new_param = {1024, 4, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103781,7 +103781,7 @@ int main(void) {
     struct Param new_param = {1024, 4, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103794,7 +103794,7 @@ int main(void) {
     struct Param new_param = {1024, 4, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103807,7 +103807,7 @@ int main(void) {
     struct Param new_param = {1024, 4, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103820,7 +103820,7 @@ int main(void) {
     struct Param new_param = {1024, 4, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103833,7 +103833,7 @@ int main(void) {
     struct Param new_param = {1024, 4, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103846,7 +103846,7 @@ int main(void) {
     struct Param new_param = {1024, 4, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103859,7 +103859,7 @@ int main(void) {
     struct Param new_param = {1024, 4, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103872,7 +103872,7 @@ int main(void) {
     struct Param new_param = {1024, 4, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103885,7 +103885,7 @@ int main(void) {
     struct Param new_param = {1024, 4, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103898,7 +103898,7 @@ int main(void) {
     struct Param new_param = {1024, 4, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103911,7 +103911,7 @@ int main(void) {
     struct Param new_param = {1024, 8, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103924,7 +103924,7 @@ int main(void) {
     struct Param new_param = {1024, 8, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103937,7 +103937,7 @@ int main(void) {
     struct Param new_param = {1024, 8, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103950,7 +103950,7 @@ int main(void) {
     struct Param new_param = {1024, 8, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103963,7 +103963,7 @@ int main(void) {
     struct Param new_param = {1024, 8, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103976,7 +103976,7 @@ int main(void) {
     struct Param new_param = {1024, 8, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -103989,7 +103989,7 @@ int main(void) {
     struct Param new_param = {1024, 8, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104002,7 +104002,7 @@ int main(void) {
     struct Param new_param = {1024, 8, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104015,7 +104015,7 @@ int main(void) {
     struct Param new_param = {1024, 8, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104028,7 +104028,7 @@ int main(void) {
     struct Param new_param = {1024, 8, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104041,7 +104041,7 @@ int main(void) {
     struct Param new_param = {1024, 8, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104054,7 +104054,7 @@ int main(void) {
     struct Param new_param = {1024, 8, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104067,7 +104067,7 @@ int main(void) {
     struct Param new_param = {1024, 16, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104080,7 +104080,7 @@ int main(void) {
     struct Param new_param = {1024, 16, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104093,7 +104093,7 @@ int main(void) {
     struct Param new_param = {1024, 16, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104106,7 +104106,7 @@ int main(void) {
     struct Param new_param = {1024, 16, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104119,7 +104119,7 @@ int main(void) {
     struct Param new_param = {1024, 16, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104132,7 +104132,7 @@ int main(void) {
     struct Param new_param = {1024, 16, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104145,7 +104145,7 @@ int main(void) {
     struct Param new_param = {1024, 16, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104158,7 +104158,7 @@ int main(void) {
     struct Param new_param = {1024, 16, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104171,7 +104171,7 @@ int main(void) {
     struct Param new_param = {1024, 16, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104184,7 +104184,7 @@ int main(void) {
     struct Param new_param = {1024, 16, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104197,7 +104197,7 @@ int main(void) {
     struct Param new_param = {1024, 16, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104210,7 +104210,7 @@ int main(void) {
     struct Param new_param = {1024, 16, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104223,7 +104223,7 @@ int main(void) {
     struct Param new_param = {1024, 32, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104236,7 +104236,7 @@ int main(void) {
     struct Param new_param = {1024, 32, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104249,7 +104249,7 @@ int main(void) {
     struct Param new_param = {1024, 32, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104262,7 +104262,7 @@ int main(void) {
     struct Param new_param = {1024, 32, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104275,7 +104275,7 @@ int main(void) {
     struct Param new_param = {1024, 32, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104288,7 +104288,7 @@ int main(void) {
     struct Param new_param = {1024, 32, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104301,7 +104301,7 @@ int main(void) {
     struct Param new_param = {1024, 32, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104314,7 +104314,7 @@ int main(void) {
     struct Param new_param = {1024, 32, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104327,7 +104327,7 @@ int main(void) {
     struct Param new_param = {1024, 32, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104340,7 +104340,7 @@ int main(void) {
     struct Param new_param = {1024, 32, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104353,7 +104353,7 @@ int main(void) {
     struct Param new_param = {1024, 32, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104366,7 +104366,7 @@ int main(void) {
     struct Param new_param = {1024, 32, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104379,7 +104379,7 @@ int main(void) {
     struct Param new_param = {1024, 64, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104392,7 +104392,7 @@ int main(void) {
     struct Param new_param = {1024, 64, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104405,7 +104405,7 @@ int main(void) {
     struct Param new_param = {1024, 64, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104418,7 +104418,7 @@ int main(void) {
     struct Param new_param = {1024, 64, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104431,7 +104431,7 @@ int main(void) {
     struct Param new_param = {1024, 64, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104444,7 +104444,7 @@ int main(void) {
     struct Param new_param = {1024, 64, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104457,7 +104457,7 @@ int main(void) {
     struct Param new_param = {1024, 64, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104470,7 +104470,7 @@ int main(void) {
     struct Param new_param = {1024, 64, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104483,7 +104483,7 @@ int main(void) {
     struct Param new_param = {1024, 64, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104496,7 +104496,7 @@ int main(void) {
     struct Param new_param = {1024, 64, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104509,7 +104509,7 @@ int main(void) {
     struct Param new_param = {1024, 64, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104522,7 +104522,7 @@ int main(void) {
     struct Param new_param = {1024, 64, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104535,7 +104535,7 @@ int main(void) {
     struct Param new_param = {1024, 128, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104548,7 +104548,7 @@ int main(void) {
     struct Param new_param = {1024, 128, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104561,7 +104561,7 @@ int main(void) {
     struct Param new_param = {1024, 128, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104574,7 +104574,7 @@ int main(void) {
     struct Param new_param = {1024, 128, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104587,7 +104587,7 @@ int main(void) {
     struct Param new_param = {1024, 128, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104600,7 +104600,7 @@ int main(void) {
     struct Param new_param = {1024, 128, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104613,7 +104613,7 @@ int main(void) {
     struct Param new_param = {1024, 128, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104626,7 +104626,7 @@ int main(void) {
     struct Param new_param = {1024, 128, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104639,7 +104639,7 @@ int main(void) {
     struct Param new_param = {1024, 128, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104652,7 +104652,7 @@ int main(void) {
     struct Param new_param = {1024, 128, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104665,7 +104665,7 @@ int main(void) {
     struct Param new_param = {1024, 128, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104678,7 +104678,7 @@ int main(void) {
     struct Param new_param = {1024, 128, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104691,7 +104691,7 @@ int main(void) {
     struct Param new_param = {1024, 256, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104704,7 +104704,7 @@ int main(void) {
     struct Param new_param = {1024, 256, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104717,7 +104717,7 @@ int main(void) {
     struct Param new_param = {1024, 256, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104730,7 +104730,7 @@ int main(void) {
     struct Param new_param = {1024, 256, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104743,7 +104743,7 @@ int main(void) {
     struct Param new_param = {1024, 256, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104756,7 +104756,7 @@ int main(void) {
     struct Param new_param = {1024, 256, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104769,7 +104769,7 @@ int main(void) {
     struct Param new_param = {1024, 256, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104782,7 +104782,7 @@ int main(void) {
     struct Param new_param = {1024, 256, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104795,7 +104795,7 @@ int main(void) {
     struct Param new_param = {1024, 256, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104808,7 +104808,7 @@ int main(void) {
     struct Param new_param = {1024, 256, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104821,7 +104821,7 @@ int main(void) {
     struct Param new_param = {1024, 256, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104834,7 +104834,7 @@ int main(void) {
     struct Param new_param = {1024, 256, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104847,7 +104847,7 @@ int main(void) {
     struct Param new_param = {1024, 512, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104860,7 +104860,7 @@ int main(void) {
     struct Param new_param = {1024, 512, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104873,7 +104873,7 @@ int main(void) {
     struct Param new_param = {1024, 512, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104886,7 +104886,7 @@ int main(void) {
     struct Param new_param = {1024, 512, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104899,7 +104899,7 @@ int main(void) {
     struct Param new_param = {1024, 512, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104912,7 +104912,7 @@ int main(void) {
     struct Param new_param = {1024, 512, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104925,7 +104925,7 @@ int main(void) {
     struct Param new_param = {1024, 512, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104938,7 +104938,7 @@ int main(void) {
     struct Param new_param = {1024, 512, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104951,7 +104951,7 @@ int main(void) {
     struct Param new_param = {1024, 512, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104964,7 +104964,7 @@ int main(void) {
     struct Param new_param = {1024, 512, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104977,7 +104977,7 @@ int main(void) {
     struct Param new_param = {1024, 512, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -104990,7 +104990,7 @@ int main(void) {
     struct Param new_param = {1024, 512, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105003,7 +105003,7 @@ int main(void) {
     struct Param new_param = {1024, 1024, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105016,7 +105016,7 @@ int main(void) {
     struct Param new_param = {1024, 1024, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105029,7 +105029,7 @@ int main(void) {
     struct Param new_param = {1024, 1024, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105042,7 +105042,7 @@ int main(void) {
     struct Param new_param = {1024, 1024, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105055,7 +105055,7 @@ int main(void) {
     struct Param new_param = {1024, 1024, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105068,7 +105068,7 @@ int main(void) {
     struct Param new_param = {1024, 1024, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105081,7 +105081,7 @@ int main(void) {
     struct Param new_param = {1024, 1024, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105094,7 +105094,7 @@ int main(void) {
     struct Param new_param = {1024, 1024, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105107,7 +105107,7 @@ int main(void) {
     struct Param new_param = {1024, 1024, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105120,7 +105120,7 @@ int main(void) {
     struct Param new_param = {1024, 1024, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105133,7 +105133,7 @@ int main(void) {
     struct Param new_param = {1024, 1024, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105146,7 +105146,7 @@ int main(void) {
     struct Param new_param = {1024, 1024, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105159,7 +105159,7 @@ int main(void) {
     struct Param new_param = {1024, 2048, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105172,7 +105172,7 @@ int main(void) {
     struct Param new_param = {1024, 2048, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105185,7 +105185,7 @@ int main(void) {
     struct Param new_param = {1024, 2048, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105198,7 +105198,7 @@ int main(void) {
     struct Param new_param = {1024, 2048, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105211,7 +105211,7 @@ int main(void) {
     struct Param new_param = {1024, 2048, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105224,7 +105224,7 @@ int main(void) {
     struct Param new_param = {1024, 2048, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105237,7 +105237,7 @@ int main(void) {
     struct Param new_param = {1024, 2048, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105250,7 +105250,7 @@ int main(void) {
     struct Param new_param = {1024, 2048, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105263,7 +105263,7 @@ int main(void) {
     struct Param new_param = {1024, 2048, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105276,7 +105276,7 @@ int main(void) {
     struct Param new_param = {1024, 2048, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105289,7 +105289,7 @@ int main(void) {
     struct Param new_param = {1024, 2048, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105302,7 +105302,7 @@ int main(void) {
     struct Param new_param = {1024, 2048, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105315,7 +105315,7 @@ int main(void) {
     struct Param new_param = {2048, 1, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105328,7 +105328,7 @@ int main(void) {
     struct Param new_param = {2048, 1, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105341,7 +105341,7 @@ int main(void) {
     struct Param new_param = {2048, 1, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105354,7 +105354,7 @@ int main(void) {
     struct Param new_param = {2048, 1, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105367,7 +105367,7 @@ int main(void) {
     struct Param new_param = {2048, 1, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105380,7 +105380,7 @@ int main(void) {
     struct Param new_param = {2048, 1, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105393,7 +105393,7 @@ int main(void) {
     struct Param new_param = {2048, 1, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105406,7 +105406,7 @@ int main(void) {
     struct Param new_param = {2048, 1, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105419,7 +105419,7 @@ int main(void) {
     struct Param new_param = {2048, 1, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105432,7 +105432,7 @@ int main(void) {
     struct Param new_param = {2048, 1, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105445,7 +105445,7 @@ int main(void) {
     struct Param new_param = {2048, 1, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105458,7 +105458,7 @@ int main(void) {
     struct Param new_param = {2048, 1, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105471,7 +105471,7 @@ int main(void) {
     struct Param new_param = {2048, 2, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105484,7 +105484,7 @@ int main(void) {
     struct Param new_param = {2048, 2, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105497,7 +105497,7 @@ int main(void) {
     struct Param new_param = {2048, 2, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105510,7 +105510,7 @@ int main(void) {
     struct Param new_param = {2048, 2, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105523,7 +105523,7 @@ int main(void) {
     struct Param new_param = {2048, 2, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105536,7 +105536,7 @@ int main(void) {
     struct Param new_param = {2048, 2, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105549,7 +105549,7 @@ int main(void) {
     struct Param new_param = {2048, 2, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105562,7 +105562,7 @@ int main(void) {
     struct Param new_param = {2048, 2, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105575,7 +105575,7 @@ int main(void) {
     struct Param new_param = {2048, 2, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105588,7 +105588,7 @@ int main(void) {
     struct Param new_param = {2048, 2, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105601,7 +105601,7 @@ int main(void) {
     struct Param new_param = {2048, 2, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105614,7 +105614,7 @@ int main(void) {
     struct Param new_param = {2048, 2, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105627,7 +105627,7 @@ int main(void) {
     struct Param new_param = {2048, 4, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105640,7 +105640,7 @@ int main(void) {
     struct Param new_param = {2048, 4, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105653,7 +105653,7 @@ int main(void) {
     struct Param new_param = {2048, 4, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105666,7 +105666,7 @@ int main(void) {
     struct Param new_param = {2048, 4, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105679,7 +105679,7 @@ int main(void) {
     struct Param new_param = {2048, 4, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105692,7 +105692,7 @@ int main(void) {
     struct Param new_param = {2048, 4, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105705,7 +105705,7 @@ int main(void) {
     struct Param new_param = {2048, 4, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105718,7 +105718,7 @@ int main(void) {
     struct Param new_param = {2048, 4, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105731,7 +105731,7 @@ int main(void) {
     struct Param new_param = {2048, 4, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105744,7 +105744,7 @@ int main(void) {
     struct Param new_param = {2048, 4, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105757,7 +105757,7 @@ int main(void) {
     struct Param new_param = {2048, 4, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105770,7 +105770,7 @@ int main(void) {
     struct Param new_param = {2048, 4, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105783,7 +105783,7 @@ int main(void) {
     struct Param new_param = {2048, 8, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105796,7 +105796,7 @@ int main(void) {
     struct Param new_param = {2048, 8, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105809,7 +105809,7 @@ int main(void) {
     struct Param new_param = {2048, 8, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105822,7 +105822,7 @@ int main(void) {
     struct Param new_param = {2048, 8, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105835,7 +105835,7 @@ int main(void) {
     struct Param new_param = {2048, 8, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105848,7 +105848,7 @@ int main(void) {
     struct Param new_param = {2048, 8, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105861,7 +105861,7 @@ int main(void) {
     struct Param new_param = {2048, 8, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105874,7 +105874,7 @@ int main(void) {
     struct Param new_param = {2048, 8, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105887,7 +105887,7 @@ int main(void) {
     struct Param new_param = {2048, 8, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105900,7 +105900,7 @@ int main(void) {
     struct Param new_param = {2048, 8, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105913,7 +105913,7 @@ int main(void) {
     struct Param new_param = {2048, 8, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105926,7 +105926,7 @@ int main(void) {
     struct Param new_param = {2048, 8, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105939,7 +105939,7 @@ int main(void) {
     struct Param new_param = {2048, 16, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105952,7 +105952,7 @@ int main(void) {
     struct Param new_param = {2048, 16, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105965,7 +105965,7 @@ int main(void) {
     struct Param new_param = {2048, 16, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105978,7 +105978,7 @@ int main(void) {
     struct Param new_param = {2048, 16, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -105991,7 +105991,7 @@ int main(void) {
     struct Param new_param = {2048, 16, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106004,7 +106004,7 @@ int main(void) {
     struct Param new_param = {2048, 16, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106017,7 +106017,7 @@ int main(void) {
     struct Param new_param = {2048, 16, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106030,7 +106030,7 @@ int main(void) {
     struct Param new_param = {2048, 16, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106043,7 +106043,7 @@ int main(void) {
     struct Param new_param = {2048, 16, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106056,7 +106056,7 @@ int main(void) {
     struct Param new_param = {2048, 16, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106069,7 +106069,7 @@ int main(void) {
     struct Param new_param = {2048, 16, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106082,7 +106082,7 @@ int main(void) {
     struct Param new_param = {2048, 16, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106095,7 +106095,7 @@ int main(void) {
     struct Param new_param = {2048, 32, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106108,7 +106108,7 @@ int main(void) {
     struct Param new_param = {2048, 32, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106121,7 +106121,7 @@ int main(void) {
     struct Param new_param = {2048, 32, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106134,7 +106134,7 @@ int main(void) {
     struct Param new_param = {2048, 32, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106147,7 +106147,7 @@ int main(void) {
     struct Param new_param = {2048, 32, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106160,7 +106160,7 @@ int main(void) {
     struct Param new_param = {2048, 32, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106173,7 +106173,7 @@ int main(void) {
     struct Param new_param = {2048, 32, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106186,7 +106186,7 @@ int main(void) {
     struct Param new_param = {2048, 32, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106199,7 +106199,7 @@ int main(void) {
     struct Param new_param = {2048, 32, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106212,7 +106212,7 @@ int main(void) {
     struct Param new_param = {2048, 32, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106225,7 +106225,7 @@ int main(void) {
     struct Param new_param = {2048, 32, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106238,7 +106238,7 @@ int main(void) {
     struct Param new_param = {2048, 32, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106251,7 +106251,7 @@ int main(void) {
     struct Param new_param = {2048, 64, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106264,7 +106264,7 @@ int main(void) {
     struct Param new_param = {2048, 64, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106277,7 +106277,7 @@ int main(void) {
     struct Param new_param = {2048, 64, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106290,7 +106290,7 @@ int main(void) {
     struct Param new_param = {2048, 64, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106303,7 +106303,7 @@ int main(void) {
     struct Param new_param = {2048, 64, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106316,7 +106316,7 @@ int main(void) {
     struct Param new_param = {2048, 64, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106329,7 +106329,7 @@ int main(void) {
     struct Param new_param = {2048, 64, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106342,7 +106342,7 @@ int main(void) {
     struct Param new_param = {2048, 64, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106355,7 +106355,7 @@ int main(void) {
     struct Param new_param = {2048, 64, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106368,7 +106368,7 @@ int main(void) {
     struct Param new_param = {2048, 64, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106381,7 +106381,7 @@ int main(void) {
     struct Param new_param = {2048, 64, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106394,7 +106394,7 @@ int main(void) {
     struct Param new_param = {2048, 64, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106407,7 +106407,7 @@ int main(void) {
     struct Param new_param = {2048, 128, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106420,7 +106420,7 @@ int main(void) {
     struct Param new_param = {2048, 128, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106433,7 +106433,7 @@ int main(void) {
     struct Param new_param = {2048, 128, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106446,7 +106446,7 @@ int main(void) {
     struct Param new_param = {2048, 128, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106459,7 +106459,7 @@ int main(void) {
     struct Param new_param = {2048, 128, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106472,7 +106472,7 @@ int main(void) {
     struct Param new_param = {2048, 128, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106485,7 +106485,7 @@ int main(void) {
     struct Param new_param = {2048, 128, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106498,7 +106498,7 @@ int main(void) {
     struct Param new_param = {2048, 128, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106511,7 +106511,7 @@ int main(void) {
     struct Param new_param = {2048, 128, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106524,7 +106524,7 @@ int main(void) {
     struct Param new_param = {2048, 128, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106537,7 +106537,7 @@ int main(void) {
     struct Param new_param = {2048, 128, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106550,7 +106550,7 @@ int main(void) {
     struct Param new_param = {2048, 128, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106563,7 +106563,7 @@ int main(void) {
     struct Param new_param = {2048, 256, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106576,7 +106576,7 @@ int main(void) {
     struct Param new_param = {2048, 256, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106589,7 +106589,7 @@ int main(void) {
     struct Param new_param = {2048, 256, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106602,7 +106602,7 @@ int main(void) {
     struct Param new_param = {2048, 256, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106615,7 +106615,7 @@ int main(void) {
     struct Param new_param = {2048, 256, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106628,7 +106628,7 @@ int main(void) {
     struct Param new_param = {2048, 256, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106641,7 +106641,7 @@ int main(void) {
     struct Param new_param = {2048, 256, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106654,7 +106654,7 @@ int main(void) {
     struct Param new_param = {2048, 256, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106667,7 +106667,7 @@ int main(void) {
     struct Param new_param = {2048, 256, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106680,7 +106680,7 @@ int main(void) {
     struct Param new_param = {2048, 256, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106693,7 +106693,7 @@ int main(void) {
     struct Param new_param = {2048, 256, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106706,7 +106706,7 @@ int main(void) {
     struct Param new_param = {2048, 256, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106719,7 +106719,7 @@ int main(void) {
     struct Param new_param = {2048, 512, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106732,7 +106732,7 @@ int main(void) {
     struct Param new_param = {2048, 512, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106745,7 +106745,7 @@ int main(void) {
     struct Param new_param = {2048, 512, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106758,7 +106758,7 @@ int main(void) {
     struct Param new_param = {2048, 512, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106771,7 +106771,7 @@ int main(void) {
     struct Param new_param = {2048, 512, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106784,7 +106784,7 @@ int main(void) {
     struct Param new_param = {2048, 512, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106797,7 +106797,7 @@ int main(void) {
     struct Param new_param = {2048, 512, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106810,7 +106810,7 @@ int main(void) {
     struct Param new_param = {2048, 512, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106823,7 +106823,7 @@ int main(void) {
     struct Param new_param = {2048, 512, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106836,7 +106836,7 @@ int main(void) {
     struct Param new_param = {2048, 512, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106849,7 +106849,7 @@ int main(void) {
     struct Param new_param = {2048, 512, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106862,7 +106862,7 @@ int main(void) {
     struct Param new_param = {2048, 512, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106875,7 +106875,7 @@ int main(void) {
     struct Param new_param = {2048, 1024, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106888,7 +106888,7 @@ int main(void) {
     struct Param new_param = {2048, 1024, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106901,7 +106901,7 @@ int main(void) {
     struct Param new_param = {2048, 1024, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106914,7 +106914,7 @@ int main(void) {
     struct Param new_param = {2048, 1024, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106927,7 +106927,7 @@ int main(void) {
     struct Param new_param = {2048, 1024, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106940,7 +106940,7 @@ int main(void) {
     struct Param new_param = {2048, 1024, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106953,7 +106953,7 @@ int main(void) {
     struct Param new_param = {2048, 1024, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106966,7 +106966,7 @@ int main(void) {
     struct Param new_param = {2048, 1024, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106979,7 +106979,7 @@ int main(void) {
     struct Param new_param = {2048, 1024, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -106992,7 +106992,7 @@ int main(void) {
     struct Param new_param = {2048, 1024, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -107005,7 +107005,7 @@ int main(void) {
     struct Param new_param = {2048, 1024, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -107018,7 +107018,7 @@ int main(void) {
     struct Param new_param = {2048, 1024, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -107031,7 +107031,7 @@ int main(void) {
     struct Param new_param = {2048, 2048, 1};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -107044,7 +107044,7 @@ int main(void) {
     struct Param new_param = {2048, 2048, 2};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -107057,7 +107057,7 @@ int main(void) {
     struct Param new_param = {2048, 2048, 4};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -107070,7 +107070,7 @@ int main(void) {
     struct Param new_param = {2048, 2048, 8};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -107083,7 +107083,7 @@ int main(void) {
     struct Param new_param = {2048, 2048, 16};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -107096,7 +107096,7 @@ int main(void) {
     struct Param new_param = {2048, 2048, 32};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -107109,7 +107109,7 @@ int main(void) {
     struct Param new_param = {2048, 2048, 64};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -107122,7 +107122,7 @@ int main(void) {
     struct Param new_param = {2048, 2048, 128};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -107135,7 +107135,7 @@ int main(void) {
     struct Param new_param = {2048, 2048, 256};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -107148,7 +107148,7 @@ int main(void) {
     struct Param new_param = {2048, 2048, 512};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -107161,7 +107161,7 @@ int main(void) {
     struct Param new_param = {2048, 2048, 1024};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
@@ -107174,11 +107174,11 @@ int main(void) {
     struct Param new_param = {2048, 2048, 2048};
     min_param = new_param;
   }
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
-  tee("Best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\n",
+  tee("Best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 

@@ -110,13 +110,13 @@ kernel_call = """
     struct Param new_param = {{{mc}, {nc}, {kc}}};
     min_param = new_param;
   }}
-  tee("Current best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\\n\\n",
+  tee("Current best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\\n\\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 """
 
 main_epilogue = """
-  tee("Best parameters: (nc: %d, kc: %d, mc: %d): %lds %ldns\\n",
+  tee("Best params: (nc: %d, kc: %d, mc: %d): %lds %ldns\\n",
       min_param.nc, min_param.kc, min_param.mc, min_time.tv_sec,
       min_time.tv_nsec);
 
