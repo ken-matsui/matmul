@@ -83,7 +83,7 @@ kernel_call = """
       (avg_time.tv_sec == min_time.tv_sec &&
         avg_time.tv_nsec < min_time.tv_nsec)) {{
     min_time = avg_time;
-    struct Param new_param = {{1, 1, 1}};
+    struct Param new_param = {{{mc}, {nc}, {kc}}};
     min_param = new_param;
   }}
 """
