@@ -22,9 +22,28 @@ HEADERS = Bench.h
 OBJS = $(SRCS:.c=.o)
 
 # Executable files
-EXECS = naive_run naive_bench blis_run blis_bench blis_autotune blis_old_bench gemm_run gemm_autotune
+EXECS = naive_run naive_bench blis_run blis_bench blis_autotune gemm_run gemm_autotune
 
 all: $(EXECS)
+
+# Used for CI
+test: naive_run blis_run gemm_run
+	./naive_run
+	./blis_run
+	./gemm_run
+	diff -s --brief naive.txt blis.txt
+	diff -s --brief naive.txt gemm.txt
+check: naive_run blis_run gemm_run morello_run
+	./naive_run
+	./blis_run
+	./gemm_run
+	./morello_run
+	diff -s --brief naive.txt blis.txt
+	diff -s --brief naive.txt gemm.txt
+	diff -s --brief naive.txt morello.txt
+
+clean:
+	rm -f *.o $(EXECS) morello_run morello_bench Naive.h Blis.c Blis.h blis_autotune.c Gemm.c gemm_autotune.c Gemm.h
 
 $(OBJS): $(SRCS) $(HEADERS)
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
@@ -71,16 +90,6 @@ Blis.o: Blis.c Blis.h
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
 
 
-blis_old_bench: blis_old_bench.o BlisOld.o $(OBJS)
-	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< BlisOld.o $(OBJS)
-
-blis_old_bench.o: blis_old_bench.c BlisOld.h $(HEADERS)
-	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
-
-BlisOld.o: BlisOld.c BlisOld.h
-	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
-
-
 gemm_run: gemm_run.o Gemm.o
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< Gemm.o
 
@@ -113,21 +122,11 @@ morello_%.o: morello_%.c
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
 
 
-# Used for CI
-test: naive_run blis_run gemm_run
-	./naive_run
-	./blis_run
-	./gemm_run
-	diff -s --brief naive.txt blis.txt
-	diff -s --brief naive.txt gemm.txt
-check: naive_run blis_run gemm_run morello_run
-	./naive_run
-	./blis_run
-	./gemm_run
-	./morello_run
-	diff -s --brief naive.txt blis.txt
-	diff -s --brief naive.txt gemm.txt
-	diff -s --brief naive.txt morello.txt
+blis_old_bench: blis_old_bench.o BlisOld.o $(OBJS)
+	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< BlisOld.o $(OBJS)
 
-clean:
-	rm -f *.o $(EXECS) morello_run morello_bench Naive.h Blis.c Blis.h blis_autotune.c Gemm.c gemm_autotune.c Gemm.h
+blis_old_bench.o: blis_old_bench.c BlisOld.h $(HEADERS)
+	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
+
+BlisOld.o: BlisOld.c BlisOld.h
+	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
