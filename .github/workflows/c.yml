@@ -44,4 +44,4 @@ jobs:
           - 12 # 2^12 = 4096
     steps:
       - uses: actions/checkout@v3
-      - run: make test SIZE='${{ matrix.size }}'
+      - run: make check SIZE='${{ matrix.size }}'
