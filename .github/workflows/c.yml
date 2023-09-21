@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v3
       - run: make
 
-  test:
+  test_block:
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
@@ -44,4 +44,41 @@ jobs:
           - 12 # 2^12 = 4096
     steps:
       - uses: actions/checkout@v3
-      - run: make test SIZE='${{ matrix.size }}'
+      - run: make check_block SIZE='${{ matrix.size }}'
+
+  test_pack:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - macos-11
+          - macos-12
+          - macos-13
+          - ubuntu-20.04
+          - ubuntu-22.04
+        size:
+          - 7 # 2^7 = 128
+          - 8 # 2^8 = 256
+          - 9 # 2^9 = 512
+          - 10 # 2^10 = 1024
+          - 11 # 2^11 = 2048
+          - 12 # 2^12 = 4096
+    steps:
+      - uses: actions/checkout@v3
+      - run: make check_pack SIZE='${{ matrix.size }}'
+
+  test_morello:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - macos-11
+          - macos-12
+          - macos-13
+          - ubuntu-20.04
+          - ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - run: make check_morello

@@ -26,20 +26,18 @@ EXECS = naive_run naive_bench block_run block_autotune pack_run pack_bench pack_
 
 all: $(EXECS)
 
-# Used for CI
-test: naive_run block_run pack_run
+check: run_naive check_block check_pack check_morello
+
+run_naive: naive_run
 	./naive_run
+check_block: block_run run_naive
 	./block_run
-	./pack_run
 	diff -s --brief naive.txt block.txt
-	diff -s --brief naive.txt pack.txt
-check: naive_run block_run pack_run morello_run
-	./naive_run
-	./block_run
+check_pack: pack_run run_naive
 	./pack_run
+	diff -s --brief naive.txt pack.txt
+check_morello: morello_run run_naive
 	./morello_run
-	diff -s --brief naive.txt block.txt
-	diff -s --brief naive.txt pack.txt
 	diff -s --brief naive.txt morello.txt
 
 clean:
