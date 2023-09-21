@@ -21,8 +21,6 @@
 #error "BYTE_ORDER is not defined"
 #endif
 
-#include <arm_neon.h>
-
 struct timespec ts_diff(struct timespec start, struct timespec end) {
   struct timespec temp;
   if ((end.tv_nsec - start.tv_nsec) < 0) {
