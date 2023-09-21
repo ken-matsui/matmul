@@ -125,7 +125,6 @@ int main(int argc, char *argv[]) {
     return 1;
   }
 
-  // Inlined kernel follows. This is for warm-up.
   kernel(aq + (0), ar + (0), as + (0));
 
   // Write the result to morello.txt
@@ -137,17 +136,6 @@ int main(int argc, char *argv[]) {
     fprintf(fp, "\n");
   }
   fclose(fp);
-
-  //   struct timespec start, end;
-  //   clock_gettime(CLOCK_MONOTONIC, &start);
-  // #pragma clang loop unroll(disable)
-  //   for (unsigned long bench_itr = 0; bench_itr < 4UL; ++bench_itr) {
-  //     kernel(aq + (0), ar + (0), as + (0));
-  //   }
-  //   clock_gettime(CLOCK_MONOTONIC, &end);
-  //   struct timespec delta = ts_diff(start, end);
-  //   printf("cpu: %llds %lldns\n", (long long)delta.tv_sec,
-  //          (long long)delta.tv_nsec);
 
   free(aq);
   free(ar);
