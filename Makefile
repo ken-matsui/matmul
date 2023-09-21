@@ -26,6 +26,9 @@ EXECS = naive_run naive_bench block_run block_autotune pack_run pack_bench pack_
 
 all: $(EXECS)
 
+clean:
+	rm -f *.o $(EXECS) blis_old_bench morello_run morello_bench Naive.h Block.c block_autotune.c Block.h Pack.c Pack.h pack_autotune.c
+
 check: run_naive check_block check_pack check_morello
 
 run_naive: naive_run
@@ -39,9 +42,6 @@ check_pack: pack_run run_naive
 check_morello: morello_run run_naive
 	./morello_run
 	diff -s --brief naive.txt morello.txt
-
-clean:
-	rm -f *.o $(EXECS) blis_old_bench morello_run morello_bench Naive.h Block.c block_autotune.c Block.h Pack.c Pack.h pack_autotune.c
 
 $(OBJS): $(SRCS) $(HEADERS)
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@
