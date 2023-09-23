@@ -1,0 +1,5185 @@
+(mc: 1, nc: 1, kc: 1): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1, kc: 2): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1, kc: 4): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1, kc: 8): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1, kc: 16): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1, kc: 32): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1, kc: 64): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1, kc: 128): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1, kc: 256): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1, kc: 512): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1, kc: 1024): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1, kc: 2048): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2, kc: 1): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2, kc: 2): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2, kc: 4): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2, kc: 8): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2, kc: 16): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2, kc: 32): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2, kc: 64): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2, kc: 128): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2, kc: 256): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2, kc: 512): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2, kc: 1024): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2, kc: 2048): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 4, kc: 1): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 4, kc: 2): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 4, kc: 4): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 4, kc: 8): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 4, kc: 16): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 4, kc: 32): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 4, kc: 64): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 4, kc: 128): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 4, kc: 256): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 4, kc: 512): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 4, kc: 1024): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 4, kc: 2048): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 8, kc: 1): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 8, kc: 2): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 8, kc: 4): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 8, kc: 8): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 8, kc: 16): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 8, kc: 32): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 8, kc: 64): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 8, kc: 128): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 8, kc: 256): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 8, kc: 512): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 8, kc: 1024): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 8, kc: 2048): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 16, kc: 1): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 16, kc: 2): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 16, kc: 4): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 16, kc: 8): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 16, kc: 16): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 16, kc: 32): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 16, kc: 64): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 16, kc: 128): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 16, kc: 256): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 16, kc: 512): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 16, kc: 1024): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 16, kc: 2048): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 32, kc: 1): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 32, kc: 2): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 32, kc: 4): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 32, kc: 8): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 32, kc: 16): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 32, kc: 32): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 32, kc: 64): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 32, kc: 128): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 32, kc: 256): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 32, kc: 512): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 32, kc: 1024): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 32, kc: 2048): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 64, kc: 1): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 64, kc: 2): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 64, kc: 4): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 64, kc: 8): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 64, kc: 16): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 64, kc: 32): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 64, kc: 64): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 64, kc: 128): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 64, kc: 256): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 64, kc: 512): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 64, kc: 1024): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 64, kc: 2048): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 128, kc: 1): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 128, kc: 2): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 128, kc: 4): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 128, kc: 8): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 128, kc: 16): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 128, kc: 32): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 128, kc: 64): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 128, kc: 128): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 128, kc: 256): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 128, kc: 512): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 128, kc: 1024): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 128, kc: 2048): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 256, kc: 1): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 256, kc: 2): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 256, kc: 4): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 256, kc: 8): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 256, kc: 16): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 256, kc: 32): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 256, kc: 64): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 256, kc: 128): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 256, kc: 256): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 256, kc: 512): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 256, kc: 1024): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 256, kc: 2048): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 512, kc: 1): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 512, kc: 2): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 512, kc: 4): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 512, kc: 8): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 512, kc: 16): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 512, kc: 32): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 512, kc: 64): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 512, kc: 128): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 512, kc: 256): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 512, kc: 512): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 512, kc: 1024): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 512, kc: 2048): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1024, kc: 1): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1024, kc: 2): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1024, kc: 4): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1024, kc: 8): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1024, kc: 16): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1024, kc: 32): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1024, kc: 64): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1024, kc: 128): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1024, kc: 256): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1024, kc: 512): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1024, kc: 1024): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 1024, kc: 2048): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2048, kc: 1): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2048, kc: 2): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2048, kc: 4): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2048, kc: 8): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2048, kc: 16): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2048, kc: 32): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2048, kc: 64): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2048, kc: 128): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2048, kc: 256): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2048, kc: 512): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2048, kc: 1024): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 1, nc: 2048, kc: 2048): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 1, kc: 1): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 1, kc: 2): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 1, kc: 4): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 1, kc: 8): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 1, kc: 16): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 1, kc: 32): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 1, kc: 64): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 1, kc: 128): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 1, kc: 256): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 1, kc: 512): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 1, kc: 1024): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 1, kc: 2048): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 2, kc: 1): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 2, kc: 2): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 2, kc: 4): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 2, kc: 8): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 2, kc: 16): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 2, kc: 32): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 2, kc: 64): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 2, kc: 128): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 2, kc: 256): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 2, kc: 512): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 2, kc: 1024): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 2, kc: 2048): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 4, kc: 1): Cannot schedule.
+Current best params: (mc: 0, nc: 0, kc: 0): 1000000000s 000000000ns
+
+(mc: 2, nc: 4, kc: 2): ave. 0s 140160944ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 4, kc: 4): ave. 2s 878484666ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 4, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 4, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 4, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 4, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 4, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 4, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 4, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 4, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 4, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 8, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 8, kc: 2): ave. 2s 873969333ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 8, kc: 4): ave. 2s 863054000ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 8, kc: 8): ave. 0s 569633200ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 8, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 8, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 8, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 8, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 8, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 8, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 8, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 8, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 16, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 16, kc: 2): ave. 2s 892814333ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 16, kc: 4): ave. 2s 912334666ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 16, kc: 8): ave. 0s 602269200ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 16, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 16, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 16, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 16, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 16, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 16, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 16, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 16, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 32, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 32, kc: 2): ave. 2s 943103333ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 32, kc: 4): ave. 2s 875823666ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 32, kc: 8): ave. 0s 592806800ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 32, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 32, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 32, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 32, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 32, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 32, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 32, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 32, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 64, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 64, kc: 2): ave. 4s 138946333ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 64, kc: 4): ave. 2s 905462666ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 64, kc: 8): ave. 0s 636885000ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 64, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 64, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 64, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 64, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 64, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 64, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 64, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 64, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 128, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 128, kc: 2): ave. 11s 245237666ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 128, kc: 4): ave. 2s 894484333ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 128, kc: 8): ave. 0s 668798750ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 128, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 128, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 128, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 128, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 128, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 128, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 128, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 128, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 256, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 256, kc: 2): ave. 11s 231424333ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 256, kc: 4): ave. 2s 882300666ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 256, kc: 8): ave. 0s 664832500ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 256, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 256, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 256, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 256, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 256, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 256, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 256, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 256, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 512, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 512, kc: 2): ave. 11s 250676333ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 512, kc: 4): ave. 2s 880796666ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 512, kc: 8): ave. 0s 667975250ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 512, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 512, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 512, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 512, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 512, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 512, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 512, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 512, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 1024, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 1024, kc: 2): ave. 11s 140990000ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 1024, kc: 4): ave. 2s 880927000ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 1024, kc: 8): ave. 0s 667967000ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 1024, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 1024, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 1024, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 1024, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 1024, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 1024, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 1024, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 1024, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 2048, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 2048, kc: 2): ave. 11s 044506000ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 2048, kc: 4): ave. 2s 901059666ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 2048, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 2048, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 2048, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 2048, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 2048, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 2048, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 2048, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 2048, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2, nc: 2048, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 4, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 4, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 4, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 4, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 4, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 4, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 4, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 4, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 4, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 4, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 4, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 4, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 8, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 8, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 8, kc: 4): ave. 2s 904662333ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 8, kc: 8): ave. 0s 736082000ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 8, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 8, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 8, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 8, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 8, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 8, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 8, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 8, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 16, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 16, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 16, kc: 4): ave. 2s 914311333ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 16, kc: 8): ave. 0s 737108750ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 16, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 16, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 16, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 16, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 16, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 16, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 16, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 16, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 32, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 32, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 32, kc: 4): ave. 2s 884027666ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 32, kc: 8): ave. 0s 746205500ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 32, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 32, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 32, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 32, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 32, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 32, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 32, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 32, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 64, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 64, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 64, kc: 4): ave. 2s 918772666ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 64, kc: 8): ave. 0s 789593750ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 64, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 64, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 64, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 64, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 64, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 64, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 64, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 64, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 128, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 128, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 128, kc: 4): ave. 2s 916201666ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 128, kc: 8): ave. 0s 893283333ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 128, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 128, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 128, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 128, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 128, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 128, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 128, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 128, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 256, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 256, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 256, kc: 4): ave. 2s 913588666ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 256, kc: 8): ave. 0s 845405000ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 256, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 256, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 256, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 256, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 256, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 256, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 256, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 256, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 512, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 512, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 512, kc: 4): ave. 2s 922710000ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 512, kc: 8): ave. 0s 851531333ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 512, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 512, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 512, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 512, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 512, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 512, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 512, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 512, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1024, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1024, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1024, kc: 4): ave. 2s 957081333ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1024, kc: 8): ave. 0s 848469333ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1024, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1024, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1024, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1024, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1024, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1024, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1024, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 1024, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2048, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2048, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2048, kc: 4): ave. 2s 921131000ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2048, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2048, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2048, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2048, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2048, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2048, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2048, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2048, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 4, nc: 2048, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 4, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 4, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 4, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 4, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 4, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 4, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 4, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 4, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 4, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 4, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 4, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 4, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 8, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 8, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 8, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 8, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 8, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 8, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 8, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 8, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 8, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 8, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 8, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 8, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 16, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 16, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 16, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 16, kc: 8): ave. 0s 234347090ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 16, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 16, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 16, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 16, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 16, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 16, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 16, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 16, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 32, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 32, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 32, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 32, kc: 8): ave. 0s 242884545ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 32, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 32, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 32, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 32, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 32, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 32, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 32, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 32, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 64, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 64, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 64, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 64, kc: 8): ave. 0s 373690428ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 64, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 64, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 64, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 64, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 64, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 64, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 64, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 64, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 128, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 128, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 128, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 128, kc: 8): ave. 0s 397628142ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 128, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 128, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 128, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 128, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 128, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 128, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 128, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 128, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 256, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 256, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 256, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 256, kc: 8): ave. 0s 400649428ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 256, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 256, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 256, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 256, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 256, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 256, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 256, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 256, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 512, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 512, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 512, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 512, kc: 8): ave. 0s 402953571ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 512, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 512, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 512, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 512, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 512, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 512, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 512, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 512, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1024, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1024, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1024, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1024, kc: 8): ave. 0s 397943571ns
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1024, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1024, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1024, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1024, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1024, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1024, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1024, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 1024, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2048, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2048, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2048, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2048, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2048, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2048, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2048, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2048, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2048, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2048, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2048, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 8, nc: 2048, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 4, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 4, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 4, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 4, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 4, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 4, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 4, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 4, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 4, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 4, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 4, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 4, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 8, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 8, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 8, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 8, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 8, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 8, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 8, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 8, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 8, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 8, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 8, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 8, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 16, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 16, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 16, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 16, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 16, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 16, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 16, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 16, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 16, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 16, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 16, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 16, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 32, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 32, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 32, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 32, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 32, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 32, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 32, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 32, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 32, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 32, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 32, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 32, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 64, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 64, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 64, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 64, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 64, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 64, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 64, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 64, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 64, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 64, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 64, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 64, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 128, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 128, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 128, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 128, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 128, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 128, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 128, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 128, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 128, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 128, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 128, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 128, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 256, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 256, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 256, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 256, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 256, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 256, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 256, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 256, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 256, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 256, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 256, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 256, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 512, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 512, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 512, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 512, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 512, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 512, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 512, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 512, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 512, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 512, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 512, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 512, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1024, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1024, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1024, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1024, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1024, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1024, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1024, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1024, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1024, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1024, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1024, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 1024, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2048, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2048, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2048, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2048, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2048, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2048, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2048, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2048, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2048, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2048, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2048, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 16, nc: 2048, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 4, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 4, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 4, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 4, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 4, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 4, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 4, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 4, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 4, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 4, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 4, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 4, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 8, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 8, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 8, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 8, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 8, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 8, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 8, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 8, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 8, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 8, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 8, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 8, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 16, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 16, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 16, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 16, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 16, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 16, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 16, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 16, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 16, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 16, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 16, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 16, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 32, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 32, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 32, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 32, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 32, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 32, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 32, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 32, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 32, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 32, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 32, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 32, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 64, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 64, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 64, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 64, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 64, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 64, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 64, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 64, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 64, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 64, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 64, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 64, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 128, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 128, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 128, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 128, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 128, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 128, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 128, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 128, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 128, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 128, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 128, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 128, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 256, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 256, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 256, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 256, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 256, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 256, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 256, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 256, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 256, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 256, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 256, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 256, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 512, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 512, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 512, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 512, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 512, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 512, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 512, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 512, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 512, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 512, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 512, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 512, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1024, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1024, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1024, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1024, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1024, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1024, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1024, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1024, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1024, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1024, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1024, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 1024, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2048, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2048, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2048, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2048, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2048, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2048, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2048, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2048, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2048, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2048, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2048, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 32, nc: 2048, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 4, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 4, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 4, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 4, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 4, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 4, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 4, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 4, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 4, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 4, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 4, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 4, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 8, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 8, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 8, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 8, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 8, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 8, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 8, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 8, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 8, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 8, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 8, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 8, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 16, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 16, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 16, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 16, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 16, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 16, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 16, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 16, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 16, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 16, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 16, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 16, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 32, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 32, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 32, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 32, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 32, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 32, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 32, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 32, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 32, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 32, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 32, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 32, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 64, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 64, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 64, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 64, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 64, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 64, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 64, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 64, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 64, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 64, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 64, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 64, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 128, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 128, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 128, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 128, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 128, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 128, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 128, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 128, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 128, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 128, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 128, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 128, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 256, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 256, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 256, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 256, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 256, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 256, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 256, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 256, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 256, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 256, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 256, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 256, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 512, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 512, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 512, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 512, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 512, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 512, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 512, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 512, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 512, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 512, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 512, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 512, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1024, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1024, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1024, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1024, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1024, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1024, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1024, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1024, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1024, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1024, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1024, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 1024, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2048, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2048, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2048, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2048, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2048, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2048, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2048, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2048, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2048, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2048, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2048, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 64, nc: 2048, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 4, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 4, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 4, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 4, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 4, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 4, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 4, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 4, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 4, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 4, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 4, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 4, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 8, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 8, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 8, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 8, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 8, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 8, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 8, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 8, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 8, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 8, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 8, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 8, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 16, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 16, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 16, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 16, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 16, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 16, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 16, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 16, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 16, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 16, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 16, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 16, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 32, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 32, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 32, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 32, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 32, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 32, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 32, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 32, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 32, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 32, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 32, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 32, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 64, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 64, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 64, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 64, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 64, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 64, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 64, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 64, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 64, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 64, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 64, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 64, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 128, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 128, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 128, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 128, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 128, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 128, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 128, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 128, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 128, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 128, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 128, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 128, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 256, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 256, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 256, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 256, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 256, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 256, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 256, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 256, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 256, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 256, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 256, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 256, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 512, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 512, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 512, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 512, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 512, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 512, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 512, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 512, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 512, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 512, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 512, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 512, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1024, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1024, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1024, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1024, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1024, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1024, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1024, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1024, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1024, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1024, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1024, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 1024, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2048, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2048, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2048, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2048, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2048, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2048, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2048, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2048, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2048, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2048, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2048, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 128, nc: 2048, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 4, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 4, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 4, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 4, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 4, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 4, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 4, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 4, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 4, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 4, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 4, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 4, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 8, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 8, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 8, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 8, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 8, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 8, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 8, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 8, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 8, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 8, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 8, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 8, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 16, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 16, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 16, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 16, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 16, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 16, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 16, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 16, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 16, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 16, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 16, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 16, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 32, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 32, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 32, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 32, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 32, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 32, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 32, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 32, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 32, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 32, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 32, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 32, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 64, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 64, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 64, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 64, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 64, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 64, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 64, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 64, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 64, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 64, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 64, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 64, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 128, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 128, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 128, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 128, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 128, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 128, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 128, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 128, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 128, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 128, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 128, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 128, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 256, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 256, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 256, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 256, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 256, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 256, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 256, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 256, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 256, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 256, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 256, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 256, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 512, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 512, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 512, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 512, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 512, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 512, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 512, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 512, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 512, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 512, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 512, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 512, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1024, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1024, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1024, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1024, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1024, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1024, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1024, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1024, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1024, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1024, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1024, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 1024, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2048, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2048, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2048, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2048, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2048, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2048, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2048, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2048, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2048, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2048, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2048, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 256, nc: 2048, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 4, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 4, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 4, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 4, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 4, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 4, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 4, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 4, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 4, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 4, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 4, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 4, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 8, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 8, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 8, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 8, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 8, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 8, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 8, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 8, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 8, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 8, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 8, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 8, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 16, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 16, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 16, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 16, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 16, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 16, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 16, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 16, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 16, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 16, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 16, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 16, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 32, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 32, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 32, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 32, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 32, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 32, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 32, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 32, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 32, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 32, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 32, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 32, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 64, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 64, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 64, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 64, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 64, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 64, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 64, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 64, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 64, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 64, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 64, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 64, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 128, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 128, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 128, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 128, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 128, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 128, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 128, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 128, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 128, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 128, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 128, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 128, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 256, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 256, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 256, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 256, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 256, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 256, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 256, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 256, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 256, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 256, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 256, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 256, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 512, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 512, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 512, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 512, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 512, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 512, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 512, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 512, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 512, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 512, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 512, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 512, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1024, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1024, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1024, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1024, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1024, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1024, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1024, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1024, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1024, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1024, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1024, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 1024, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2048, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2048, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2048, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2048, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2048, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2048, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2048, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2048, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2048, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2048, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2048, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 512, nc: 2048, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 4, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 4, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 4, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 4, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 4, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 4, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 4, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 4, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 4, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 4, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 4, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 4, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 8, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 8, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 8, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 8, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 8, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 8, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 8, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 8, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 8, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 8, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 8, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 8, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 16, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 16, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 16, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 16, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 16, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 16, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 16, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 16, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 16, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 16, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 16, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 16, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 32, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 32, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 32, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 32, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 32, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 32, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 32, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 32, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 32, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 32, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 32, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 32, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 64, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 64, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 64, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 64, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 64, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 64, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 64, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 64, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 64, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 64, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 64, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 64, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 128, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 128, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 128, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 128, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 128, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 128, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 128, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 128, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 128, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 128, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 128, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 128, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 256, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 256, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 256, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 256, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 256, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 256, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 256, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 256, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 256, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 256, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 256, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 256, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 512, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 512, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 512, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 512, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 512, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 512, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 512, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 512, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 512, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 512, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 512, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 512, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1024, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1024, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1024, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1024, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1024, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1024, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1024, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1024, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1024, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1024, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1024, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 1024, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2048, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2048, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2048, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2048, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2048, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2048, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2048, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2048, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2048, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2048, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2048, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 1024, nc: 2048, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 4, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 4, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 4, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 4, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 4, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 4, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 4, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 4, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 4, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 4, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 4, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 4, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 8, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 8, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 8, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 8, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 8, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 8, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 8, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 8, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 8, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 8, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 8, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 8, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 16, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 16, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 16, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 16, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 16, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 16, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 16, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 16, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 16, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 16, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 16, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 16, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 32, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 32, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 32, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 32, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 32, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 32, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 32, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 32, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 32, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 32, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 32, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 32, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 64, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 64, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 64, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 64, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 64, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 64, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 64, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 64, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 64, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 64, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 64, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 64, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 128, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 128, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 128, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 128, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 128, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 128, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 128, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 128, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 128, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 128, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 128, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 128, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 256, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 256, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 256, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 256, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 256, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 256, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 256, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 256, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 256, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 256, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 256, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 256, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 512, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 512, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 512, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 512, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 512, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 512, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 512, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 512, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 512, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 512, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 512, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 512, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1024, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1024, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1024, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1024, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1024, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1024, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1024, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1024, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1024, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1024, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1024, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 1024, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2048, kc: 1): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2048, kc: 2): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2048, kc: 4): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2048, kc: 8): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2048, kc: 16): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2048, kc: 32): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2048, kc: 64): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2048, kc: 128): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2048, kc: 256): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2048, kc: 512): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2048, kc: 1024): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+(mc: 2048, nc: 2048, kc: 2048): Cannot schedule.
+Current best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
+
+Best params: (mc: 2, nc: 4, kc: 2): 0s 140160944ns
