@@ -23,7 +23,7 @@ int main(void) {
     C[i] = 0;
   }
 
-  Pack_16_32_128(A, B, C);
+  Pack_1_64_8(A, B, C);
 
   // Write the result to pack.txt
   FILE *fp = fopen("pack.txt", "w");
