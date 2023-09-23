@@ -5,6 +5,7 @@ naive_run
 naive_bench
 
 block_run
+block_bench
 block_autotune
 
 pack_run

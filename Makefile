@@ -22,7 +22,7 @@ HEADERS = Bench.h
 OBJS = $(SRCS:.c=.o)
 
 # Executable files
-EXECS = naive_run naive_bench block_run block_autotune pack_run pack_bench pack_autotune
+EXECS = naive_run naive_bench block_run block_bench block_autotune pack_run pack_bench pack_autotune
 
 all: $(EXECS)
 
@@ -65,6 +65,9 @@ Naive.o: Naive.c Naive.h
 
 block_run: block_run.o Block.o
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< Block.o
+
+block_bench: block_bench.o Block.o $(OBJS)
+	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< Block.o $(OBJS)
 
 block_autotune: block_autotune.o Block.o $(OBJS)
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -o $@ $< Block.o $(OBJS)
