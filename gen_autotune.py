@@ -6,6 +6,7 @@ headers = """
 #include <stdint.h>  // for uint8_t
 #include <stdio.h>   // for vprintf, vfprintf, FILE, fclose, fopen
 #include <stdlib.h>  // for rand, free, posix_memalign
+#include <limits.h>  // for ULLONG_MAX
 #include <time.h>    // for clock_gettime, timespec, CLOCK_MONOTONIC
 
 #include "./Bench.h"
@@ -31,7 +32,7 @@ static void tee(const char *format, ...) {{
 """
 
 call_kernel = """
-static struct timespec call_kernel_{mc}_{nc}_{kc}(void) {{
+static unsigned long long call_kernel_{mc}_{nc}_{kc}(void) {{
   uint8_t *A;
   posix_memalign((void **)&A, 128, M * K * sizeof(uint8_t));
   for (int i = 0; i < M * K; ++i) {{
@@ -54,7 +55,7 @@ static struct timespec call_kernel_{mc}_{nc}_{kc}(void) {{
   {name}_{mc}_{nc}_{kc}(A, B, C);
 
   struct timespec start, end;
-  struct timespec total_time = {{0, 0}};
+  unsigned long long total_time = 0;
   const int num_iterations = 10;
 #pragma clang loop unroll(disable)
   for (int i = 0; i < num_iterations; ++i) {{
@@ -62,16 +63,14 @@ static struct timespec call_kernel_{mc}_{nc}_{kc}(void) {{
     {name}_{mc}_{nc}_{kc}(A, B, C);
     clock_gettime(CLOCK_MONOTONIC, &end);
 
-    total_time.tv_sec += TsDiff(start, end).tv_sec;
-    total_time.tv_nsec += TsDiff(start, end).tv_nsec;
-    tee("%d: %lds %09ldns\\n", i, TsDiff(start, end).tv_sec,
-        TsDiff(start, end).tv_nsec);
+    struct timespec diff = TsDiff(start, end);
+    total_time += ToNs(diff);
+    tee("%d: %lds %09ldns\\n", i, diff.tv_sec, diff.tv_nsec);
   }}
-  struct timespec avg_time;
-  avg_time.tv_sec = (total_time.tv_sec / num_iterations);
-  avg_time.tv_nsec = (total_time.tv_nsec / num_iterations);
+  unsigned long long avg_time = total_time / num_iterations;
+  struct timespec avg_time_ts = ToTs(avg_time);
   tee("(mc: %d, nc: %d, kc: %d): ave. %lds %09ldns\\n", {mc}, {nc}, {kc},
-      avg_time.tv_sec, avg_time.tv_nsec);
+      avg_time_ts.tv_sec, avg_time_ts.tv_nsec);
 
   free(A);
   free(B);
@@ -89,9 +88,9 @@ struct Param {{
 }};
 
 int main(void) {{
-  struct timespec min_time = {{1000000000, 0}};
+  unsigned long long min_time = ULLONG_MAX;
   struct Param min_param = {{0, 0, 0}};
-  struct timespec avg_time;
+  unsigned long long avg_time;
 
   // Erase the existing content of the file.
   FILE *fp = fopen("{name}_autotune.txt", "w");
@@ -103,22 +102,20 @@ int main(void) {{
 kernel_call = """
   tee("(mc: %d, nc: %d, kc: %d)\\n", {mc}, {nc}, {kc});
   avg_time = call_kernel_{mc}_{nc}_{kc}();
-  if (avg_time.tv_sec < min_time.tv_sec ||
-      (avg_time.tv_sec == min_time.tv_sec &&
-       avg_time.tv_nsec < min_time.tv_nsec)) {{
+  if (avg_time < min_time) {{
     min_time = avg_time;
     struct Param new_param = {{{mc}, {nc}, {kc}}};
     min_param = new_param;
   }}
   tee("Current best params: (mc: %d, nc: %d, kc: %d): %lds %09ldns\\n\\n",
-      min_param.mc, min_param.nc, min_param.kc, min_time.tv_sec,
-      min_time.tv_nsec);
+      min_param.mc, min_param.nc, min_param.kc, ToTs(min_time).tv_sec,
+      ToTs(min_time).tv_nsec);
 """
 
 main_epilogue = """
   tee("Best params: (mc: %d, nc: %d, kc: %d): %lds %09ldns\\n",
-      min_param.mc, min_param.nc, min_param.kc, min_time.tv_sec,
-      min_time.tv_nsec);
+      min_param.mc, min_param.nc, min_param.kc, ToTs(min_time).tv_sec,
+      ToTs(min_time).tv_nsec);
 
   return 0;
 }
