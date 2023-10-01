@@ -23,7 +23,7 @@ int main(void) {
     C[i] = 0;
   }
 
-  Block_32_128_4(A, B, C);
+  Block_4_256_1(A, B, C);
 
   // Write the result to block.txt
   FILE *fp = fopen("block.txt", "w");
