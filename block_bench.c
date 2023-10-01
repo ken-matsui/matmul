@@ -26,13 +26,13 @@ int main(void) {
   }
 
   // Inlined kernel follows. This is for warm-up.
-  Block_32_128_4(A, B, C);
+  Block_4_256_1(A, B, C);
 
   struct timespec start, end;
 #pragma clang loop unroll(disable)
   for (int i = 0; i < 10; ++i) {
     clock_gettime(CLOCK_MONOTONIC, &start);
-    Block_32_128_4(A, B, C);
+    Block_4_256_1(A, B, C);
     clock_gettime(CLOCK_MONOTONIC, &end);
     printf("%lds %09ldns\n", TsDiff(start, end).tv_sec,
            TsDiff(start, end).tv_nsec);
