@@ -36,30 +36,25 @@ struct timespec ts_diff(struct timespec start, struct timespec end) {
 __attribute__((noinline)) void kernel(uint8_t *restrict aa,
                                       uint8_t *restrict ab,
                                       uint8_t *restrict ac) {
-  for (int ad = 0; ad < 256; ad++) {
-    for (int ae = 0; ae < 128; ae++) {
-      for (int af = 0; af < 256; af++) {
+  for (int ad = 0; ad < 1024; ad++) {
+    for (int ae = 0; ae < 512; ae++) {
+      for (int af = 0; af < 1024; af++) {
         for (int ag = 0; ag < 2; ag++) {
           for (int ah = 0; ah < 2; ah++) {
-            for (int ai = 0; ai < 8; ai++) {
-              uint8_t aj[8] __attribute__((aligned(128)));
-              for (int ak = 0; ak < 8; ak++) {
-                aj[(ak)] =
-                    aa[(2048 * ak + 16384 * ag + 32768 * ae + ai + 8 * ad)];
-              }
-              uint8_t al[4] __attribute__((aligned(128)));
-              for (int am = 0; am < 4; am++) {
-                al[(am)] = ab[(2048 * ai + 16384 * ad + am + 4 * ah + 8 * af)];
-              }
-              for (int an = 0; an < 8; an++) {
-                for (int ao = 0; ao < 4; ao++) {
-                  uint8_t ap;
-                  ap = ac[(2048 * an + 16384 * ag + 32768 * ae + ao + 4 * ah +
-                           8 * af)];
-                  ap += aj[(an)] * al[(ao)]; /* Mult */
-                  ac[(2048 * an + 16384 * ag + 32768 * ae + ao + 4 * ah +
-                      8 * af)] = ap;
-                }
+            uint8_t ai[2] __attribute__((aligned(128)));
+            for (int aj = 0; aj < 2; aj++) {
+              ai[(aj)] = aa[(2048 * aj + 4096 * ag + 8192 * ae + ah + 2 * ad)];
+            }
+            uint8_t ak[2] __attribute__((aligned(128)));
+            for (int al = 0; al < 2; al++) {
+              ak[(al)] = ab[(2048 * ah + 4096 * ad + al + 2 * af)];
+            }
+            for (int am = 0; am < 2; am++) {
+              for (int an = 0; an < 2; an++) {
+                uint8_t ao;
+                ao = ac[(2048 * am + 4096 * ag + 8192 * ae + an + 2 * af)];
+                ao += ai[(am)] * ak[(an)]; /* Mult */
+                ac[(2048 * am + 4096 * ag + 8192 * ae + an + 2 * af)] = ao;
               }
             }
           }
@@ -94,6 +89,12 @@ int load_inputs(char *paths[], void *restrict dest0, void *restrict dest1) {
 }
 
 int main(int argc, char *argv[]) {
+  uint8_t *restrict ap;
+  posix_memalign((void **)&ap, 128, 4194304 * sizeof(uint8_t));
+  for (size_t idx = 0; idx < 4194304; idx++) {
+    ap[idx] = idx % 5;  // original: (uint8_t)rand()
+  }
+
   uint8_t *restrict aq;
   posix_memalign((void **)&aq, 128, 4194304 * sizeof(uint8_t));
   for (size_t idx = 0; idx < 4194304; idx++) {
@@ -103,17 +104,11 @@ int main(int argc, char *argv[]) {
   uint8_t *restrict ar;
   posix_memalign((void **)&ar, 128, 4194304 * sizeof(uint8_t));
   for (size_t idx = 0; idx < 4194304; idx++) {
-    ar[idx] = idx % 5;  // original: (uint8_t)rand()
-  }
-
-  uint8_t *restrict as;
-  posix_memalign((void **)&as, 128, 4194304 * sizeof(uint8_t));
-  for (size_t idx = 0; idx < 4194304; idx++) {
-    as[idx] = 0;  // original: (uint8_t)rand()
+    ar[idx] = 0;  // original: (uint8_t)rand()
   }
 
   if (argc == 3) {
-    int load_result = load_inputs(&argv[1], aq + (0), ar + (0));
+    int load_result = load_inputs(&argv[1], ap + (0), aq + (0));
     if (load_result != 0) {
       fprintf(stderr, "Error loading input tensors.");
       return 2;
@@ -123,21 +118,21 @@ int main(int argc, char *argv[]) {
     return 1;
   }
 
-  kernel(aq + (0), ar + (0), as + (0));
+  kernel(ap + (0), aq + (0), ar + (0));
 
   // Write the result to morello.txt
   FILE *fp = fopen("morello.txt", "w");
   for (int i = 0; i < 2048; ++i) {
     for (int j = 0; j < 2048; ++j) {
-      fprintf(fp, "%d ", as[i * 2048 + j]);
+      fprintf(fp, "%d ", ar[i * 2048 + j]);
     }
     fprintf(fp, "\n");
   }
   fclose(fp);
 
+  free(ap);
   free(aq);
   free(ar);
-  free(as);
 
   return 0;
 }
