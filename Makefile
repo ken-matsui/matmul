@@ -32,16 +32,26 @@ clean:
 check: run_naive check_block check_pack check_morello
 
 run_naive: naive_run
-	./naive_run
+	./$<
 check_block: block_run run_naive
-	./block_run
+	./$<
 	diff -s --brief naive.txt block.txt
 check_pack: pack_run run_naive
-	./pack_run
+	./$<
 	diff -s --brief naive.txt pack.txt
 check_morello: morello_run run_naive
-	./morello_run
+	./$<
 	diff -s --brief naive.txt morello.txt
+
+cache: naive_cache block_cache pack_cache morello_cache
+naive_cache: naive_run
+	valgrind --tool=callgrind --simulate-cache=yes --collect-jumps=yes --log-file=$@.txt ./$<
+block_cache: block_run
+	valgrind --tool=callgrind --simulate-cache=yes --collect-jumps=yes --log-file=$@.txt ./$<
+pack_cache: pack_run
+	valgrind --tool=callgrind --simulate-cache=yes --collect-jumps=yes --log-file=$@.txt ./$<
+morello_cache: morello_run
+	valgrind --tool=callgrind --simulate-cache=yes --collect-jumps=yes --log-file=$@.txt ./$<
 
 $(OBJS): $(SRCS) $(HEADERS)
 	$(CC) $(CFLAGS) $(MORE_CFLAGS) -c $< -o $@

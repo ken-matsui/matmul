@@ -1,0 +1,27 @@
+==83296== Callgrind, a call-graph generating cache profiler
+==83296== Copyright (C) 2002-2017, and GNU GPL'd, by Josef Weidendorfer et al.
+==83296== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==83296== Command: ./pack_run
+==83296== Parent PID: 83213
+==83296== 
+--83296-- warning: L3 cache found, using its data for the LL simulation.
+==83296== For interactive control, run 'callgrind_control -h'.
+==83296== 
+==83296== Events    : Ir Dr Dw I1mr D1mr D1mw ILmr DLmr DLmw
+==83296== Collected : 9187861157 925827211 680969365 1425 69360881 200453 1412 2616 197301
+==83296== 
+==83296== I   refs:      9,187,861,157
+==83296== I1  misses:            1,425
+==83296== LLi misses:            1,412
+==83296== I1  miss rate:          0.00%
+==83296== LLi miss rate:          0.00%
+==83296== 
+==83296== D   refs:      1,606,796,576  (925,827,211 rd + 680,969,365 wr)
+==83296== D1  misses:       69,561,334  ( 69,360,881 rd +     200,453 wr)
+==83296== LLd misses:          199,917  (      2,616 rd +     197,301 wr)
+==83296== D1  miss rate:           4.3% (        7.5%   +         0.0%  )
+==83296== LLd miss rate:           0.0% (        0.0%   +         0.0%  )
+==83296== 
+==83296== LL refs:          69,562,759  ( 69,362,306 rd +     200,453 wr)
+==83296== LL misses:           201,329  (      4,028 rd +     197,301 wr)
+==83296== LL miss rate:            0.0% (        0.0%   +         0.0%  )

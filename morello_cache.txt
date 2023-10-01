@@ -1,0 +1,27 @@
+==83305== Callgrind, a call-graph generating cache profiler
+==83305== Copyright (C) 2002-2017, and GNU GPL'd, by Josef Weidendorfer et al.
+==83305== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==83305== Command: ./morello_run
+==83305== Parent PID: 83213
+==83305== 
+--83305-- warning: L3 cache found, using its data for the LL simulation.
+==83305== For interactive control, run 'callgrind_control -h'.
+==83305== 
+==83305== Events    : Ir Dr Dw I1mr D1mr D1mw ILmr DLmr DLmw
+==83305== Collected : 9385292484 994813809 681324512 1419 69338264 197337 1408 1234 197285
+==83305== 
+==83305== I   refs:      9,385,292,484
+==83305== I1  misses:            1,419
+==83305== LLi misses:            1,408
+==83305== I1  miss rate:          0.00%
+==83305== LLi miss rate:          0.00%
+==83305== 
+==83305== D   refs:      1,676,138,321  (994,813,809 rd + 681,324,512 wr)
+==83305== D1  misses:       69,535,601  ( 69,338,264 rd +     197,337 wr)
+==83305== LLd misses:          198,519  (      1,234 rd +     197,285 wr)
+==83305== D1  miss rate:           4.1% (        7.0%   +         0.0%  )
+==83305== LLd miss rate:           0.0% (        0.0%   +         0.0%  )
+==83305== 
+==83305== LL refs:          69,537,020  ( 69,339,683 rd +     197,337 wr)
+==83305== LL misses:           199,927  (      2,642 rd +     197,285 wr)
+==83305== LL miss rate:            0.0% (        0.0%   +         0.0%  )
