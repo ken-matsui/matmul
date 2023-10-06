@@ -6,8 +6,8 @@
 #include <stdlib.h>  // for free, malloc
 
 void Pack_1_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 1];
+  uint8_t A_block[1 * 1];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 1) {
@@ -40,13 +40,11 @@ void Pack_1_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 1];
+  uint8_t A_block[1 * 2];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 2) {
@@ -79,13 +77,11 @@ void Pack_1_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 1];
+  uint8_t A_block[1 * 4];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 4) {
@@ -118,13 +114,11 @@ void Pack_1_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 1];
+  uint8_t A_block[1 * 8];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 8) {
@@ -157,13 +151,11 @@ void Pack_1_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 1];
+  uint8_t A_block[1 * 16];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 16) {
@@ -196,13 +188,11 @@ void Pack_1_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t B_block[32 * 1];
+  uint8_t A_block[1 * 32];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 32) {
@@ -235,13 +225,11 @@ void Pack_1_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t B_block[64 * 1];
+  uint8_t A_block[1 * 64];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 64) {
@@ -274,13 +262,11 @@ void Pack_1_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t B_block[128 * 1];
+  uint8_t A_block[1 * 128];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 128) {
@@ -313,8 +299,6 @@ void Pack_1_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -352,8 +336,8 @@ void Pack_1_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -391,8 +375,8 @@ void Pack_1_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -430,8 +414,8 @@ void Pack_1_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -469,13 +453,13 @@ void Pack_1_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 2];
+  uint8_t A_block[1 * 1];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 1) {
@@ -508,13 +492,11 @@ void Pack_1_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 2];
+  uint8_t A_block[1 * 2];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 2) {
@@ -547,13 +529,11 @@ void Pack_1_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 2];
+  uint8_t A_block[1 * 4];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 4) {
@@ -586,13 +566,11 @@ void Pack_1_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 2];
+  uint8_t A_block[1 * 8];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 8) {
@@ -625,13 +603,11 @@ void Pack_1_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 2];
+  uint8_t A_block[1 * 16];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 16) {
@@ -664,13 +640,11 @@ void Pack_1_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t B_block[32 * 2];
+  uint8_t A_block[1 * 32];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 32) {
@@ -703,13 +677,11 @@ void Pack_1_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t B_block[64 * 2];
+  uint8_t A_block[1 * 64];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 64) {
@@ -742,13 +714,11 @@ void Pack_1_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(128 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t A_block[1 * 128];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 128) {
@@ -781,8 +751,7 @@ void Pack_1_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -820,8 +789,8 @@ void Pack_1_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -859,8 +828,8 @@ void Pack_1_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -898,8 +867,8 @@ void Pack_1_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -937,13 +906,13 @@ void Pack_1_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 4];
+  uint8_t A_block[1 * 1];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 1) {
@@ -976,13 +945,11 @@ void Pack_1_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 4];
+  uint8_t A_block[1 * 2];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 2) {
@@ -1015,13 +982,11 @@ void Pack_1_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 4];
+  uint8_t A_block[1 * 4];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 4) {
@@ -1054,13 +1019,11 @@ void Pack_1_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 4];
+  uint8_t A_block[1 * 8];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 8) {
@@ -1093,13 +1056,11 @@ void Pack_1_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 4];
+  uint8_t A_block[1 * 16];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 16) {
@@ -1132,13 +1093,11 @@ void Pack_1_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t B_block[32 * 4];
+  uint8_t A_block[1 * 32];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 32) {
@@ -1171,13 +1130,11 @@ void Pack_1_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t A_block[1 * 64];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 64) {
@@ -1210,13 +1167,12 @@ void Pack_1_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(128 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t A_block[1 * 128];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 128) {
@@ -1249,8 +1205,7 @@ void Pack_1_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -1288,8 +1243,8 @@ void Pack_1_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -1327,8 +1282,8 @@ void Pack_1_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -1366,8 +1321,8 @@ void Pack_1_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -1405,13 +1360,13 @@ void Pack_1_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 8];
+  uint8_t A_block[1 * 1];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 1) {
@@ -1444,13 +1399,11 @@ void Pack_1_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 8];
+  uint8_t A_block[1 * 2];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 2) {
@@ -1483,13 +1436,11 @@ void Pack_1_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 8];
+  uint8_t A_block[1 * 4];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 4) {
@@ -1522,13 +1473,11 @@ void Pack_1_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 8];
+  uint8_t A_block[1 * 8];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 8) {
@@ -1561,13 +1510,11 @@ void Pack_1_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 8];
+  uint8_t A_block[1 * 16];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 16) {
@@ -1600,13 +1547,11 @@ void Pack_1_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t A_block[1 * 32];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 32) {
@@ -1639,13 +1584,12 @@ void Pack_1_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t A_block[1 * 64];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 64) {
@@ -1678,13 +1622,12 @@ void Pack_1_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(128 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t A_block[1 * 128];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 128) {
@@ -1717,8 +1660,7 @@ void Pack_1_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -1756,8 +1698,8 @@ void Pack_1_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -1795,8 +1737,8 @@ void Pack_1_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -1834,8 +1776,8 @@ void Pack_1_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -1873,13 +1815,13 @@ void Pack_1_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 16];
+  uint8_t A_block[1 * 1];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 1) {
@@ -1912,13 +1854,11 @@ void Pack_1_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 16];
+  uint8_t A_block[1 * 2];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 2) {
@@ -1951,13 +1891,11 @@ void Pack_1_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 16];
+  uint8_t A_block[1 * 4];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 4) {
@@ -1990,13 +1928,11 @@ void Pack_1_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 16];
+  uint8_t A_block[1 * 8];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 8) {
@@ -2029,13 +1965,11 @@ void Pack_1_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t A_block[1 * 16];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 16) {
@@ -2068,13 +2002,12 @@ void Pack_1_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t A_block[1 * 32];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 32) {
@@ -2107,13 +2040,12 @@ void Pack_1_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t A_block[1 * 64];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 64) {
@@ -2146,13 +2078,12 @@ void Pack_1_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(128 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t A_block[1 * 128];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 128) {
@@ -2185,8 +2116,7 @@ void Pack_1_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -2224,8 +2154,8 @@ void Pack_1_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -2263,8 +2193,8 @@ void Pack_1_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -2302,8 +2232,8 @@ void Pack_1_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -2341,13 +2271,13 @@ void Pack_1_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 32];
+  uint8_t A_block[1 * 1];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 1) {
@@ -2380,13 +2310,11 @@ void Pack_1_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 32];
+  uint8_t A_block[1 * 2];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 2) {
@@ -2419,13 +2347,11 @@ void Pack_1_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 32];
+  uint8_t A_block[1 * 4];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 4) {
@@ -2458,13 +2384,11 @@ void Pack_1_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t A_block[1 * 8];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 8) {
@@ -2497,13 +2421,12 @@ void Pack_1_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t A_block[1 * 16];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 16) {
@@ -2536,13 +2459,12 @@ void Pack_1_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t A_block[1 * 32];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 32) {
@@ -2575,13 +2497,12 @@ void Pack_1_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t A_block[1 * 64];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 64) {
@@ -2614,13 +2535,12 @@ void Pack_1_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(128 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t A_block[1 * 128];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 128) {
@@ -2653,8 +2573,7 @@ void Pack_1_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -2692,8 +2611,8 @@ void Pack_1_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -2731,8 +2650,8 @@ void Pack_1_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -2770,8 +2689,8 @@ void Pack_1_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -2809,13 +2728,13 @@ void Pack_1_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 64];
+  uint8_t A_block[1 * 1];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 1) {
@@ -2848,13 +2767,11 @@ void Pack_1_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 64];
+  uint8_t A_block[1 * 2];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 2) {
@@ -2887,13 +2804,11 @@ void Pack_1_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t A_block[1 * 4];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 4) {
@@ -2926,13 +2841,12 @@ void Pack_1_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t A_block[1 * 8];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 8) {
@@ -2965,13 +2879,12 @@ void Pack_1_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t A_block[1 * 16];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 16) {
@@ -3004,13 +2917,12 @@ void Pack_1_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t A_block[1 * 32];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 32) {
@@ -3043,13 +2955,12 @@ void Pack_1_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t A_block[1 * 64];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 64) {
@@ -3082,13 +2993,12 @@ void Pack_1_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(128 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t A_block[1 * 128];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 128) {
@@ -3121,8 +3031,7 @@ void Pack_1_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -3160,8 +3069,8 @@ void Pack_1_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -3199,8 +3108,8 @@ void Pack_1_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -3238,8 +3147,8 @@ void Pack_1_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -3277,13 +3186,13 @@ void Pack_1_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 128];
+  uint8_t A_block[1 * 1];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 1) {
@@ -3316,13 +3225,11 @@ void Pack_1_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_1_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t A_block[1 * 2];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 2) {
@@ -3355,13 +3262,12 @@ void Pack_1_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t A_block[1 * 4];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 4) {
@@ -3394,13 +3300,12 @@ void Pack_1_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t A_block[1 * 8];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 8) {
@@ -3433,13 +3338,12 @@ void Pack_1_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t A_block[1 * 16];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 16) {
@@ -3472,13 +3376,12 @@ void Pack_1_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t A_block[1 * 32];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 32) {
@@ -3511,13 +3414,12 @@ void Pack_1_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t A_block[1 * 64];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 64) {
@@ -3550,13 +3452,12 @@ void Pack_1_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(128 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t A_block[1 * 128];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 128) {
@@ -3589,8 +3490,7 @@ void Pack_1_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -3628,8 +3528,8 @@ void Pack_1_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -3667,8 +3567,8 @@ void Pack_1_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -3706,8 +3606,8 @@ void Pack_1_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -3745,13 +3645,13 @@ void Pack_1_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t A_block[1 * 1];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 1) {
@@ -3784,13 +3684,12 @@ void Pack_1_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t A_block[1 * 2];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 2) {
@@ -3823,13 +3722,12 @@ void Pack_1_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t A_block[1 * 4];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 4) {
@@ -3862,13 +3760,12 @@ void Pack_1_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t A_block[1 * 8];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 8) {
@@ -3901,13 +3798,12 @@ void Pack_1_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t A_block[1 * 16];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 16) {
@@ -3940,13 +3836,12 @@ void Pack_1_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t A_block[1 * 32];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 32) {
@@ -3979,13 +3874,12 @@ void Pack_1_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t A_block[1 * 64];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 64) {
@@ -4018,13 +3912,12 @@ void Pack_1_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(128 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t A_block[1 * 128];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 128) {
@@ -4057,8 +3950,7 @@ void Pack_1_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -4096,8 +3988,8 @@ void Pack_1_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -4135,8 +4027,8 @@ void Pack_1_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -4174,8 +4066,8 @@ void Pack_1_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -4213,13 +4105,13 @@ void Pack_1_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t A_block[1 * 1];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 1) {
@@ -4252,13 +4144,12 @@ void Pack_1_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t A_block[1 * 2];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 2) {
@@ -4291,13 +4182,12 @@ void Pack_1_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t A_block[1 * 4];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 4) {
@@ -4330,13 +4220,12 @@ void Pack_1_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t A_block[1 * 8];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 8) {
@@ -4369,13 +4258,12 @@ void Pack_1_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t A_block[1 * 16];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 16) {
@@ -4408,13 +4296,12 @@ void Pack_1_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t A_block[1 * 32];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 32) {
@@ -4447,13 +4334,12 @@ void Pack_1_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t A_block[1 * 64];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 64) {
@@ -4486,13 +4372,12 @@ void Pack_1_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(128 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t A_block[1 * 128];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 128) {
@@ -4525,8 +4410,7 @@ void Pack_1_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -4564,8 +4448,8 @@ void Pack_1_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -4603,8 +4487,8 @@ void Pack_1_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -4642,8 +4526,8 @@ void Pack_1_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -4681,13 +4565,13 @@ void Pack_1_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t A_block[1 * 1];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 1) {
@@ -4720,13 +4604,12 @@ void Pack_1_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t A_block[1 * 2];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 2) {
@@ -4759,13 +4642,12 @@ void Pack_1_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t A_block[1 * 4];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 4) {
@@ -4798,13 +4680,12 @@ void Pack_1_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t A_block[1 * 8];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 8) {
@@ -4837,13 +4718,12 @@ void Pack_1_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t A_block[1 * 16];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 16) {
@@ -4876,13 +4756,12 @@ void Pack_1_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t A_block[1 * 32];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 32) {
@@ -4915,13 +4794,12 @@ void Pack_1_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t A_block[1 * 64];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 64) {
@@ -4954,13 +4832,12 @@ void Pack_1_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(128 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t A_block[1 * 128];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 128) {
@@ -4993,8 +4870,7 @@ void Pack_1_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -5032,8 +4908,8 @@ void Pack_1_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -5071,8 +4947,8 @@ void Pack_1_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -5110,8 +4986,8 @@ void Pack_1_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -5149,13 +5025,13 @@ void Pack_1_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t A_block[1 * 1];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 1) {
@@ -5188,13 +5064,12 @@ void Pack_1_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t A_block[1 * 2];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 2) {
@@ -5227,13 +5102,12 @@ void Pack_1_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t A_block[1 * 4];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 4) {
@@ -5266,13 +5140,12 @@ void Pack_1_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t A_block[1 * 8];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 8) {
@@ -5305,13 +5178,12 @@ void Pack_1_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t A_block[1 * 16];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 16) {
@@ -5344,13 +5216,12 @@ void Pack_1_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t A_block[1 * 32];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 32) {
@@ -5383,13 +5254,12 @@ void Pack_1_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t A_block[1 * 64];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 64) {
@@ -5422,13 +5292,12 @@ void Pack_1_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(128 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t A_block[1 * 128];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 128) {
@@ -5461,8 +5330,7 @@ void Pack_1_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_1_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -5500,8 +5368,8 @@ void Pack_1_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -5539,8 +5407,8 @@ void Pack_1_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -5578,8 +5446,8 @@ void Pack_1_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -5617,13 +5485,13 @@ void Pack_1_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 1];
+  uint8_t A_block[2 * 1];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 1) {
@@ -5656,13 +5524,11 @@ void Pack_2_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 1];
+  uint8_t A_block[2 * 2];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 2) {
@@ -5695,13 +5561,11 @@ void Pack_2_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 1];
+  uint8_t A_block[2 * 4];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 4) {
@@ -5734,13 +5598,11 @@ void Pack_2_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 1];
+  uint8_t A_block[2 * 8];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 8) {
@@ -5773,13 +5635,11 @@ void Pack_2_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 1];
+  uint8_t A_block[2 * 16];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 16) {
@@ -5812,13 +5672,11 @@ void Pack_2_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t B_block[32 * 1];
+  uint8_t A_block[2 * 32];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 32) {
@@ -5851,13 +5709,11 @@ void Pack_2_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t B_block[64 * 1];
+  uint8_t A_block[2 * 64];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 64) {
@@ -5890,12 +5746,10 @@ void Pack_2_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[128 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(2 * 128 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -5929,8 +5783,7 @@ void Pack_2_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -5968,8 +5821,8 @@ void Pack_2_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -6007,8 +5860,8 @@ void Pack_2_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -6046,8 +5899,8 @@ void Pack_2_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -6085,13 +5938,13 @@ void Pack_2_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 2];
+  uint8_t A_block[2 * 1];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 1) {
@@ -6124,13 +5977,11 @@ void Pack_2_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 2];
+  uint8_t A_block[2 * 2];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 2) {
@@ -6163,13 +6014,11 @@ void Pack_2_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 2];
+  uint8_t A_block[2 * 4];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 4) {
@@ -6202,13 +6051,11 @@ void Pack_2_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 2];
+  uint8_t A_block[2 * 8];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 8) {
@@ -6241,13 +6088,11 @@ void Pack_2_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 2];
+  uint8_t A_block[2 * 16];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 16) {
@@ -6280,13 +6125,11 @@ void Pack_2_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t B_block[32 * 2];
+  uint8_t A_block[2 * 32];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 32) {
@@ -6319,13 +6162,11 @@ void Pack_2_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t B_block[64 * 2];
+  uint8_t A_block[2 * 64];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 64) {
@@ -6358,8 +6199,6 @@ void Pack_2_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -6397,8 +6236,8 @@ void Pack_2_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -6436,8 +6275,8 @@ void Pack_2_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -6475,8 +6314,8 @@ void Pack_2_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -6514,8 +6353,8 @@ void Pack_2_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -6553,13 +6392,13 @@ void Pack_2_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 4];
+  uint8_t A_block[2 * 1];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 1) {
@@ -6592,13 +6431,11 @@ void Pack_2_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 4];
+  uint8_t A_block[2 * 2];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 2) {
@@ -6631,13 +6468,11 @@ void Pack_2_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 4];
+  uint8_t A_block[2 * 4];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 4) {
@@ -6670,13 +6505,11 @@ void Pack_2_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 4];
+  uint8_t A_block[2 * 8];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 8) {
@@ -6709,13 +6542,11 @@ void Pack_2_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 4];
+  uint8_t A_block[2 * 16];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 16) {
@@ -6748,13 +6579,11 @@ void Pack_2_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t B_block[32 * 4];
+  uint8_t A_block[2 * 32];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 32) {
@@ -6787,13 +6616,11 @@ void Pack_2_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t A_block[2 * 64];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 64) {
@@ -6826,8 +6653,7 @@ void Pack_2_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -6865,8 +6691,8 @@ void Pack_2_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -6904,8 +6730,8 @@ void Pack_2_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -6943,8 +6769,8 @@ void Pack_2_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -6982,8 +6808,8 @@ void Pack_2_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -7021,13 +6847,13 @@ void Pack_2_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 8];
+  uint8_t A_block[2 * 1];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 1) {
@@ -7060,13 +6886,11 @@ void Pack_2_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 8];
+  uint8_t A_block[2 * 2];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 2) {
@@ -7099,13 +6923,11 @@ void Pack_2_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 8];
+  uint8_t A_block[2 * 4];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 4) {
@@ -7138,13 +6960,11 @@ void Pack_2_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 8];
+  uint8_t A_block[2 * 8];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 8) {
@@ -7177,13 +6997,11 @@ void Pack_2_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 8];
+  uint8_t A_block[2 * 16];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 16) {
@@ -7216,13 +7034,11 @@ void Pack_2_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t A_block[2 * 32];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 32) {
@@ -7255,13 +7071,12 @@ void Pack_2_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t A_block[2 * 64];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 64) {
@@ -7294,8 +7109,7 @@ void Pack_2_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -7333,8 +7147,8 @@ void Pack_2_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -7372,8 +7186,8 @@ void Pack_2_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -7411,8 +7225,8 @@ void Pack_2_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -7450,8 +7264,8 @@ void Pack_2_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -7489,13 +7303,13 @@ void Pack_2_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 16];
+  uint8_t A_block[2 * 1];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 1) {
@@ -7528,13 +7342,11 @@ void Pack_2_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 16];
+  uint8_t A_block[2 * 2];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 2) {
@@ -7567,13 +7379,11 @@ void Pack_2_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 16];
+  uint8_t A_block[2 * 4];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 4) {
@@ -7606,13 +7416,11 @@ void Pack_2_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 16];
+  uint8_t A_block[2 * 8];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 8) {
@@ -7645,13 +7453,11 @@ void Pack_2_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t A_block[2 * 16];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 16) {
@@ -7684,13 +7490,12 @@ void Pack_2_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t A_block[2 * 32];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 32) {
@@ -7723,13 +7528,12 @@ void Pack_2_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t A_block[2 * 64];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 64) {
@@ -7762,8 +7566,7 @@ void Pack_2_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -7801,8 +7604,8 @@ void Pack_2_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -7840,8 +7643,8 @@ void Pack_2_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -7879,8 +7682,8 @@ void Pack_2_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -7918,8 +7721,8 @@ void Pack_2_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -7957,13 +7760,13 @@ void Pack_2_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 32];
+  uint8_t A_block[2 * 1];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 1) {
@@ -7996,13 +7799,11 @@ void Pack_2_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 32];
+  uint8_t A_block[2 * 2];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 2) {
@@ -8035,13 +7836,11 @@ void Pack_2_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 32];
+  uint8_t A_block[2 * 4];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 4) {
@@ -8074,13 +7873,11 @@ void Pack_2_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t A_block[2 * 8];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 8) {
@@ -8113,13 +7910,12 @@ void Pack_2_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t A_block[2 * 16];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 16) {
@@ -8152,13 +7948,12 @@ void Pack_2_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t A_block[2 * 32];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 32) {
@@ -8191,13 +7986,12 @@ void Pack_2_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t A_block[2 * 64];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 64) {
@@ -8230,8 +8024,7 @@ void Pack_2_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -8269,8 +8062,8 @@ void Pack_2_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -8308,8 +8101,8 @@ void Pack_2_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -8347,8 +8140,8 @@ void Pack_2_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -8386,8 +8179,8 @@ void Pack_2_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -8425,13 +8218,13 @@ void Pack_2_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 64];
+  uint8_t A_block[2 * 1];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 1) {
@@ -8464,13 +8257,11 @@ void Pack_2_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 64];
+  uint8_t A_block[2 * 2];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 2) {
@@ -8503,13 +8294,11 @@ void Pack_2_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t A_block[2 * 4];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 4) {
@@ -8542,13 +8331,12 @@ void Pack_2_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t A_block[2 * 8];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 8) {
@@ -8581,13 +8369,12 @@ void Pack_2_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t A_block[2 * 16];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 16) {
@@ -8620,13 +8407,12 @@ void Pack_2_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t A_block[2 * 32];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 32) {
@@ -8659,13 +8445,12 @@ void Pack_2_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t A_block[2 * 64];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 64) {
@@ -8698,8 +8483,7 @@ void Pack_2_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -8737,8 +8521,8 @@ void Pack_2_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -8776,8 +8560,8 @@ void Pack_2_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -8815,8 +8599,8 @@ void Pack_2_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -8854,8 +8638,8 @@ void Pack_2_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -8893,13 +8677,13 @@ void Pack_2_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 128];
+  uint8_t A_block[2 * 1];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 1) {
@@ -8932,13 +8716,11 @@ void Pack_2_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_2_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t A_block[2 * 2];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 2) {
@@ -8971,13 +8753,12 @@ void Pack_2_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t A_block[2 * 4];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 4) {
@@ -9010,13 +8791,12 @@ void Pack_2_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t A_block[2 * 8];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 8) {
@@ -9049,13 +8829,12 @@ void Pack_2_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t A_block[2 * 16];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 16) {
@@ -9088,13 +8867,12 @@ void Pack_2_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t A_block[2 * 32];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 32) {
@@ -9127,13 +8905,12 @@ void Pack_2_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t A_block[2 * 64];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 64) {
@@ -9166,8 +8943,7 @@ void Pack_2_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -9205,8 +8981,8 @@ void Pack_2_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -9244,8 +9020,8 @@ void Pack_2_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -9283,8 +9059,8 @@ void Pack_2_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -9322,8 +9098,8 @@ void Pack_2_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -9361,13 +9137,13 @@ void Pack_2_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t A_block[2 * 1];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 1) {
@@ -9400,13 +9176,12 @@ void Pack_2_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t A_block[2 * 2];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 2) {
@@ -9439,13 +9214,12 @@ void Pack_2_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t A_block[2 * 4];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 4) {
@@ -9478,13 +9252,12 @@ void Pack_2_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t A_block[2 * 8];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 8) {
@@ -9517,13 +9290,12 @@ void Pack_2_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t A_block[2 * 16];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 16) {
@@ -9556,13 +9328,12 @@ void Pack_2_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t A_block[2 * 32];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 32) {
@@ -9595,13 +9366,12 @@ void Pack_2_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t A_block[2 * 64];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 64) {
@@ -9634,8 +9404,7 @@ void Pack_2_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -9673,8 +9442,8 @@ void Pack_2_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -9712,8 +9481,8 @@ void Pack_2_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -9751,8 +9520,8 @@ void Pack_2_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -9790,8 +9559,8 @@ void Pack_2_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -9829,13 +9598,13 @@ void Pack_2_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t A_block[2 * 1];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 1) {
@@ -9868,13 +9637,12 @@ void Pack_2_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t A_block[2 * 2];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 2) {
@@ -9907,13 +9675,12 @@ void Pack_2_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t A_block[2 * 4];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 4) {
@@ -9946,13 +9713,12 @@ void Pack_2_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t A_block[2 * 8];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 8) {
@@ -9985,13 +9751,12 @@ void Pack_2_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t A_block[2 * 16];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 16) {
@@ -10024,13 +9789,12 @@ void Pack_2_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t A_block[2 * 32];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 32) {
@@ -10063,13 +9827,12 @@ void Pack_2_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t A_block[2 * 64];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 64) {
@@ -10102,8 +9865,7 @@ void Pack_2_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -10141,8 +9903,8 @@ void Pack_2_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -10180,8 +9942,8 @@ void Pack_2_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -10219,8 +9981,8 @@ void Pack_2_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -10258,8 +10020,8 @@ void Pack_2_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -10297,13 +10059,13 @@ void Pack_2_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t A_block[2 * 1];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 1) {
@@ -10336,13 +10098,12 @@ void Pack_2_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t A_block[2 * 2];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 2) {
@@ -10375,13 +10136,12 @@ void Pack_2_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t A_block[2 * 4];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 4) {
@@ -10414,13 +10174,12 @@ void Pack_2_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t A_block[2 * 8];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 8) {
@@ -10453,13 +10212,12 @@ void Pack_2_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t A_block[2 * 16];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 16) {
@@ -10492,13 +10250,12 @@ void Pack_2_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t A_block[2 * 32];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 32) {
@@ -10531,13 +10288,12 @@ void Pack_2_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t A_block[2 * 64];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 64) {
@@ -10570,8 +10326,7 @@ void Pack_2_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -10609,8 +10364,8 @@ void Pack_2_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -10648,8 +10403,8 @@ void Pack_2_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -10687,8 +10442,8 @@ void Pack_2_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -10726,8 +10481,8 @@ void Pack_2_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -10765,13 +10520,13 @@ void Pack_2_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t A_block[2 * 1];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 1) {
@@ -10804,13 +10559,12 @@ void Pack_2_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t A_block[2 * 2];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 2) {
@@ -10843,13 +10597,12 @@ void Pack_2_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t A_block[2 * 4];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 4) {
@@ -10882,13 +10635,12 @@ void Pack_2_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t A_block[2 * 8];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 8) {
@@ -10921,13 +10673,12 @@ void Pack_2_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t A_block[2 * 16];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 16) {
@@ -10960,13 +10711,12 @@ void Pack_2_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t A_block[2 * 32];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 32) {
@@ -10999,13 +10749,12 @@ void Pack_2_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(64 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t A_block[2 * 64];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 64) {
@@ -11038,8 +10787,7 @@ void Pack_2_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_2_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -11077,8 +10825,8 @@ void Pack_2_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -11116,8 +10864,8 @@ void Pack_2_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -11155,8 +10903,8 @@ void Pack_2_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -11194,8 +10942,8 @@ void Pack_2_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -11233,13 +10981,13 @@ void Pack_2_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 1];
+  uint8_t A_block[4 * 1];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 1) {
@@ -11272,13 +11020,11 @@ void Pack_4_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 1];
+  uint8_t A_block[4 * 2];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 2) {
@@ -11311,13 +11057,11 @@ void Pack_4_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 1];
+  uint8_t A_block[4 * 4];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 4) {
@@ -11350,13 +11094,11 @@ void Pack_4_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 1];
+  uint8_t A_block[4 * 8];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 8) {
@@ -11389,13 +11131,11 @@ void Pack_4_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 1];
+  uint8_t A_block[4 * 16];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 16) {
@@ -11428,13 +11168,11 @@ void Pack_4_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t B_block[32 * 1];
+  uint8_t A_block[4 * 32];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 32) {
@@ -11467,12 +11205,10 @@ void Pack_4_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[64 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(4 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -11506,12 +11242,11 @@ void Pack_4_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_4_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[128 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(4 * 128 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -11545,8 +11280,7 @@ void Pack_4_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_4_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -11584,8 +11318,8 @@ void Pack_4_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -11623,8 +11357,8 @@ void Pack_4_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -11662,8 +11396,8 @@ void Pack_4_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -11701,13 +11435,13 @@ void Pack_4_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 2];
+  uint8_t A_block[4 * 1];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 1) {
@@ -11740,13 +11474,11 @@ void Pack_4_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 2];
+  uint8_t A_block[4 * 2];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 2) {
@@ -11779,13 +11511,11 @@ void Pack_4_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 2];
+  uint8_t A_block[4 * 4];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 4) {
@@ -11818,13 +11548,11 @@ void Pack_4_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 2];
+  uint8_t A_block[4 * 8];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 8) {
@@ -11857,13 +11585,11 @@ void Pack_4_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 2];
+  uint8_t A_block[4 * 16];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 16) {
@@ -11896,13 +11622,11 @@ void Pack_4_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t B_block[32 * 2];
+  uint8_t A_block[4 * 32];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 32) {
@@ -11935,12 +11659,10 @@ void Pack_4_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[64 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(4 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -11974,8 +11696,7 @@ void Pack_4_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_4_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -12013,8 +11734,8 @@ void Pack_4_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -12052,8 +11773,8 @@ void Pack_4_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -12091,8 +11812,8 @@ void Pack_4_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -12130,8 +11851,8 @@ void Pack_4_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -12169,13 +11890,13 @@ void Pack_4_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 4];
+  uint8_t A_block[4 * 1];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 1) {
@@ -12208,13 +11929,11 @@ void Pack_4_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 4];
+  uint8_t A_block[4 * 2];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 2) {
@@ -12247,13 +11966,11 @@ void Pack_4_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 4];
+  uint8_t A_block[4 * 4];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 4) {
@@ -12286,13 +12003,11 @@ void Pack_4_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 4];
+  uint8_t A_block[4 * 8];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 8) {
@@ -12325,13 +12040,11 @@ void Pack_4_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 4];
+  uint8_t A_block[4 * 16];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 16) {
@@ -12364,13 +12077,11 @@ void Pack_4_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t B_block[32 * 4];
+  uint8_t A_block[4 * 32];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 32) {
@@ -12403,8 +12114,6 @@ void Pack_4_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -12442,8 +12151,8 @@ void Pack_4_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -12481,8 +12190,8 @@ void Pack_4_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -12520,8 +12229,8 @@ void Pack_4_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -12559,8 +12268,8 @@ void Pack_4_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -12598,8 +12307,8 @@ void Pack_4_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -12637,13 +12346,13 @@ void Pack_4_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 8];
+  uint8_t A_block[4 * 1];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 1) {
@@ -12676,13 +12385,11 @@ void Pack_4_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 8];
+  uint8_t A_block[4 * 2];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 2) {
@@ -12715,13 +12422,11 @@ void Pack_4_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 8];
+  uint8_t A_block[4 * 4];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 4) {
@@ -12754,13 +12459,11 @@ void Pack_4_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 8];
+  uint8_t A_block[4 * 8];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 8) {
@@ -12793,13 +12496,11 @@ void Pack_4_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 8];
+  uint8_t A_block[4 * 16];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 16) {
@@ -12832,13 +12533,11 @@ void Pack_4_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t A_block[4 * 32];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 32) {
@@ -12871,8 +12570,7 @@ void Pack_4_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -12910,8 +12608,8 @@ void Pack_4_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -12949,8 +12647,8 @@ void Pack_4_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -12988,8 +12686,8 @@ void Pack_4_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -13027,8 +12725,8 @@ void Pack_4_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -13066,8 +12764,8 @@ void Pack_4_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -13105,13 +12803,13 @@ void Pack_4_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 16];
+  uint8_t A_block[4 * 1];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 1) {
@@ -13144,13 +12842,11 @@ void Pack_4_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 16];
+  uint8_t A_block[4 * 2];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 2) {
@@ -13183,13 +12879,11 @@ void Pack_4_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 16];
+  uint8_t A_block[4 * 4];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 4) {
@@ -13222,13 +12916,11 @@ void Pack_4_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 16];
+  uint8_t A_block[4 * 8];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 8) {
@@ -13261,13 +12953,11 @@ void Pack_4_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t A_block[4 * 16];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 16) {
@@ -13300,13 +12990,12 @@ void Pack_4_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t A_block[4 * 32];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 32) {
@@ -13339,8 +13028,7 @@ void Pack_4_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -13378,8 +13066,8 @@ void Pack_4_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -13417,8 +13105,8 @@ void Pack_4_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -13456,8 +13144,8 @@ void Pack_4_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -13495,8 +13183,8 @@ void Pack_4_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -13534,8 +13222,8 @@ void Pack_4_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -13573,13 +13261,13 @@ void Pack_4_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 32];
+  uint8_t A_block[4 * 1];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 1) {
@@ -13612,13 +13300,11 @@ void Pack_4_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 32];
+  uint8_t A_block[4 * 2];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 2) {
@@ -13651,13 +13337,11 @@ void Pack_4_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 32];
+  uint8_t A_block[4 * 4];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 4) {
@@ -13690,13 +13374,11 @@ void Pack_4_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t A_block[4 * 8];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 8) {
@@ -13729,13 +13411,12 @@ void Pack_4_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t A_block[4 * 16];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 16) {
@@ -13768,13 +13449,12 @@ void Pack_4_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t A_block[4 * 32];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 32) {
@@ -13807,8 +13487,7 @@ void Pack_4_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -13846,8 +13525,8 @@ void Pack_4_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -13885,8 +13564,8 @@ void Pack_4_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -13924,8 +13603,8 @@ void Pack_4_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -13963,8 +13642,8 @@ void Pack_4_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -14002,8 +13681,8 @@ void Pack_4_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -14041,13 +13720,13 @@ void Pack_4_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 64];
+  uint8_t A_block[4 * 1];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 1) {
@@ -14080,13 +13759,11 @@ void Pack_4_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 64];
+  uint8_t A_block[4 * 2];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 2) {
@@ -14119,13 +13796,11 @@ void Pack_4_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t A_block[4 * 4];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 4) {
@@ -14158,13 +13833,12 @@ void Pack_4_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t A_block[4 * 8];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 8) {
@@ -14197,13 +13871,12 @@ void Pack_4_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t A_block[4 * 16];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 16) {
@@ -14236,13 +13909,12 @@ void Pack_4_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t A_block[4 * 32];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 32) {
@@ -14275,8 +13947,7 @@ void Pack_4_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -14314,8 +13985,8 @@ void Pack_4_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -14353,8 +14024,8 @@ void Pack_4_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -14392,8 +14063,8 @@ void Pack_4_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -14431,8 +14102,8 @@ void Pack_4_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -14470,8 +14141,8 @@ void Pack_4_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -14509,13 +14180,13 @@ void Pack_4_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 128];
+  uint8_t A_block[4 * 1];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 1) {
@@ -14548,13 +14219,11 @@ void Pack_4_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_4_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t A_block[4 * 2];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 2) {
@@ -14587,13 +14256,12 @@ void Pack_4_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t A_block[4 * 4];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 4) {
@@ -14626,13 +14294,12 @@ void Pack_4_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t A_block[4 * 8];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 8) {
@@ -14665,13 +14332,12 @@ void Pack_4_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t A_block[4 * 16];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 16) {
@@ -14704,13 +14370,12 @@ void Pack_4_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t A_block[4 * 32];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 32) {
@@ -14743,8 +14408,7 @@ void Pack_4_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -14782,8 +14446,8 @@ void Pack_4_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -14821,8 +14485,8 @@ void Pack_4_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -14860,8 +14524,8 @@ void Pack_4_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -14899,8 +14563,8 @@ void Pack_4_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -14938,8 +14602,8 @@ void Pack_4_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -14977,13 +14641,13 @@ void Pack_4_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t A_block[4 * 1];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 1) {
@@ -15016,13 +14680,12 @@ void Pack_4_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t A_block[4 * 2];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 2) {
@@ -15055,13 +14718,12 @@ void Pack_4_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t A_block[4 * 4];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 4) {
@@ -15094,13 +14756,12 @@ void Pack_4_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t A_block[4 * 8];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 8) {
@@ -15133,13 +14794,12 @@ void Pack_4_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t A_block[4 * 16];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 16) {
@@ -15172,13 +14832,12 @@ void Pack_4_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t A_block[4 * 32];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 32) {
@@ -15211,8 +14870,7 @@ void Pack_4_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -15250,8 +14908,8 @@ void Pack_4_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -15289,8 +14947,8 @@ void Pack_4_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -15328,8 +14986,8 @@ void Pack_4_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -15367,8 +15025,8 @@ void Pack_4_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -15406,8 +15064,8 @@ void Pack_4_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -15445,13 +15103,13 @@ void Pack_4_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t A_block[4 * 1];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 1) {
@@ -15484,13 +15142,12 @@ void Pack_4_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t A_block[4 * 2];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 2) {
@@ -15523,13 +15180,12 @@ void Pack_4_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t A_block[4 * 4];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 4) {
@@ -15562,13 +15218,12 @@ void Pack_4_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t A_block[4 * 8];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 8) {
@@ -15601,13 +15256,12 @@ void Pack_4_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t A_block[4 * 16];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 16) {
@@ -15640,13 +15294,12 @@ void Pack_4_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t A_block[4 * 32];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 32) {
@@ -15679,8 +15332,7 @@ void Pack_4_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -15718,8 +15370,8 @@ void Pack_4_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -15757,8 +15409,8 @@ void Pack_4_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -15796,8 +15448,8 @@ void Pack_4_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -15835,8 +15487,8 @@ void Pack_4_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -15874,8 +15526,8 @@ void Pack_4_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -15913,13 +15565,13 @@ void Pack_4_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t A_block[4 * 1];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 1) {
@@ -15952,13 +15604,12 @@ void Pack_4_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t A_block[4 * 2];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 2) {
@@ -15991,13 +15642,12 @@ void Pack_4_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t A_block[4 * 4];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 4) {
@@ -16030,13 +15680,12 @@ void Pack_4_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t A_block[4 * 8];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 8) {
@@ -16069,13 +15718,12 @@ void Pack_4_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t A_block[4 * 16];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 16) {
@@ -16108,13 +15756,12 @@ void Pack_4_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t A_block[4 * 32];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 32) {
@@ -16147,8 +15794,7 @@ void Pack_4_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -16186,8 +15832,8 @@ void Pack_4_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -16225,8 +15871,8 @@ void Pack_4_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -16264,8 +15910,8 @@ void Pack_4_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -16303,8 +15949,8 @@ void Pack_4_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -16342,8 +15988,8 @@ void Pack_4_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -16381,13 +16027,13 @@ void Pack_4_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t A_block[4 * 1];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 1) {
@@ -16420,13 +16066,12 @@ void Pack_4_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t A_block[4 * 2];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 2) {
@@ -16459,13 +16104,12 @@ void Pack_4_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t A_block[4 * 4];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 4) {
@@ -16498,13 +16142,12 @@ void Pack_4_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t A_block[4 * 8];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 8) {
@@ -16537,13 +16180,12 @@ void Pack_4_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t A_block[4 * 16];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 16) {
@@ -16576,13 +16218,12 @@ void Pack_4_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(32 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t A_block[4 * 32];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 32) {
@@ -16615,8 +16256,7 @@ void Pack_4_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_4_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -16654,8 +16294,8 @@ void Pack_4_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -16693,8 +16333,8 @@ void Pack_4_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -16732,8 +16372,8 @@ void Pack_4_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -16771,8 +16411,8 @@ void Pack_4_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -16810,8 +16450,8 @@ void Pack_4_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_4_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -16849,13 +16489,13 @@ void Pack_4_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 1];
+  uint8_t A_block[8 * 1];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 1) {
@@ -16888,13 +16528,11 @@ void Pack_8_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 1];
+  uint8_t A_block[8 * 2];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 2) {
@@ -16927,13 +16565,11 @@ void Pack_8_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 1];
+  uint8_t A_block[8 * 4];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 4) {
@@ -16966,13 +16602,11 @@ void Pack_8_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 1];
+  uint8_t A_block[8 * 8];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 8) {
@@ -17005,13 +16639,11 @@ void Pack_8_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 1];
+  uint8_t A_block[8 * 16];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 16) {
@@ -17044,12 +16676,10 @@ void Pack_8_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[32 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(8 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -17083,12 +16713,11 @@ void Pack_8_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_8_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[64 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(8 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -17122,12 +16751,11 @@ void Pack_8_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_8_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[128 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(8 * 128 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -17161,8 +16789,7 @@ void Pack_8_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_8_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -17200,8 +16827,8 @@ void Pack_8_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -17239,8 +16866,8 @@ void Pack_8_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -17278,8 +16905,8 @@ void Pack_8_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -17317,13 +16944,13 @@ void Pack_8_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 2];
+  uint8_t A_block[8 * 1];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 1) {
@@ -17356,13 +16983,11 @@ void Pack_8_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 2];
+  uint8_t A_block[8 * 2];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 2) {
@@ -17395,13 +17020,11 @@ void Pack_8_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 2];
+  uint8_t A_block[8 * 4];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 4) {
@@ -17434,13 +17057,11 @@ void Pack_8_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 2];
+  uint8_t A_block[8 * 8];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 8) {
@@ -17473,13 +17094,11 @@ void Pack_8_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 2];
+  uint8_t A_block[8 * 16];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 16) {
@@ -17512,12 +17131,10 @@ void Pack_8_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[32 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(8 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -17551,12 +17168,11 @@ void Pack_8_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_8_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[64 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(8 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -17590,8 +17206,7 @@ void Pack_8_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_8_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -17629,8 +17244,8 @@ void Pack_8_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -17668,8 +17283,8 @@ void Pack_8_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -17707,8 +17322,8 @@ void Pack_8_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -17746,8 +17361,8 @@ void Pack_8_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -17785,13 +17400,13 @@ void Pack_8_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 4];
+  uint8_t A_block[8 * 1];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 1) {
@@ -17824,13 +17439,11 @@ void Pack_8_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 4];
+  uint8_t A_block[8 * 2];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 2) {
@@ -17863,13 +17476,11 @@ void Pack_8_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 4];
+  uint8_t A_block[8 * 4];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 4) {
@@ -17902,13 +17513,11 @@ void Pack_8_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 4];
+  uint8_t A_block[8 * 8];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 8) {
@@ -17941,13 +17550,11 @@ void Pack_8_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 4];
+  uint8_t A_block[8 * 16];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 16) {
@@ -17980,12 +17587,10 @@ void Pack_8_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t B_block[32 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(8 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -18019,8 +17624,7 @@ void Pack_8_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_8_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -18058,8 +17662,8 @@ void Pack_8_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -18097,8 +17701,8 @@ void Pack_8_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -18136,8 +17740,8 @@ void Pack_8_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -18175,8 +17779,8 @@ void Pack_8_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -18214,8 +17818,8 @@ void Pack_8_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -18253,13 +17857,13 @@ void Pack_8_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 8];
+  uint8_t A_block[8 * 1];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 1) {
@@ -18292,13 +17896,11 @@ void Pack_8_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 8];
+  uint8_t A_block[8 * 2];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 2) {
@@ -18331,13 +17933,11 @@ void Pack_8_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 8];
+  uint8_t A_block[8 * 4];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 4) {
@@ -18370,13 +17970,11 @@ void Pack_8_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 8];
+  uint8_t A_block[8 * 8];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 8) {
@@ -18409,13 +18007,11 @@ void Pack_8_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t B_block[16 * 8];
+  uint8_t A_block[8 * 16];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 16) {
@@ -18448,8 +18044,6 @@ void Pack_8_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -18487,8 +18081,8 @@ void Pack_8_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -18526,8 +18120,8 @@ void Pack_8_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -18565,8 +18159,8 @@ void Pack_8_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -18604,8 +18198,8 @@ void Pack_8_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -18643,8 +18237,8 @@ void Pack_8_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -18682,8 +18276,8 @@ void Pack_8_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -18721,13 +18315,13 @@ void Pack_8_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 16];
+  uint8_t A_block[8 * 1];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 1) {
@@ -18760,13 +18354,11 @@ void Pack_8_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 16];
+  uint8_t A_block[8 * 2];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 2) {
@@ -18799,13 +18391,11 @@ void Pack_8_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 16];
+  uint8_t A_block[8 * 4];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 4) {
@@ -18838,13 +18428,11 @@ void Pack_8_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 16];
+  uint8_t A_block[8 * 8];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 8) {
@@ -18877,13 +18465,11 @@ void Pack_8_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t A_block[8 * 16];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 16) {
@@ -18916,8 +18502,7 @@ void Pack_8_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -18955,8 +18540,8 @@ void Pack_8_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -18994,8 +18579,8 @@ void Pack_8_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -19033,8 +18618,8 @@ void Pack_8_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -19072,8 +18657,8 @@ void Pack_8_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -19111,8 +18696,8 @@ void Pack_8_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -19150,8 +18735,8 @@ void Pack_8_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -19189,13 +18774,13 @@ void Pack_8_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 32];
+  uint8_t A_block[8 * 1];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 1) {
@@ -19228,13 +18813,11 @@ void Pack_8_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 32];
+  uint8_t A_block[8 * 2];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 2) {
@@ -19267,13 +18850,11 @@ void Pack_8_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 32];
+  uint8_t A_block[8 * 4];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 4) {
@@ -19306,13 +18887,11 @@ void Pack_8_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t A_block[8 * 8];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 8) {
@@ -19345,13 +18924,12 @@ void Pack_8_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t A_block[8 * 16];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 16) {
@@ -19384,8 +18962,7 @@ void Pack_8_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -19423,8 +19000,8 @@ void Pack_8_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -19462,8 +19039,8 @@ void Pack_8_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -19501,8 +19078,8 @@ void Pack_8_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -19540,8 +19117,8 @@ void Pack_8_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -19579,8 +19156,8 @@ void Pack_8_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -19618,8 +19195,8 @@ void Pack_8_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -19657,13 +19234,13 @@ void Pack_8_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 64];
+  uint8_t A_block[8 * 1];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 1) {
@@ -19696,13 +19273,11 @@ void Pack_8_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 64];
+  uint8_t A_block[8 * 2];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 2) {
@@ -19735,13 +19310,11 @@ void Pack_8_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t A_block[8 * 4];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 4) {
@@ -19774,13 +19347,12 @@ void Pack_8_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t A_block[8 * 8];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 8) {
@@ -19813,13 +19385,12 @@ void Pack_8_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t A_block[8 * 16];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 16) {
@@ -19852,8 +19423,7 @@ void Pack_8_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -19891,8 +19461,8 @@ void Pack_8_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -19930,8 +19500,8 @@ void Pack_8_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -19969,8 +19539,8 @@ void Pack_8_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20008,8 +19578,8 @@ void Pack_8_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20047,8 +19617,8 @@ void Pack_8_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20086,8 +19656,8 @@ void Pack_8_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20125,13 +19695,13 @@ void Pack_8_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 128];
+  uint8_t A_block[8 * 1];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 1) {
@@ -20164,13 +19734,11 @@ void Pack_8_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_8_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t A_block[8 * 2];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 2) {
@@ -20203,13 +19771,12 @@ void Pack_8_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t A_block[8 * 4];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 4) {
@@ -20242,13 +19809,12 @@ void Pack_8_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t A_block[8 * 8];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 8) {
@@ -20281,13 +19847,12 @@ void Pack_8_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t A_block[8 * 16];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 16) {
@@ -20320,8 +19885,7 @@ void Pack_8_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20359,8 +19923,8 @@ void Pack_8_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20398,8 +19962,8 @@ void Pack_8_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20437,8 +20001,8 @@ void Pack_8_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20476,8 +20040,8 @@ void Pack_8_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20515,8 +20079,8 @@ void Pack_8_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20554,8 +20118,8 @@ void Pack_8_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20593,13 +20157,13 @@ void Pack_8_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t A_block[8 * 1];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 1) {
@@ -20632,13 +20196,12 @@ void Pack_8_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t A_block[8 * 2];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 2) {
@@ -20671,13 +20234,12 @@ void Pack_8_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t A_block[8 * 4];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 4) {
@@ -20710,13 +20272,12 @@ void Pack_8_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t A_block[8 * 8];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 8) {
@@ -20749,13 +20310,12 @@ void Pack_8_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t A_block[8 * 16];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 16) {
@@ -20788,8 +20348,7 @@ void Pack_8_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20827,8 +20386,8 @@ void Pack_8_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20866,8 +20425,8 @@ void Pack_8_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20905,8 +20464,8 @@ void Pack_8_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20944,8 +20503,8 @@ void Pack_8_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -20983,8 +20542,8 @@ void Pack_8_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21022,8 +20581,8 @@ void Pack_8_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21061,13 +20620,13 @@ void Pack_8_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t A_block[8 * 1];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 1) {
@@ -21100,13 +20659,12 @@ void Pack_8_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t A_block[8 * 2];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 2) {
@@ -21139,13 +20697,12 @@ void Pack_8_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t A_block[8 * 4];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 4) {
@@ -21178,13 +20735,12 @@ void Pack_8_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t A_block[8 * 8];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 8) {
@@ -21217,13 +20773,12 @@ void Pack_8_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t A_block[8 * 16];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 16) {
@@ -21256,8 +20811,7 @@ void Pack_8_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21295,8 +20849,8 @@ void Pack_8_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21334,8 +20888,8 @@ void Pack_8_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21373,8 +20927,8 @@ void Pack_8_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21412,8 +20966,8 @@ void Pack_8_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21451,8 +21005,8 @@ void Pack_8_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21490,8 +21044,8 @@ void Pack_8_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21529,13 +21083,13 @@ void Pack_8_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t A_block[8 * 1];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 1) {
@@ -21568,13 +21122,12 @@ void Pack_8_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t A_block[8 * 2];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 2) {
@@ -21607,13 +21160,12 @@ void Pack_8_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t A_block[8 * 4];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 4) {
@@ -21646,13 +21198,12 @@ void Pack_8_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t A_block[8 * 8];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 8) {
@@ -21685,13 +21236,12 @@ void Pack_8_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t A_block[8 * 16];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 16) {
@@ -21724,8 +21274,7 @@ void Pack_8_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21763,8 +21312,8 @@ void Pack_8_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21802,8 +21351,8 @@ void Pack_8_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21841,8 +21390,8 @@ void Pack_8_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21880,8 +21429,8 @@ void Pack_8_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21919,8 +21468,8 @@ void Pack_8_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21958,8 +21507,8 @@ void Pack_8_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -21997,13 +21546,13 @@ void Pack_8_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t A_block[8 * 1];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 1) {
@@ -22036,13 +21585,12 @@ void Pack_8_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t A_block[8 * 2];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 2) {
@@ -22075,13 +21623,12 @@ void Pack_8_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t A_block[8 * 4];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 4) {
@@ -22114,13 +21661,12 @@ void Pack_8_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t A_block[8 * 8];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 8) {
@@ -22153,13 +21699,12 @@ void Pack_8_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t A_block[8 * 16];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 16) {
@@ -22192,8 +21737,7 @@ void Pack_8_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_8_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -22231,8 +21775,8 @@ void Pack_8_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -22270,8 +21814,8 @@ void Pack_8_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -22309,8 +21853,8 @@ void Pack_8_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -22348,8 +21892,8 @@ void Pack_8_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -22387,8 +21931,8 @@ void Pack_8_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -22426,8 +21970,8 @@ void Pack_8_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_8_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -22465,13 +22009,13 @@ void Pack_8_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 1];
+  uint8_t A_block[16 * 1];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 1) {
@@ -22504,13 +22048,11 @@ void Pack_16_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 1];
+  uint8_t A_block[16 * 2];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 2) {
@@ -22543,13 +22085,11 @@ void Pack_16_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 1];
+  uint8_t A_block[16 * 4];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 4) {
@@ -22582,13 +22122,11 @@ void Pack_16_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 1];
+  uint8_t A_block[16 * 8];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 8) {
@@ -22621,12 +22159,10 @@ void Pack_16_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[16 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(16 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -22660,12 +22196,11 @@ void Pack_16_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_16_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[32 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(16 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -22699,12 +22234,11 @@ void Pack_16_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_16_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[64 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(16 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -22738,12 +22272,11 @@ void Pack_16_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_16_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[128 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(16 * 128 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -22777,8 +22310,7 @@ void Pack_16_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_16_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -22816,8 +22348,8 @@ void Pack_16_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -22855,8 +22387,8 @@ void Pack_16_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -22894,8 +22426,8 @@ void Pack_16_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -22933,13 +22465,13 @@ void Pack_16_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 2];
+  uint8_t A_block[16 * 1];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 1) {
@@ -22972,13 +22504,11 @@ void Pack_16_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 2];
+  uint8_t A_block[16 * 2];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 2) {
@@ -23011,13 +22541,11 @@ void Pack_16_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 2];
+  uint8_t A_block[16 * 4];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 4) {
@@ -23050,13 +22578,11 @@ void Pack_16_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 2];
+  uint8_t A_block[16 * 8];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 8) {
@@ -23089,12 +22615,10 @@ void Pack_16_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t B_block[16 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(16 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -23128,12 +22652,11 @@ void Pack_16_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_16_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[32 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(16 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -23167,12 +22690,11 @@ void Pack_16_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_16_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[64 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(16 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -23206,8 +22728,7 @@ void Pack_16_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_16_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -23245,8 +22766,8 @@ void Pack_16_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -23284,8 +22805,8 @@ void Pack_16_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -23323,8 +22844,8 @@ void Pack_16_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -23362,8 +22883,8 @@ void Pack_16_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -23401,13 +22922,13 @@ void Pack_16_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 4];
+  uint8_t A_block[16 * 1];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 1) {
@@ -23440,13 +22961,11 @@ void Pack_16_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 4];
+  uint8_t A_block[16 * 2];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 2) {
@@ -23479,13 +22998,11 @@ void Pack_16_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 4];
+  uint8_t A_block[16 * 4];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 4) {
@@ -23518,13 +23035,11 @@ void Pack_16_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 4];
+  uint8_t A_block[16 * 8];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 8) {
@@ -23557,12 +23072,10 @@ void Pack_16_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t B_block[16 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(16 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -23596,12 +23109,11 @@ void Pack_16_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_16_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t B_block[32 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(16 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -23635,8 +23147,7 @@ void Pack_16_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_16_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -23674,8 +23185,8 @@ void Pack_16_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -23713,8 +23224,8 @@ void Pack_16_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -23752,8 +23263,8 @@ void Pack_16_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -23791,8 +23302,8 @@ void Pack_16_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -23830,8 +23341,8 @@ void Pack_16_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -23869,13 +23380,13 @@ void Pack_16_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 8];
+  uint8_t A_block[16 * 1];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 1) {
@@ -23908,13 +23419,11 @@ void Pack_16_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 8];
+  uint8_t A_block[16 * 2];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 2) {
@@ -23947,13 +23456,11 @@ void Pack_16_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 8];
+  uint8_t A_block[16 * 4];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 4) {
@@ -23986,13 +23493,11 @@ void Pack_16_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 8];
+  uint8_t A_block[16 * 8];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 8) {
@@ -24025,12 +23530,10 @@ void Pack_16_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t B_block[16 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(16 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -24064,8 +23567,7 @@ void Pack_16_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_16_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -24103,8 +23605,8 @@ void Pack_16_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -24142,8 +23644,8 @@ void Pack_16_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -24181,8 +23683,8 @@ void Pack_16_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -24220,8 +23722,8 @@ void Pack_16_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -24259,8 +23761,8 @@ void Pack_16_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -24298,8 +23800,8 @@ void Pack_16_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -24337,13 +23839,13 @@ void Pack_16_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 16];
+  uint8_t A_block[16 * 1];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 1) {
@@ -24376,13 +23878,11 @@ void Pack_16_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 16];
+  uint8_t A_block[16 * 2];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 2) {
@@ -24415,13 +23915,11 @@ void Pack_16_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 16];
+  uint8_t A_block[16 * 4];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 4) {
@@ -24454,13 +23952,11 @@ void Pack_16_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 16];
+  uint8_t A_block[16 * 8];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 8) {
@@ -24493,8 +23989,6 @@ void Pack_16_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -24532,8 +24026,8 @@ void Pack_16_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -24571,8 +24065,8 @@ void Pack_16_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -24610,8 +24104,8 @@ void Pack_16_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -24649,8 +24143,8 @@ void Pack_16_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -24688,8 +24182,8 @@ void Pack_16_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -24727,8 +24221,8 @@ void Pack_16_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -24766,8 +24260,8 @@ void Pack_16_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -24805,13 +24299,13 @@ void Pack_16_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 32];
+  uint8_t A_block[16 * 1];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 1) {
@@ -24844,13 +24338,11 @@ void Pack_16_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 32];
+  uint8_t A_block[16 * 2];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 2) {
@@ -24883,13 +24375,11 @@ void Pack_16_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 32];
+  uint8_t A_block[16 * 4];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 4) {
@@ -24922,13 +24412,11 @@ void Pack_16_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t A_block[16 * 8];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 8) {
@@ -24961,8 +24449,7 @@ void Pack_16_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25000,8 +24487,8 @@ void Pack_16_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25039,8 +24526,8 @@ void Pack_16_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25078,8 +24565,8 @@ void Pack_16_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25117,8 +24604,8 @@ void Pack_16_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25156,8 +24643,8 @@ void Pack_16_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25195,8 +24682,8 @@ void Pack_16_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25234,8 +24721,8 @@ void Pack_16_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25273,13 +24760,13 @@ void Pack_16_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 64];
+  uint8_t A_block[16 * 1];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 1) {
@@ -25312,13 +24799,11 @@ void Pack_16_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 64];
+  uint8_t A_block[16 * 2];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 2) {
@@ -25351,13 +24836,11 @@ void Pack_16_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t A_block[16 * 4];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 4) {
@@ -25390,13 +24873,12 @@ void Pack_16_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t A_block[16 * 8];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 8) {
@@ -25429,8 +24911,7 @@ void Pack_16_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25468,8 +24949,8 @@ void Pack_16_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25507,8 +24988,8 @@ void Pack_16_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25546,8 +25027,8 @@ void Pack_16_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25585,8 +25066,8 @@ void Pack_16_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25624,8 +25105,8 @@ void Pack_16_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25663,8 +25144,8 @@ void Pack_16_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25702,8 +25183,8 @@ void Pack_16_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25741,13 +25222,13 @@ void Pack_16_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 128];
+  uint8_t A_block[16 * 1];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 1) {
@@ -25780,13 +25261,11 @@ void Pack_16_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_16_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t A_block[16 * 2];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 2) {
@@ -25819,13 +25298,12 @@ void Pack_16_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t A_block[16 * 4];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 4) {
@@ -25858,13 +25336,12 @@ void Pack_16_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t A_block[16 * 8];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 8) {
@@ -25897,8 +25374,7 @@ void Pack_16_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25936,8 +25412,8 @@ void Pack_16_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -25975,8 +25451,8 @@ void Pack_16_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26014,8 +25490,8 @@ void Pack_16_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26053,8 +25529,8 @@ void Pack_16_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26092,8 +25568,8 @@ void Pack_16_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26131,8 +25607,8 @@ void Pack_16_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26170,8 +25646,8 @@ void Pack_16_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26209,13 +25685,13 @@ void Pack_16_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t A_block[16 * 1];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 1) {
@@ -26248,13 +25724,12 @@ void Pack_16_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t A_block[16 * 2];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 2) {
@@ -26287,13 +25762,12 @@ void Pack_16_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t A_block[16 * 4];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 4) {
@@ -26326,13 +25800,12 @@ void Pack_16_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t A_block[16 * 8];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 8) {
@@ -26365,8 +25838,7 @@ void Pack_16_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26404,8 +25876,8 @@ void Pack_16_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26443,8 +25915,8 @@ void Pack_16_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26482,8 +25954,8 @@ void Pack_16_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26521,8 +25993,8 @@ void Pack_16_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26560,8 +26032,8 @@ void Pack_16_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26599,8 +26071,8 @@ void Pack_16_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26638,8 +26110,8 @@ void Pack_16_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26677,13 +26149,13 @@ void Pack_16_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t A_block[16 * 1];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 1) {
@@ -26716,13 +26188,12 @@ void Pack_16_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t A_block[16 * 2];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 2) {
@@ -26755,13 +26226,12 @@ void Pack_16_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t A_block[16 * 4];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 4) {
@@ -26794,13 +26264,12 @@ void Pack_16_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t A_block[16 * 8];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 8) {
@@ -26833,8 +26302,7 @@ void Pack_16_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26872,8 +26340,8 @@ void Pack_16_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26911,8 +26379,8 @@ void Pack_16_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26950,8 +26418,8 @@ void Pack_16_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -26989,8 +26457,8 @@ void Pack_16_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27028,8 +26496,8 @@ void Pack_16_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27067,8 +26535,8 @@ void Pack_16_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27106,8 +26574,8 @@ void Pack_16_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27145,13 +26613,13 @@ void Pack_16_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t A_block[16 * 1];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 1) {
@@ -27184,13 +26652,12 @@ void Pack_16_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t A_block[16 * 2];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 2) {
@@ -27223,13 +26690,12 @@ void Pack_16_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t A_block[16 * 4];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 4) {
@@ -27262,13 +26728,12 @@ void Pack_16_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t A_block[16 * 8];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 8) {
@@ -27301,8 +26766,7 @@ void Pack_16_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27340,8 +26804,8 @@ void Pack_16_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27379,8 +26843,8 @@ void Pack_16_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27418,8 +26882,8 @@ void Pack_16_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27457,8 +26921,8 @@ void Pack_16_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27496,8 +26960,8 @@ void Pack_16_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27535,8 +26999,8 @@ void Pack_16_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27574,8 +27038,8 @@ void Pack_16_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27613,13 +27077,13 @@ void Pack_16_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t A_block[16 * 1];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 1) {
@@ -27652,13 +27116,12 @@ void Pack_16_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t A_block[16 * 2];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 2) {
@@ -27691,13 +27154,12 @@ void Pack_16_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t A_block[16 * 4];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 4) {
@@ -27730,13 +27192,12 @@ void Pack_16_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t A_block[16 * 8];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 8) {
@@ -27769,8 +27230,7 @@ void Pack_16_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_16_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27808,8 +27268,8 @@ void Pack_16_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27847,8 +27307,8 @@ void Pack_16_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27886,8 +27346,8 @@ void Pack_16_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27925,8 +27385,8 @@ void Pack_16_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -27964,8 +27424,8 @@ void Pack_16_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -28003,8 +27463,8 @@ void Pack_16_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -28042,8 +27502,8 @@ void Pack_16_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_16_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -28081,13 +27541,13 @@ void Pack_16_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 1];
+  uint8_t A_block[32 * 1];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 1) {
@@ -28120,13 +27580,11 @@ void Pack_32_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 1];
+  uint8_t A_block[32 * 2];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 2) {
@@ -28159,13 +27617,11 @@ void Pack_32_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 1];
+  uint8_t A_block[32 * 4];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 4) {
@@ -28198,12 +27654,10 @@ void Pack_32_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t B_block[8 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(32 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -28237,12 +27691,11 @@ void Pack_32_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_32_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[16 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(32 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -28276,12 +27729,11 @@ void Pack_32_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_32_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[32 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(32 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -28315,12 +27767,11 @@ void Pack_32_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_32_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[64 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(32 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -28354,12 +27805,11 @@ void Pack_32_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_32_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[128 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(32 * 128 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -28393,8 +27843,7 @@ void Pack_32_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_32_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -28432,8 +27881,8 @@ void Pack_32_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -28471,8 +27920,8 @@ void Pack_32_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -28510,8 +27959,8 @@ void Pack_32_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -28549,13 +27998,13 @@ void Pack_32_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 2];
+  uint8_t A_block[32 * 1];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 1) {
@@ -28588,13 +28037,11 @@ void Pack_32_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 2];
+  uint8_t A_block[32 * 2];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 2) {
@@ -28627,13 +28074,11 @@ void Pack_32_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 2];
+  uint8_t A_block[32 * 4];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 4) {
@@ -28666,12 +28111,10 @@ void Pack_32_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t B_block[8 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(32 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -28705,12 +28148,11 @@ void Pack_32_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_32_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t B_block[16 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(32 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -28744,12 +28186,11 @@ void Pack_32_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_32_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[32 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(32 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -28783,12 +28224,11 @@ void Pack_32_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_32_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[64 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(32 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -28822,8 +28262,7 @@ void Pack_32_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_32_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -28861,8 +28300,8 @@ void Pack_32_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -28900,8 +28339,8 @@ void Pack_32_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -28939,8 +28378,8 @@ void Pack_32_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -28978,8 +28417,8 @@ void Pack_32_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -29017,13 +28456,13 @@ void Pack_32_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 4];
+  uint8_t A_block[32 * 1];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 1) {
@@ -29056,13 +28495,11 @@ void Pack_32_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 4];
+  uint8_t A_block[32 * 2];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 2) {
@@ -29095,13 +28532,11 @@ void Pack_32_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 4];
+  uint8_t A_block[32 * 4];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 4) {
@@ -29134,12 +28569,10 @@ void Pack_32_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t B_block[8 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(32 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -29173,12 +28606,11 @@ void Pack_32_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_32_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t B_block[16 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(32 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -29212,12 +28644,11 @@ void Pack_32_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_32_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t B_block[32 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(32 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -29251,8 +28682,7 @@ void Pack_32_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_32_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -29290,8 +28720,8 @@ void Pack_32_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -29329,8 +28759,8 @@ void Pack_32_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -29368,8 +28798,8 @@ void Pack_32_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -29407,8 +28837,8 @@ void Pack_32_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -29446,8 +28876,8 @@ void Pack_32_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -29485,13 +28915,13 @@ void Pack_32_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 8];
+  uint8_t A_block[32 * 1];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 1) {
@@ -29524,13 +28954,11 @@ void Pack_32_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 8];
+  uint8_t A_block[32 * 2];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 2) {
@@ -29563,13 +28991,11 @@ void Pack_32_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 8];
+  uint8_t A_block[32 * 4];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 4) {
@@ -29602,12 +29028,10 @@ void Pack_32_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(32 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -29641,12 +29065,11 @@ void Pack_32_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_32_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t B_block[16 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(32 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -29680,8 +29103,7 @@ void Pack_32_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_32_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -29719,8 +29141,8 @@ void Pack_32_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -29758,8 +29180,8 @@ void Pack_32_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -29797,8 +29219,8 @@ void Pack_32_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -29836,8 +29258,8 @@ void Pack_32_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -29875,8 +29297,8 @@ void Pack_32_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -29914,8 +29336,8 @@ void Pack_32_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -29953,13 +29375,13 @@ void Pack_32_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 16];
+  uint8_t A_block[32 * 1];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 1) {
@@ -29992,13 +29414,11 @@ void Pack_32_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 16];
+  uint8_t A_block[32 * 2];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 2) {
@@ -30031,13 +29451,11 @@ void Pack_32_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 16];
+  uint8_t A_block[32 * 4];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 4) {
@@ -30070,12 +29488,10 @@ void Pack_32_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t B_block[8 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(32 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -30109,8 +29525,7 @@ void Pack_32_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_32_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30148,8 +29563,8 @@ void Pack_32_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30187,8 +29602,8 @@ void Pack_32_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30226,8 +29641,8 @@ void Pack_32_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30265,8 +29680,8 @@ void Pack_32_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30304,8 +29719,8 @@ void Pack_32_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30343,8 +29758,8 @@ void Pack_32_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30382,8 +29797,8 @@ void Pack_32_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30421,13 +29836,13 @@ void Pack_32_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 32];
+  uint8_t A_block[32 * 1];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 1) {
@@ -30460,13 +29875,11 @@ void Pack_32_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 32];
+  uint8_t A_block[32 * 2];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 2) {
@@ -30499,13 +29912,11 @@ void Pack_32_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 32];
+  uint8_t A_block[32 * 4];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 4) {
@@ -30538,8 +29949,6 @@ void Pack_32_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30577,8 +29986,8 @@ void Pack_32_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30616,8 +30025,8 @@ void Pack_32_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30655,8 +30064,8 @@ void Pack_32_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30694,8 +30103,8 @@ void Pack_32_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30733,8 +30142,8 @@ void Pack_32_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30772,8 +30181,8 @@ void Pack_32_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30811,8 +30220,8 @@ void Pack_32_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30850,8 +30259,8 @@ void Pack_32_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -30889,13 +30298,13 @@ void Pack_32_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 64];
+  uint8_t A_block[32 * 1];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 1) {
@@ -30928,13 +30337,11 @@ void Pack_32_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 64];
+  uint8_t A_block[32 * 2];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 2) {
@@ -30967,13 +30374,11 @@ void Pack_32_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t A_block[32 * 4];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 4) {
@@ -31006,8 +30411,7 @@ void Pack_32_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_32_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31045,8 +30449,8 @@ void Pack_32_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31084,8 +30488,8 @@ void Pack_32_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31123,8 +30527,8 @@ void Pack_32_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31162,8 +30566,8 @@ void Pack_32_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31201,8 +30605,8 @@ void Pack_32_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31240,8 +30644,8 @@ void Pack_32_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31279,8 +30683,8 @@ void Pack_32_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31318,8 +30722,8 @@ void Pack_32_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31357,13 +30761,13 @@ void Pack_32_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 128];
+  uint8_t A_block[32 * 1];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 1) {
@@ -31396,13 +30800,11 @@ void Pack_32_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_32_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t A_block[32 * 2];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 2) {
@@ -31435,13 +30837,12 @@ void Pack_32_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_32_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t A_block[32 * 4];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 4) {
@@ -31474,8 +30875,7 @@ void Pack_32_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_32_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31513,8 +30913,8 @@ void Pack_32_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31552,8 +30952,8 @@ void Pack_32_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31591,8 +30991,8 @@ void Pack_32_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31630,8 +31030,8 @@ void Pack_32_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31669,8 +31069,8 @@ void Pack_32_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31708,8 +31108,8 @@ void Pack_32_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31747,8 +31147,8 @@ void Pack_32_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31786,8 +31186,8 @@ void Pack_32_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31825,13 +31225,13 @@ void Pack_32_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t A_block[32 * 1];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 1) {
@@ -31864,13 +31264,12 @@ void Pack_32_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_32_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t A_block[32 * 2];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 2) {
@@ -31903,13 +31302,12 @@ void Pack_32_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_32_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t A_block[32 * 4];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 4) {
@@ -31942,8 +31340,7 @@ void Pack_32_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_32_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -31981,8 +31378,8 @@ void Pack_32_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32020,8 +31417,8 @@ void Pack_32_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32059,8 +31456,8 @@ void Pack_32_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32098,8 +31495,8 @@ void Pack_32_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32137,8 +31534,8 @@ void Pack_32_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32176,8 +31573,8 @@ void Pack_32_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32215,8 +31612,8 @@ void Pack_32_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32254,8 +31651,8 @@ void Pack_32_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32293,13 +31690,13 @@ void Pack_32_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t A_block[32 * 1];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 1) {
@@ -32332,13 +31729,12 @@ void Pack_32_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_32_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t A_block[32 * 2];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 2) {
@@ -32371,13 +31767,12 @@ void Pack_32_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_32_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t A_block[32 * 4];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 4) {
@@ -32410,8 +31805,7 @@ void Pack_32_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_32_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32449,8 +31843,8 @@ void Pack_32_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32488,8 +31882,8 @@ void Pack_32_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32527,8 +31921,8 @@ void Pack_32_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32566,8 +31960,8 @@ void Pack_32_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32605,8 +31999,8 @@ void Pack_32_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32644,8 +32038,8 @@ void Pack_32_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32683,8 +32077,8 @@ void Pack_32_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32722,8 +32116,8 @@ void Pack_32_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32761,13 +32155,13 @@ void Pack_32_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t A_block[32 * 1];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 1) {
@@ -32800,13 +32194,12 @@ void Pack_32_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_32_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t A_block[32 * 2];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 2) {
@@ -32839,13 +32232,12 @@ void Pack_32_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_32_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t A_block[32 * 4];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 4) {
@@ -32878,8 +32270,7 @@ void Pack_32_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_32_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32917,8 +32308,8 @@ void Pack_32_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32956,8 +32347,8 @@ void Pack_32_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -32995,8 +32386,8 @@ void Pack_32_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -33034,8 +32425,8 @@ void Pack_32_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -33073,8 +32464,8 @@ void Pack_32_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -33112,8 +32503,8 @@ void Pack_32_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -33151,8 +32542,8 @@ void Pack_32_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -33190,8 +32581,8 @@ void Pack_32_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -33229,13 +32620,13 @@ void Pack_32_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t A_block[32 * 1];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 1) {
@@ -33268,13 +32659,12 @@ void Pack_32_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_32_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t A_block[32 * 2];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 2) {
@@ -33307,13 +32697,12 @@ void Pack_32_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_32_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t A_block[32 * 4];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 4) {
@@ -33346,8 +32735,7 @@ void Pack_32_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_32_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -33385,8 +32773,8 @@ void Pack_32_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -33424,8 +32812,8 @@ void Pack_32_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -33463,8 +32851,8 @@ void Pack_32_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -33502,8 +32890,8 @@ void Pack_32_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -33541,8 +32929,8 @@ void Pack_32_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -33580,8 +32968,8 @@ void Pack_32_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -33619,8 +33007,8 @@ void Pack_32_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -33658,8 +33046,8 @@ void Pack_32_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_32_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -33697,13 +33085,13 @@ void Pack_32_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 1];
+  uint8_t A_block[64 * 1];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 1) {
@@ -33736,13 +33124,11 @@ void Pack_64_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_64_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 1];
+  uint8_t A_block[64 * 2];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 2) {
@@ -33775,12 +33161,10 @@ void Pack_64_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_64_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t B_block[4 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -33814,12 +33198,11 @@ void Pack_64_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t B_block[8 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -33853,12 +33236,11 @@ void Pack_64_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[16 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -33892,12 +33274,11 @@ void Pack_64_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[32 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -33931,12 +33312,11 @@ void Pack_64_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[64 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -33970,12 +33350,11 @@ void Pack_64_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[128 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 128 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -34009,8 +33388,7 @@ void Pack_64_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -34048,8 +33426,8 @@ void Pack_64_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -34087,8 +33465,8 @@ void Pack_64_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -34126,8 +33504,8 @@ void Pack_64_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -34165,13 +33543,13 @@ void Pack_64_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 2];
+  uint8_t A_block[64 * 1];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 1) {
@@ -34204,13 +33582,11 @@ void Pack_64_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_64_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 2];
+  uint8_t A_block[64 * 2];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 2) {
@@ -34243,12 +33619,10 @@ void Pack_64_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_64_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t B_block[4 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -34282,12 +33656,11 @@ void Pack_64_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t B_block[8 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -34321,12 +33694,11 @@ void Pack_64_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t B_block[16 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -34360,12 +33732,11 @@ void Pack_64_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[32 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -34399,12 +33770,11 @@ void Pack_64_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[64 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -34438,8 +33808,7 @@ void Pack_64_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -34477,8 +33846,8 @@ void Pack_64_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -34516,8 +33885,8 @@ void Pack_64_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -34555,8 +33924,8 @@ void Pack_64_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -34594,8 +33963,8 @@ void Pack_64_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -34633,13 +34002,13 @@ void Pack_64_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 4];
+  uint8_t A_block[64 * 1];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 1) {
@@ -34672,13 +34041,11 @@ void Pack_64_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_64_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 4];
+  uint8_t A_block[64 * 2];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 2) {
@@ -34711,12 +34078,10 @@ void Pack_64_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_64_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -34750,12 +34115,11 @@ void Pack_64_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t B_block[8 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -34789,12 +34153,11 @@ void Pack_64_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t B_block[16 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -34828,12 +34191,11 @@ void Pack_64_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t B_block[32 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -34867,8 +34229,7 @@ void Pack_64_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -34906,8 +34267,8 @@ void Pack_64_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -34945,8 +34306,8 @@ void Pack_64_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -34984,8 +34345,8 @@ void Pack_64_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35023,8 +34384,8 @@ void Pack_64_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35062,8 +34423,8 @@ void Pack_64_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35101,13 +34462,13 @@ void Pack_64_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 8];
+  uint8_t A_block[64 * 1];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 1) {
@@ -35140,13 +34501,11 @@ void Pack_64_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_64_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 8];
+  uint8_t A_block[64 * 2];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 2) {
@@ -35179,12 +34538,10 @@ void Pack_64_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_64_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t B_block[4 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -35218,12 +34575,11 @@ void Pack_64_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -35257,12 +34613,11 @@ void Pack_64_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t B_block[16 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -35296,8 +34651,7 @@ void Pack_64_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35335,8 +34689,8 @@ void Pack_64_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35374,8 +34728,8 @@ void Pack_64_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35413,8 +34767,8 @@ void Pack_64_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35452,8 +34806,8 @@ void Pack_64_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35491,8 +34845,8 @@ void Pack_64_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35530,8 +34884,8 @@ void Pack_64_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35569,13 +34923,13 @@ void Pack_64_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 16];
+  uint8_t A_block[64 * 1];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 1) {
@@ -35608,13 +34962,11 @@ void Pack_64_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_64_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 16];
+  uint8_t A_block[64 * 2];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 2) {
@@ -35647,12 +34999,10 @@ void Pack_64_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_64_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t B_block[4 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -35686,12 +35036,11 @@ void Pack_64_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t B_block[8 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -35725,8 +35074,7 @@ void Pack_64_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35764,8 +35112,8 @@ void Pack_64_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35803,8 +35151,8 @@ void Pack_64_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35842,8 +35190,8 @@ void Pack_64_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35881,8 +35229,8 @@ void Pack_64_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35920,8 +35268,8 @@ void Pack_64_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35959,8 +35307,8 @@ void Pack_64_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -35998,8 +35346,8 @@ void Pack_64_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36037,13 +35385,13 @@ void Pack_64_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 32];
+  uint8_t A_block[64 * 1];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 1) {
@@ -36076,13 +35424,11 @@ void Pack_64_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_64_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 32];
+  uint8_t A_block[64 * 2];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 2) {
@@ -36115,12 +35461,10 @@ void Pack_64_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_64_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t B_block[4 * 32];
   uint8_t *restrict A_block = (uint8_t *)malloc(64 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 32) {
@@ -36154,8 +35498,7 @@ void Pack_64_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_64_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36193,8 +35536,8 @@ void Pack_64_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36232,8 +35575,8 @@ void Pack_64_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36271,8 +35614,8 @@ void Pack_64_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36310,8 +35653,8 @@ void Pack_64_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36349,8 +35692,8 @@ void Pack_64_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36388,8 +35731,8 @@ void Pack_64_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36427,8 +35770,8 @@ void Pack_64_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36466,8 +35809,8 @@ void Pack_64_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36505,13 +35848,13 @@ void Pack_64_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 64];
+  uint8_t A_block[64 * 1];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 1) {
@@ -36544,13 +35887,11 @@ void Pack_64_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_64_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 64];
+  uint8_t A_block[64 * 2];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 2) {
@@ -36583,8 +35924,6 @@ void Pack_64_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_64_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36622,8 +35961,8 @@ void Pack_64_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36661,8 +36000,8 @@ void Pack_64_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36700,8 +36039,8 @@ void Pack_64_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36739,8 +36078,8 @@ void Pack_64_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36778,8 +36117,8 @@ void Pack_64_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36817,8 +36156,8 @@ void Pack_64_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36856,8 +36195,8 @@ void Pack_64_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36895,8 +36234,8 @@ void Pack_64_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36934,8 +36273,8 @@ void Pack_64_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -36973,13 +36312,13 @@ void Pack_64_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 128];
+  uint8_t A_block[64 * 1];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 1) {
@@ -37012,13 +36351,11 @@ void Pack_64_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_64_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t A_block[64 * 2];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 2) {
@@ -37051,8 +36388,7 @@ void Pack_64_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_64_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37090,8 +36426,8 @@ void Pack_64_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37129,8 +36465,8 @@ void Pack_64_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37168,8 +36504,8 @@ void Pack_64_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37207,8 +36543,8 @@ void Pack_64_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37246,8 +36582,8 @@ void Pack_64_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37285,8 +36621,8 @@ void Pack_64_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37324,8 +36660,8 @@ void Pack_64_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37363,8 +36699,8 @@ void Pack_64_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37402,8 +36738,8 @@ void Pack_64_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37441,13 +36777,13 @@ void Pack_64_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t A_block[64 * 1];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 1) {
@@ -37480,13 +36816,12 @@ void Pack_64_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_64_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t A_block[64 * 2];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 2) {
@@ -37519,8 +36854,7 @@ void Pack_64_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_64_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37558,8 +36892,8 @@ void Pack_64_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37597,8 +36931,8 @@ void Pack_64_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37636,8 +36970,8 @@ void Pack_64_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37675,8 +37009,8 @@ void Pack_64_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37714,8 +37048,8 @@ void Pack_64_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37753,8 +37087,8 @@ void Pack_64_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37792,8 +37126,8 @@ void Pack_64_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37831,8 +37165,8 @@ void Pack_64_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37870,8 +37204,8 @@ void Pack_64_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -37909,13 +37243,13 @@ void Pack_64_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t A_block[64 * 1];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 1) {
@@ -37948,13 +37282,12 @@ void Pack_64_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_64_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t A_block[64 * 2];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 2) {
@@ -37987,8 +37320,7 @@ void Pack_64_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_64_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38026,8 +37358,8 @@ void Pack_64_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38065,8 +37397,8 @@ void Pack_64_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38104,8 +37436,8 @@ void Pack_64_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38143,8 +37475,8 @@ void Pack_64_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38182,8 +37514,8 @@ void Pack_64_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38221,8 +37553,8 @@ void Pack_64_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38260,8 +37592,8 @@ void Pack_64_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38299,8 +37631,8 @@ void Pack_64_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38338,8 +37670,8 @@ void Pack_64_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38377,13 +37709,13 @@ void Pack_64_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t A_block[64 * 1];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 1) {
@@ -38416,13 +37748,12 @@ void Pack_64_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_64_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t A_block[64 * 2];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 2) {
@@ -38455,8 +37786,7 @@ void Pack_64_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_64_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38494,8 +37824,8 @@ void Pack_64_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38533,8 +37863,8 @@ void Pack_64_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38572,8 +37902,8 @@ void Pack_64_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38611,8 +37941,8 @@ void Pack_64_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38650,8 +37980,8 @@ void Pack_64_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38689,8 +38019,8 @@ void Pack_64_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38728,8 +38058,8 @@ void Pack_64_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38767,8 +38097,8 @@ void Pack_64_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38806,8 +38136,8 @@ void Pack_64_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38845,13 +38175,13 @@ void Pack_64_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t A_block[64 * 1];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 1) {
@@ -38884,13 +38214,12 @@ void Pack_64_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_64_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t A_block[64 * 2];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 2) {
@@ -38923,8 +38252,7 @@ void Pack_64_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_64_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -38962,8 +38290,8 @@ void Pack_64_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -39001,8 +38329,8 @@ void Pack_64_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -39040,8 +38368,8 @@ void Pack_64_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -39079,8 +38407,8 @@ void Pack_64_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -39118,8 +38446,8 @@ void Pack_64_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -39157,8 +38485,8 @@ void Pack_64_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -39196,8 +38524,8 @@ void Pack_64_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -39235,8 +38563,8 @@ void Pack_64_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -39274,8 +38602,8 @@ void Pack_64_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_64_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -39313,13 +38641,13 @@ void Pack_64_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 1];
+  uint8_t A_block[128 * 1];
 
   for (int n = 0; n < N; n += 1) {
     for (int k = 0; k < K; k += 1) {
@@ -39352,12 +38680,10 @@ void Pack_128_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_128_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t B_block[2 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -39391,12 +38717,11 @@ void Pack_128_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t B_block[4 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -39430,12 +38755,11 @@ void Pack_128_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t B_block[8 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -39469,12 +38793,11 @@ void Pack_128_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[16 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -39508,12 +38831,11 @@ void Pack_128_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[32 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -39547,12 +38869,11 @@ void Pack_128_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[64 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -39586,12 +38907,11 @@ void Pack_128_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[128 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 128 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -39625,8 +38945,7 @@ void Pack_128_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -39664,8 +38983,8 @@ void Pack_128_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -39703,8 +39022,8 @@ void Pack_128_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -39742,8 +39061,8 @@ void Pack_128_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -39781,13 +39100,13 @@ void Pack_128_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 2];
+  uint8_t A_block[128 * 1];
 
   for (int n = 0; n < N; n += 2) {
     for (int k = 0; k < K; k += 1) {
@@ -39820,12 +39139,10 @@ void Pack_128_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_128_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -39859,12 +39176,11 @@ void Pack_128_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t B_block[4 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -39898,12 +39214,11 @@ void Pack_128_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t B_block[8 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -39937,12 +39252,11 @@ void Pack_128_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t B_block[16 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -39976,12 +39290,11 @@ void Pack_128_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[32 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -40015,12 +39328,11 @@ void Pack_128_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[64 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -40054,8 +39366,7 @@ void Pack_128_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -40093,8 +39404,8 @@ void Pack_128_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -40132,8 +39443,8 @@ void Pack_128_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -40171,8 +39482,8 @@ void Pack_128_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -40210,8 +39521,8 @@ void Pack_128_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -40249,13 +39560,13 @@ void Pack_128_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 4];
+  uint8_t A_block[128 * 1];
 
   for (int n = 0; n < N; n += 4) {
     for (int k = 0; k < K; k += 1) {
@@ -40288,12 +39599,10 @@ void Pack_128_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_128_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t B_block[2 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -40327,12 +39636,11 @@ void Pack_128_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -40366,12 +39674,11 @@ void Pack_128_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t B_block[8 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -40405,12 +39712,11 @@ void Pack_128_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t B_block[16 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -40444,12 +39750,11 @@ void Pack_128_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t B_block[32 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -40483,8 +39788,7 @@ void Pack_128_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -40522,8 +39826,8 @@ void Pack_128_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -40561,8 +39865,8 @@ void Pack_128_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -40600,8 +39904,8 @@ void Pack_128_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -40639,8 +39943,8 @@ void Pack_128_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -40678,8 +39982,8 @@ void Pack_128_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -40717,13 +40021,13 @@ void Pack_128_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 8];
+  uint8_t A_block[128 * 1];
 
   for (int n = 0; n < N; n += 8) {
     for (int k = 0; k < K; k += 1) {
@@ -40756,12 +40060,10 @@ void Pack_128_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_128_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t B_block[2 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -40795,12 +40097,11 @@ void Pack_128_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t B_block[4 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -40834,12 +40135,11 @@ void Pack_128_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -40873,12 +40173,11 @@ void Pack_128_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t B_block[16 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -40912,8 +40211,7 @@ void Pack_128_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -40951,8 +40249,8 @@ void Pack_128_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -40990,8 +40288,8 @@ void Pack_128_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41029,8 +40327,8 @@ void Pack_128_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41068,8 +40366,8 @@ void Pack_128_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41107,8 +40405,8 @@ void Pack_128_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41146,8 +40444,8 @@ void Pack_128_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41185,13 +40483,13 @@ void Pack_128_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 16];
+  uint8_t A_block[128 * 1];
 
   for (int n = 0; n < N; n += 16) {
     for (int k = 0; k < K; k += 1) {
@@ -41224,12 +40522,10 @@ void Pack_128_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_128_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t B_block[2 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -41263,12 +40559,11 @@ void Pack_128_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t B_block[4 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -41302,12 +40597,11 @@ void Pack_128_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t B_block[8 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -41341,8 +40635,7 @@ void Pack_128_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41380,8 +40673,8 @@ void Pack_128_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41419,8 +40712,8 @@ void Pack_128_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41458,8 +40751,8 @@ void Pack_128_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41497,8 +40790,8 @@ void Pack_128_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41536,8 +40829,8 @@ void Pack_128_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41575,8 +40868,8 @@ void Pack_128_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41614,8 +40907,8 @@ void Pack_128_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41653,13 +40946,13 @@ void Pack_128_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 32];
+  uint8_t A_block[128 * 1];
 
   for (int n = 0; n < N; n += 32) {
     for (int k = 0; k < K; k += 1) {
@@ -41692,12 +40985,10 @@ void Pack_128_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_128_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t B_block[2 * 32];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 32) {
@@ -41731,12 +41022,11 @@ void Pack_128_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t B_block[4 * 32];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 32) {
@@ -41770,8 +41060,7 @@ void Pack_128_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41809,8 +41098,8 @@ void Pack_128_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41848,8 +41137,8 @@ void Pack_128_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41887,8 +41176,8 @@ void Pack_128_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41926,8 +41215,8 @@ void Pack_128_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -41965,8 +41254,8 @@ void Pack_128_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42004,8 +41293,8 @@ void Pack_128_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42043,8 +41332,8 @@ void Pack_128_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42082,8 +41371,8 @@ void Pack_128_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42121,13 +41410,13 @@ void Pack_128_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 64];
+  uint8_t A_block[128 * 1];
 
   for (int n = 0; n < N; n += 64) {
     for (int k = 0; k < K; k += 1) {
@@ -42160,12 +41449,10 @@ void Pack_128_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_128_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t B_block[2 * 64];
   uint8_t *restrict A_block = (uint8_t *)malloc(128 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 64) {
@@ -42199,8 +41486,7 @@ void Pack_128_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_128_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42238,8 +41524,8 @@ void Pack_128_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42277,8 +41563,8 @@ void Pack_128_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42316,8 +41602,8 @@ void Pack_128_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42355,8 +41641,8 @@ void Pack_128_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42394,8 +41680,8 @@ void Pack_128_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42433,8 +41719,8 @@ void Pack_128_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42472,8 +41758,8 @@ void Pack_128_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42511,8 +41797,8 @@ void Pack_128_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42550,8 +41836,8 @@ void Pack_128_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42589,13 +41875,13 @@ void Pack_128_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 128];
+  uint8_t A_block[128 * 1];
 
   for (int n = 0; n < N; n += 128) {
     for (int k = 0; k < K; k += 1) {
@@ -42628,8 +41914,6 @@ void Pack_128_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
 }
 
 void Pack_128_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42667,8 +41951,8 @@ void Pack_128_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42706,8 +41990,8 @@ void Pack_128_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42745,8 +42029,8 @@ void Pack_128_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42784,8 +42068,8 @@ void Pack_128_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42823,8 +42107,8 @@ void Pack_128_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42862,8 +42146,8 @@ void Pack_128_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42901,8 +42185,8 @@ void Pack_128_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42940,8 +42224,8 @@ void Pack_128_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -42979,8 +42263,8 @@ void Pack_128_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43018,8 +42302,8 @@ void Pack_128_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43057,13 +42341,13 @@ void Pack_128_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 256 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t A_block[128 * 1];
 
   for (int n = 0; n < N; n += 256) {
     for (int k = 0; k < K; k += 1) {
@@ -43096,8 +42380,7 @@ void Pack_128_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_128_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43135,8 +42418,8 @@ void Pack_128_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43174,8 +42457,8 @@ void Pack_128_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43213,8 +42496,8 @@ void Pack_128_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43252,8 +42535,8 @@ void Pack_128_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43291,8 +42574,8 @@ void Pack_128_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43330,8 +42613,8 @@ void Pack_128_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43369,8 +42652,8 @@ void Pack_128_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43408,8 +42691,8 @@ void Pack_128_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43447,8 +42730,8 @@ void Pack_128_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43486,8 +42769,8 @@ void Pack_128_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43525,13 +42808,13 @@ void Pack_128_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 512 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t A_block[128 * 1];
 
   for (int n = 0; n < N; n += 512) {
     for (int k = 0; k < K; k += 1) {
@@ -43564,8 +42847,7 @@ void Pack_128_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_128_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43603,8 +42885,8 @@ void Pack_128_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43642,8 +42924,8 @@ void Pack_128_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43681,8 +42963,8 @@ void Pack_128_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43720,8 +43002,8 @@ void Pack_128_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43759,8 +43041,8 @@ void Pack_128_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43798,8 +43080,8 @@ void Pack_128_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43837,8 +43119,8 @@ void Pack_128_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43876,8 +43158,8 @@ void Pack_128_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43915,8 +43197,8 @@ void Pack_128_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43954,8 +43236,8 @@ void Pack_128_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -43993,13 +43275,13 @@ void Pack_128_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1024 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t A_block[128 * 1];
 
   for (int n = 0; n < N; n += 1024) {
     for (int k = 0; k < K; k += 1) {
@@ -44032,8 +43314,7 @@ void Pack_128_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_128_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44071,8 +43352,8 @@ void Pack_128_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44110,8 +43391,8 @@ void Pack_128_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44149,8 +43430,8 @@ void Pack_128_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44188,8 +43469,8 @@ void Pack_128_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44227,8 +43508,8 @@ void Pack_128_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44266,8 +43547,8 @@ void Pack_128_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44305,8 +43586,8 @@ void Pack_128_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44344,8 +43625,8 @@ void Pack_128_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44383,8 +43664,8 @@ void Pack_128_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44422,8 +43703,8 @@ void Pack_128_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44461,13 +43742,13 @@ void Pack_128_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
   uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2048 * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t A_block[128 * 1];
 
   for (int n = 0; n < N; n += 2048) {
     for (int k = 0; k < K; k += 1) {
@@ -44500,8 +43781,7 @@ void Pack_128_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(B_block);
 }
 
 void Pack_128_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44539,8 +43819,8 @@ void Pack_128_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44578,8 +43858,8 @@ void Pack_128_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44617,8 +43897,8 @@ void Pack_128_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44656,8 +43936,8 @@ void Pack_128_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44695,8 +43975,8 @@ void Pack_128_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44734,8 +44014,8 @@ void Pack_128_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44773,8 +44053,8 @@ void Pack_128_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44812,8 +44092,8 @@ void Pack_128_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44851,8 +44131,8 @@ void Pack_128_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44890,8 +44170,8 @@ void Pack_128_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_128_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -44929,12 +44209,12 @@ void Pack_128_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -44968,12 +44248,11 @@ void Pack_256_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t B_block[2 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -45007,12 +44286,11 @@ void Pack_256_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t B_block[4 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -45046,12 +44324,11 @@ void Pack_256_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t B_block[8 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -45085,12 +44362,11 @@ void Pack_256_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[16 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -45124,12 +44400,11 @@ void Pack_256_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[32 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -45163,12 +44438,11 @@ void Pack_256_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[64 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -45202,12 +44476,11 @@ void Pack_256_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[128 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 128 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -45241,8 +44514,7 @@ void Pack_256_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -45280,8 +44552,8 @@ void Pack_256_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -45319,8 +44591,8 @@ void Pack_256_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -45358,8 +44630,8 @@ void Pack_256_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -45397,12 +44669,12 @@ void Pack_256_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t B_block[1 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -45436,12 +44708,11 @@ void Pack_256_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -45475,12 +44746,11 @@ void Pack_256_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t B_block[4 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -45514,12 +44784,11 @@ void Pack_256_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t B_block[8 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -45553,12 +44822,11 @@ void Pack_256_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t B_block[16 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -45592,12 +44860,11 @@ void Pack_256_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[32 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -45631,12 +44898,11 @@ void Pack_256_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[64 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -45670,8 +44936,7 @@ void Pack_256_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -45709,8 +44974,8 @@ void Pack_256_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -45748,8 +45013,8 @@ void Pack_256_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -45787,8 +45052,8 @@ void Pack_256_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -45826,8 +45091,8 @@ void Pack_256_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -45865,12 +45130,12 @@ void Pack_256_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t B_block[1 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -45904,12 +45169,11 @@ void Pack_256_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t B_block[2 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -45943,12 +45207,11 @@ void Pack_256_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -45982,12 +45245,11 @@ void Pack_256_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t B_block[8 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -46021,12 +45283,11 @@ void Pack_256_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t B_block[16 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -46060,12 +45321,11 @@ void Pack_256_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t B_block[32 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -46099,8 +45359,7 @@ void Pack_256_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -46138,8 +45397,8 @@ void Pack_256_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -46177,8 +45436,8 @@ void Pack_256_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -46216,8 +45475,8 @@ void Pack_256_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -46255,8 +45514,8 @@ void Pack_256_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -46294,8 +45553,8 @@ void Pack_256_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -46333,12 +45592,12 @@ void Pack_256_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t B_block[1 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -46372,12 +45631,11 @@ void Pack_256_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t B_block[2 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -46411,12 +45669,11 @@ void Pack_256_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t B_block[4 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -46450,12 +45707,11 @@ void Pack_256_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -46489,12 +45745,11 @@ void Pack_256_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t B_block[16 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -46528,8 +45783,7 @@ void Pack_256_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -46567,8 +45821,8 @@ void Pack_256_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -46606,8 +45860,8 @@ void Pack_256_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -46645,8 +45899,8 @@ void Pack_256_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -46684,8 +45938,8 @@ void Pack_256_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -46723,8 +45977,8 @@ void Pack_256_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -46762,8 +46016,8 @@ void Pack_256_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -46801,12 +46055,12 @@ void Pack_256_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t B_block[1 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -46840,12 +46094,11 @@ void Pack_256_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t B_block[2 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -46879,12 +46132,11 @@ void Pack_256_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t B_block[4 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -46918,12 +46170,11 @@ void Pack_256_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t B_block[8 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -46957,8 +46208,7 @@ void Pack_256_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -46996,8 +46246,8 @@ void Pack_256_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47035,8 +46285,8 @@ void Pack_256_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47074,8 +46324,8 @@ void Pack_256_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47113,8 +46363,8 @@ void Pack_256_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47152,8 +46402,8 @@ void Pack_256_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47191,8 +46441,8 @@ void Pack_256_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47230,8 +46480,8 @@ void Pack_256_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47269,12 +46519,12 @@ void Pack_256_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t B_block[1 * 32];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 32) {
@@ -47308,12 +46558,11 @@ void Pack_256_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t B_block[2 * 32];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 32) {
@@ -47347,12 +46596,11 @@ void Pack_256_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t B_block[4 * 32];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 32) {
@@ -47386,8 +46634,7 @@ void Pack_256_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47425,8 +46672,8 @@ void Pack_256_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47464,8 +46711,8 @@ void Pack_256_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47503,8 +46750,8 @@ void Pack_256_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47542,8 +46789,8 @@ void Pack_256_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47581,8 +46828,8 @@ void Pack_256_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47620,8 +46867,8 @@ void Pack_256_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47659,8 +46906,8 @@ void Pack_256_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47698,8 +46945,8 @@ void Pack_256_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47737,12 +46984,12 @@ void Pack_256_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t B_block[1 * 64];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 64) {
@@ -47776,12 +47023,11 @@ void Pack_256_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t B_block[2 * 64];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 64) {
@@ -47815,8 +47061,7 @@ void Pack_256_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47854,8 +47099,8 @@ void Pack_256_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47893,8 +47138,8 @@ void Pack_256_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47932,8 +47177,8 @@ void Pack_256_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -47971,8 +47216,8 @@ void Pack_256_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48010,8 +47255,8 @@ void Pack_256_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48049,8 +47294,8 @@ void Pack_256_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48088,8 +47333,8 @@ void Pack_256_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48127,8 +47372,8 @@ void Pack_256_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48166,8 +47411,8 @@ void Pack_256_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48205,12 +47450,12 @@ void Pack_256_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t B_block[1 * 128];
   uint8_t *restrict A_block = (uint8_t *)malloc(256 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 128) {
@@ -48244,8 +47489,7 @@ void Pack_256_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_256_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48283,8 +47527,8 @@ void Pack_256_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48322,8 +47566,8 @@ void Pack_256_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48361,8 +47605,8 @@ void Pack_256_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48400,8 +47644,8 @@ void Pack_256_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48439,8 +47683,8 @@ void Pack_256_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48478,8 +47722,8 @@ void Pack_256_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48517,8 +47761,8 @@ void Pack_256_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48556,8 +47800,8 @@ void Pack_256_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48595,8 +47839,8 @@ void Pack_256_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48634,8 +47878,8 @@ void Pack_256_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48673,8 +47917,8 @@ void Pack_256_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48712,8 +47956,8 @@ void Pack_256_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48751,8 +47995,8 @@ void Pack_256_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48790,8 +48034,8 @@ void Pack_256_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48829,8 +48073,8 @@ void Pack_256_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48868,8 +48112,8 @@ void Pack_256_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48907,8 +48151,8 @@ void Pack_256_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48946,8 +48190,8 @@ void Pack_256_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -48985,8 +48229,8 @@ void Pack_256_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49024,8 +48268,8 @@ void Pack_256_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49063,8 +48307,8 @@ void Pack_256_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49102,8 +48346,8 @@ void Pack_256_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49141,8 +48385,8 @@ void Pack_256_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49180,8 +48424,8 @@ void Pack_256_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49219,8 +48463,8 @@ void Pack_256_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49258,8 +48502,8 @@ void Pack_256_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49297,8 +48541,8 @@ void Pack_256_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49336,8 +48580,8 @@ void Pack_256_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49375,8 +48619,8 @@ void Pack_256_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49414,8 +48658,8 @@ void Pack_256_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49453,8 +48697,8 @@ void Pack_256_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49492,8 +48736,8 @@ void Pack_256_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49531,8 +48775,8 @@ void Pack_256_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49570,8 +48814,8 @@ void Pack_256_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49609,8 +48853,8 @@ void Pack_256_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49648,8 +48892,8 @@ void Pack_256_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49687,8 +48931,8 @@ void Pack_256_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49726,8 +48970,8 @@ void Pack_256_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49765,8 +49009,8 @@ void Pack_256_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49804,8 +49048,8 @@ void Pack_256_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49843,8 +49087,8 @@ void Pack_256_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49882,8 +49126,8 @@ void Pack_256_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49921,8 +49165,8 @@ void Pack_256_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49960,8 +49204,8 @@ void Pack_256_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -49999,8 +49243,8 @@ void Pack_256_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50038,8 +49282,8 @@ void Pack_256_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50077,8 +49321,8 @@ void Pack_256_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50116,8 +49360,8 @@ void Pack_256_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50155,8 +49399,8 @@ void Pack_256_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50194,8 +49438,8 @@ void Pack_256_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50233,8 +49477,8 @@ void Pack_256_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50272,8 +49516,8 @@ void Pack_256_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50311,8 +49555,8 @@ void Pack_256_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50350,8 +49594,8 @@ void Pack_256_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50389,8 +49633,8 @@ void Pack_256_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50428,8 +49672,8 @@ void Pack_256_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50467,8 +49711,8 @@ void Pack_256_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50506,8 +49750,8 @@ void Pack_256_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_256_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50545,12 +49789,12 @@ void Pack_256_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -50584,12 +49828,11 @@ void Pack_512_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t B_block[2 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -50623,12 +49866,11 @@ void Pack_512_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t B_block[4 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -50662,12 +49904,11 @@ void Pack_512_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t B_block[8 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -50701,12 +49942,11 @@ void Pack_512_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[16 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -50740,12 +49980,11 @@ void Pack_512_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[32 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -50779,12 +50018,11 @@ void Pack_512_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[64 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -50818,12 +50056,11 @@ void Pack_512_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[128 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 128 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -50857,8 +50094,7 @@ void Pack_512_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50896,8 +50132,8 @@ void Pack_512_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50935,8 +50171,8 @@ void Pack_512_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -50974,8 +50210,8 @@ void Pack_512_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -51013,12 +50249,12 @@ void Pack_512_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t B_block[1 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -51052,12 +50288,11 @@ void Pack_512_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -51091,12 +50326,11 @@ void Pack_512_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t B_block[4 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -51130,12 +50364,11 @@ void Pack_512_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t B_block[8 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -51169,12 +50402,11 @@ void Pack_512_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t B_block[16 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -51208,12 +50440,11 @@ void Pack_512_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[32 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -51247,12 +50478,11 @@ void Pack_512_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[64 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -51286,8 +50516,7 @@ void Pack_512_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -51325,8 +50554,8 @@ void Pack_512_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -51364,8 +50593,8 @@ void Pack_512_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -51403,8 +50632,8 @@ void Pack_512_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -51442,8 +50671,8 @@ void Pack_512_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -51481,12 +50710,12 @@ void Pack_512_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t B_block[1 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -51520,12 +50749,11 @@ void Pack_512_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t B_block[2 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -51559,12 +50787,11 @@ void Pack_512_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -51598,12 +50825,11 @@ void Pack_512_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t B_block[8 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -51637,12 +50863,11 @@ void Pack_512_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t B_block[16 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -51676,12 +50901,11 @@ void Pack_512_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t B_block[32 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -51715,8 +50939,7 @@ void Pack_512_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -51754,8 +50977,8 @@ void Pack_512_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -51793,8 +51016,8 @@ void Pack_512_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -51832,8 +51055,8 @@ void Pack_512_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -51871,8 +51094,8 @@ void Pack_512_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -51910,8 +51133,8 @@ void Pack_512_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -51949,12 +51172,12 @@ void Pack_512_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t B_block[1 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -51988,12 +51211,11 @@ void Pack_512_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t B_block[2 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -52027,12 +51249,11 @@ void Pack_512_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t B_block[4 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -52066,12 +51287,11 @@ void Pack_512_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -52105,12 +51325,11 @@ void Pack_512_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t B_block[16 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -52144,8 +51363,7 @@ void Pack_512_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -52183,8 +51401,8 @@ void Pack_512_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -52222,8 +51440,8 @@ void Pack_512_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -52261,8 +51479,8 @@ void Pack_512_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -52300,8 +51518,8 @@ void Pack_512_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -52339,8 +51557,8 @@ void Pack_512_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -52378,8 +51596,8 @@ void Pack_512_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -52417,12 +51635,12 @@ void Pack_512_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t B_block[1 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -52456,12 +51674,11 @@ void Pack_512_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t B_block[2 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -52495,12 +51712,11 @@ void Pack_512_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t B_block[4 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -52534,12 +51750,11 @@ void Pack_512_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t B_block[8 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -52573,8 +51788,7 @@ void Pack_512_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -52612,8 +51826,8 @@ void Pack_512_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -52651,8 +51865,8 @@ void Pack_512_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -52690,8 +51904,8 @@ void Pack_512_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -52729,8 +51943,8 @@ void Pack_512_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -52768,8 +51982,8 @@ void Pack_512_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -52807,8 +52021,8 @@ void Pack_512_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -52846,8 +52060,8 @@ void Pack_512_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -52885,12 +52099,12 @@ void Pack_512_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t B_block[1 * 32];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 32) {
@@ -52924,12 +52138,11 @@ void Pack_512_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t B_block[2 * 32];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 32) {
@@ -52963,12 +52176,11 @@ void Pack_512_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t B_block[4 * 32];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 32) {
@@ -53002,8 +52214,7 @@ void Pack_512_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53041,8 +52252,8 @@ void Pack_512_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53080,8 +52291,8 @@ void Pack_512_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53119,8 +52330,8 @@ void Pack_512_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53158,8 +52369,8 @@ void Pack_512_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53197,8 +52408,8 @@ void Pack_512_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53236,8 +52447,8 @@ void Pack_512_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53275,8 +52486,8 @@ void Pack_512_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53314,8 +52525,8 @@ void Pack_512_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53353,12 +52564,12 @@ void Pack_512_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t B_block[1 * 64];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 64) {
@@ -53392,12 +52603,11 @@ void Pack_512_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t B_block[2 * 64];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 64) {
@@ -53431,8 +52641,7 @@ void Pack_512_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53470,8 +52679,8 @@ void Pack_512_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53509,8 +52718,8 @@ void Pack_512_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53548,8 +52757,8 @@ void Pack_512_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53587,8 +52796,8 @@ void Pack_512_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53626,8 +52835,8 @@ void Pack_512_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53665,8 +52874,8 @@ void Pack_512_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53704,8 +52913,8 @@ void Pack_512_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53743,8 +52952,8 @@ void Pack_512_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53782,8 +52991,8 @@ void Pack_512_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53821,12 +53030,12 @@ void Pack_512_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t B_block[1 * 128];
   uint8_t *restrict A_block = (uint8_t *)malloc(512 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 128) {
@@ -53860,8 +53069,7 @@ void Pack_512_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_512_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53899,8 +53107,8 @@ void Pack_512_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53938,8 +53146,8 @@ void Pack_512_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -53977,8 +53185,8 @@ void Pack_512_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54016,8 +53224,8 @@ void Pack_512_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54055,8 +53263,8 @@ void Pack_512_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54094,8 +53302,8 @@ void Pack_512_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54133,8 +53341,8 @@ void Pack_512_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54172,8 +53380,8 @@ void Pack_512_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54211,8 +53419,8 @@ void Pack_512_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54250,8 +53458,8 @@ void Pack_512_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54289,8 +53497,8 @@ void Pack_512_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54328,8 +53536,8 @@ void Pack_512_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54367,8 +53575,8 @@ void Pack_512_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54406,8 +53614,8 @@ void Pack_512_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54445,8 +53653,8 @@ void Pack_512_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54484,8 +53692,8 @@ void Pack_512_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54523,8 +53731,8 @@ void Pack_512_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54562,8 +53770,8 @@ void Pack_512_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54601,8 +53809,8 @@ void Pack_512_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54640,8 +53848,8 @@ void Pack_512_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54679,8 +53887,8 @@ void Pack_512_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54718,8 +53926,8 @@ void Pack_512_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54757,8 +53965,8 @@ void Pack_512_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54796,8 +54004,8 @@ void Pack_512_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54835,8 +54043,8 @@ void Pack_512_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54874,8 +54082,8 @@ void Pack_512_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54913,8 +54121,8 @@ void Pack_512_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54952,8 +54160,8 @@ void Pack_512_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -54991,8 +54199,8 @@ void Pack_512_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55030,8 +54238,8 @@ void Pack_512_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55069,8 +54277,8 @@ void Pack_512_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55108,8 +54316,8 @@ void Pack_512_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55147,8 +54355,8 @@ void Pack_512_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55186,8 +54394,8 @@ void Pack_512_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55225,8 +54433,8 @@ void Pack_512_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55264,8 +54472,8 @@ void Pack_512_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55303,8 +54511,8 @@ void Pack_512_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55342,8 +54550,8 @@ void Pack_512_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55381,8 +54589,8 @@ void Pack_512_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55420,8 +54628,8 @@ void Pack_512_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55459,8 +54667,8 @@ void Pack_512_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55498,8 +54706,8 @@ void Pack_512_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55537,8 +54745,8 @@ void Pack_512_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55576,8 +54784,8 @@ void Pack_512_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55615,8 +54823,8 @@ void Pack_512_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55654,8 +54862,8 @@ void Pack_512_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55693,8 +54901,8 @@ void Pack_512_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55732,8 +54940,8 @@ void Pack_512_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55771,8 +54979,8 @@ void Pack_512_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55810,8 +55018,8 @@ void Pack_512_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55849,8 +55057,8 @@ void Pack_512_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55888,8 +55096,8 @@ void Pack_512_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55927,8 +55135,8 @@ void Pack_512_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -55966,8 +55174,8 @@ void Pack_512_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -56005,8 +55213,8 @@ void Pack_512_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -56044,8 +55252,8 @@ void Pack_512_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -56083,8 +55291,8 @@ void Pack_512_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -56122,8 +55330,8 @@ void Pack_512_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_512_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -56161,12 +55369,12 @@ void Pack_512_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -56200,12 +55408,11 @@ void Pack_1024_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t B_block[2 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -56239,12 +55446,11 @@ void Pack_1024_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t B_block[4 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -56278,12 +55484,11 @@ void Pack_1024_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t B_block[8 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -56317,12 +55522,11 @@ void Pack_1024_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[16 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -56356,12 +55560,11 @@ void Pack_1024_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[32 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -56395,12 +55598,11 @@ void Pack_1024_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[64 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -56434,12 +55636,11 @@ void Pack_1024_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[128 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 128 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -56473,8 +55674,7 @@ void Pack_1024_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -56512,8 +55712,8 @@ void Pack_1024_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -56551,8 +55751,8 @@ void Pack_1024_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -56590,8 +55790,8 @@ void Pack_1024_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -56629,12 +55829,12 @@ void Pack_1024_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t B_block[1 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -56668,12 +55868,11 @@ void Pack_1024_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -56707,12 +55906,11 @@ void Pack_1024_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t B_block[4 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -56746,12 +55944,11 @@ void Pack_1024_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t B_block[8 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -56785,12 +55982,11 @@ void Pack_1024_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t B_block[16 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -56824,12 +56020,11 @@ void Pack_1024_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[32 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -56863,12 +56058,11 @@ void Pack_1024_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[64 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -56902,8 +56096,7 @@ void Pack_1024_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -56941,8 +56134,8 @@ void Pack_1024_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -56980,8 +56173,8 @@ void Pack_1024_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -57019,8 +56212,8 @@ void Pack_1024_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -57058,8 +56251,8 @@ void Pack_1024_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -57097,12 +56290,12 @@ void Pack_1024_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t B_block[1 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -57136,12 +56329,11 @@ void Pack_1024_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t B_block[2 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -57175,12 +56367,11 @@ void Pack_1024_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -57214,12 +56405,11 @@ void Pack_1024_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t B_block[8 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -57253,12 +56443,11 @@ void Pack_1024_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t B_block[16 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -57292,12 +56481,11 @@ void Pack_1024_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t B_block[32 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -57331,8 +56519,7 @@ void Pack_1024_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -57370,8 +56557,8 @@ void Pack_1024_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -57409,8 +56596,8 @@ void Pack_1024_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -57448,8 +56635,8 @@ void Pack_1024_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -57487,8 +56674,8 @@ void Pack_1024_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -57526,8 +56713,8 @@ void Pack_1024_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -57565,12 +56752,12 @@ void Pack_1024_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t B_block[1 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -57604,12 +56791,11 @@ void Pack_1024_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t B_block[2 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -57643,12 +56829,11 @@ void Pack_1024_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t B_block[4 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -57682,12 +56867,11 @@ void Pack_1024_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -57721,12 +56905,11 @@ void Pack_1024_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t B_block[16 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -57760,8 +56943,7 @@ void Pack_1024_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -57799,8 +56981,8 @@ void Pack_1024_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -57838,8 +57020,8 @@ void Pack_1024_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -57877,8 +57059,8 @@ void Pack_1024_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -57916,8 +57098,8 @@ void Pack_1024_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -57955,8 +57137,8 @@ void Pack_1024_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -57994,8 +57176,8 @@ void Pack_1024_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58033,12 +57215,12 @@ void Pack_1024_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t B_block[1 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -58072,12 +57254,11 @@ void Pack_1024_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t B_block[2 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -58111,12 +57292,11 @@ void Pack_1024_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t B_block[4 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -58150,12 +57330,11 @@ void Pack_1024_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t B_block[8 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -58189,8 +57368,7 @@ void Pack_1024_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58228,8 +57406,8 @@ void Pack_1024_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58267,8 +57445,8 @@ void Pack_1024_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58306,8 +57484,8 @@ void Pack_1024_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58345,8 +57523,8 @@ void Pack_1024_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58384,8 +57562,8 @@ void Pack_1024_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58423,8 +57601,8 @@ void Pack_1024_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58462,8 +57640,8 @@ void Pack_1024_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58501,12 +57679,12 @@ void Pack_1024_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t B_block[1 * 32];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 32) {
@@ -58540,12 +57718,11 @@ void Pack_1024_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t B_block[2 * 32];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 32) {
@@ -58579,12 +57756,11 @@ void Pack_1024_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t B_block[4 * 32];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 32) {
@@ -58618,8 +57794,7 @@ void Pack_1024_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58657,8 +57832,8 @@ void Pack_1024_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58696,8 +57871,8 @@ void Pack_1024_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58735,8 +57910,8 @@ void Pack_1024_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58774,8 +57949,8 @@ void Pack_1024_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58813,8 +57988,8 @@ void Pack_1024_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58852,8 +58027,8 @@ void Pack_1024_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58891,8 +58066,8 @@ void Pack_1024_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58930,8 +58105,8 @@ void Pack_1024_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -58969,12 +58144,12 @@ void Pack_1024_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t B_block[1 * 64];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 64) {
@@ -59008,12 +58183,11 @@ void Pack_1024_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t B_block[2 * 64];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 64) {
@@ -59047,8 +58221,7 @@ void Pack_1024_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59086,8 +58259,8 @@ void Pack_1024_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59125,8 +58298,8 @@ void Pack_1024_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59164,8 +58337,8 @@ void Pack_1024_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59203,8 +58376,8 @@ void Pack_1024_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59242,8 +58415,8 @@ void Pack_1024_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59281,8 +58454,8 @@ void Pack_1024_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59320,8 +58493,8 @@ void Pack_1024_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59359,8 +58532,8 @@ void Pack_1024_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59398,8 +58571,8 @@ void Pack_1024_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59437,12 +58610,12 @@ void Pack_1024_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t B_block[1 * 128];
   uint8_t *restrict A_block = (uint8_t *)malloc(1024 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 128) {
@@ -59476,8 +58649,7 @@ void Pack_1024_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_1024_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59515,8 +58687,8 @@ void Pack_1024_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59554,8 +58726,8 @@ void Pack_1024_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59593,8 +58765,8 @@ void Pack_1024_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59632,8 +58804,8 @@ void Pack_1024_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59671,8 +58843,8 @@ void Pack_1024_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59710,8 +58882,8 @@ void Pack_1024_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59749,8 +58921,8 @@ void Pack_1024_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59788,8 +58960,8 @@ void Pack_1024_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59827,8 +58999,8 @@ void Pack_1024_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59866,8 +59038,8 @@ void Pack_1024_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59905,8 +59077,8 @@ void Pack_1024_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59944,8 +59116,8 @@ void Pack_1024_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -59983,8 +59155,8 @@ void Pack_1024_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60022,8 +59194,8 @@ void Pack_1024_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60061,8 +59233,8 @@ void Pack_1024_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60100,8 +59272,8 @@ void Pack_1024_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60139,8 +59311,8 @@ void Pack_1024_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60178,8 +59350,8 @@ void Pack_1024_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60217,8 +59389,8 @@ void Pack_1024_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60256,8 +59428,8 @@ void Pack_1024_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60295,8 +59467,8 @@ void Pack_1024_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60334,8 +59506,8 @@ void Pack_1024_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60373,8 +59545,8 @@ void Pack_1024_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60412,8 +59584,8 @@ void Pack_1024_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60451,8 +59623,8 @@ void Pack_1024_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60490,8 +59662,8 @@ void Pack_1024_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60529,8 +59701,8 @@ void Pack_1024_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60568,8 +59740,8 @@ void Pack_1024_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60607,8 +59779,8 @@ void Pack_1024_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60646,8 +59818,8 @@ void Pack_1024_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60685,8 +59857,8 @@ void Pack_1024_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60724,8 +59896,8 @@ void Pack_1024_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60763,8 +59935,8 @@ void Pack_1024_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60802,8 +59974,8 @@ void Pack_1024_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60841,8 +60013,8 @@ void Pack_1024_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60880,8 +60052,8 @@ void Pack_1024_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60919,8 +60091,8 @@ void Pack_1024_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60958,8 +60130,8 @@ void Pack_1024_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -60997,8 +60169,8 @@ void Pack_1024_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61036,8 +60208,8 @@ void Pack_1024_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61075,8 +60247,8 @@ void Pack_1024_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61114,8 +60286,8 @@ void Pack_1024_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61153,8 +60325,8 @@ void Pack_1024_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61192,8 +60364,8 @@ void Pack_1024_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61231,8 +60403,8 @@ void Pack_1024_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61270,8 +60442,8 @@ void Pack_1024_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61309,8 +60481,8 @@ void Pack_1024_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61348,8 +60520,8 @@ void Pack_1024_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61387,8 +60559,8 @@ void Pack_1024_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61426,8 +60598,8 @@ void Pack_1024_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61465,8 +60637,8 @@ void Pack_1024_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61504,8 +60676,8 @@ void Pack_1024_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61543,8 +60715,8 @@ void Pack_1024_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61582,8 +60754,8 @@ void Pack_1024_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61621,8 +60793,8 @@ void Pack_1024_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61660,8 +60832,8 @@ void Pack_1024_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61699,8 +60871,8 @@ void Pack_1024_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61738,8 +60910,8 @@ void Pack_1024_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_1024_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -61777,12 +60949,12 @@ void Pack_1024_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 1 * sizeof(uint8_t));
+  uint8_t B_block[1 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -61816,12 +60988,11 @@ void Pack_2048_1_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 1 * sizeof(uint8_t));
+  uint8_t B_block[2 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -61855,12 +61026,11 @@ void Pack_2048_1_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 1 * sizeof(uint8_t));
+  uint8_t B_block[4 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -61894,12 +61064,11 @@ void Pack_2048_1_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 1 * sizeof(uint8_t));
+  uint8_t B_block[8 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -61933,12 +61102,11 @@ void Pack_2048_1_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 1 * sizeof(uint8_t));
+  uint8_t B_block[16 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -61972,12 +61140,11 @@ void Pack_2048_1_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 1 * sizeof(uint8_t));
+  uint8_t B_block[32 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -62011,12 +61178,11 @@ void Pack_2048_1_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 1 * sizeof(uint8_t));
+  uint8_t B_block[64 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -62050,12 +61216,11 @@ void Pack_2048_1_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(128 * 1 * sizeof(uint8_t));
+  uint8_t B_block[128 * 1];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 128 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 1) {
@@ -62089,8 +61254,7 @@ void Pack_2048_1_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -62128,8 +61292,8 @@ void Pack_2048_1_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -62167,8 +61331,8 @@ void Pack_2048_1_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -62206,8 +61370,8 @@ void Pack_2048_1_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -62245,12 +61409,12 @@ void Pack_2048_1_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 2 * sizeof(uint8_t));
+  uint8_t B_block[1 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -62284,12 +61448,11 @@ void Pack_2048_2_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 2 * sizeof(uint8_t));
+  uint8_t B_block[2 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -62323,12 +61486,11 @@ void Pack_2048_2_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 2 * sizeof(uint8_t));
+  uint8_t B_block[4 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -62362,12 +61524,11 @@ void Pack_2048_2_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 2 * sizeof(uint8_t));
+  uint8_t B_block[8 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -62401,12 +61562,11 @@ void Pack_2048_2_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 2 * sizeof(uint8_t));
+  uint8_t B_block[16 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -62440,12 +61600,11 @@ void Pack_2048_2_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 2 * sizeof(uint8_t));
+  uint8_t B_block[32 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -62479,12 +61638,11 @@ void Pack_2048_2_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(64 * 2 * sizeof(uint8_t));
+  uint8_t B_block[64 * 2];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 64 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 2) {
@@ -62518,8 +61676,7 @@ void Pack_2048_2_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -62557,8 +61714,8 @@ void Pack_2048_2_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -62596,8 +61753,8 @@ void Pack_2048_2_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -62635,8 +61792,8 @@ void Pack_2048_2_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -62674,8 +61831,8 @@ void Pack_2048_2_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -62713,12 +61870,12 @@ void Pack_2048_2_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 4 * sizeof(uint8_t));
+  uint8_t B_block[1 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -62752,12 +61909,11 @@ void Pack_2048_4_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 4 * sizeof(uint8_t));
+  uint8_t B_block[2 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -62791,12 +61947,11 @@ void Pack_2048_4_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 4 * sizeof(uint8_t));
+  uint8_t B_block[4 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -62830,12 +61985,11 @@ void Pack_2048_4_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 4 * sizeof(uint8_t));
+  uint8_t B_block[8 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -62869,12 +62023,11 @@ void Pack_2048_4_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 4 * sizeof(uint8_t));
+  uint8_t B_block[16 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -62908,12 +62061,11 @@ void Pack_2048_4_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(32 * 4 * sizeof(uint8_t));
+  uint8_t B_block[32 * 4];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 32 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 4) {
@@ -62947,8 +62099,7 @@ void Pack_2048_4_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -62986,8 +62137,8 @@ void Pack_2048_4_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63025,8 +62176,8 @@ void Pack_2048_4_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63064,8 +62215,8 @@ void Pack_2048_4_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63103,8 +62254,8 @@ void Pack_2048_4_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63142,8 +62293,8 @@ void Pack_2048_4_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63181,12 +62332,12 @@ void Pack_2048_4_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 8 * sizeof(uint8_t));
+  uint8_t B_block[1 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -63220,12 +62371,11 @@ void Pack_2048_8_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 8 * sizeof(uint8_t));
+  uint8_t B_block[2 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -63259,12 +62409,11 @@ void Pack_2048_8_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 8 * sizeof(uint8_t));
+  uint8_t B_block[4 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -63298,12 +62447,11 @@ void Pack_2048_8_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 8 * sizeof(uint8_t));
+  uint8_t B_block[8 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -63337,12 +62485,11 @@ void Pack_2048_8_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(16 * 8 * sizeof(uint8_t));
+  uint8_t B_block[16 * 8];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 16 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 8) {
@@ -63376,8 +62523,7 @@ void Pack_2048_8_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63415,8 +62561,8 @@ void Pack_2048_8_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63454,8 +62600,8 @@ void Pack_2048_8_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63493,8 +62639,8 @@ void Pack_2048_8_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63532,8 +62678,8 @@ void Pack_2048_8_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63571,8 +62717,8 @@ void Pack_2048_8_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63610,8 +62756,8 @@ void Pack_2048_8_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63649,12 +62795,12 @@ void Pack_2048_8_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 16 * sizeof(uint8_t));
+  uint8_t B_block[1 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -63688,12 +62834,11 @@ void Pack_2048_16_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 16 * sizeof(uint8_t));
+  uint8_t B_block[2 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -63727,12 +62872,11 @@ void Pack_2048_16_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 16 * sizeof(uint8_t));
+  uint8_t B_block[4 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -63766,12 +62910,11 @@ void Pack_2048_16_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(8 * 16 * sizeof(uint8_t));
+  uint8_t B_block[8 * 16];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 8 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 16) {
@@ -63805,8 +62948,7 @@ void Pack_2048_16_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63844,8 +62986,8 @@ void Pack_2048_16_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63883,8 +63025,8 @@ void Pack_2048_16_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63922,8 +63064,8 @@ void Pack_2048_16_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -63961,8 +63103,8 @@ void Pack_2048_16_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64000,8 +63142,8 @@ void Pack_2048_16_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64039,8 +63181,8 @@ void Pack_2048_16_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64078,8 +63220,8 @@ void Pack_2048_16_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64117,12 +63259,12 @@ void Pack_2048_16_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 32 * sizeof(uint8_t));
+  uint8_t B_block[1 * 32];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 32) {
@@ -64156,12 +63298,11 @@ void Pack_2048_32_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 32 * sizeof(uint8_t));
+  uint8_t B_block[2 * 32];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 32) {
@@ -64195,12 +63336,11 @@ void Pack_2048_32_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(4 * 32 * sizeof(uint8_t));
+  uint8_t B_block[4 * 32];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 4 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 32) {
@@ -64234,8 +63374,7 @@ void Pack_2048_32_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64273,8 +63412,8 @@ void Pack_2048_32_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64312,8 +63451,8 @@ void Pack_2048_32_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64351,8 +63490,8 @@ void Pack_2048_32_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64390,8 +63529,8 @@ void Pack_2048_32_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64429,8 +63568,8 @@ void Pack_2048_32_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64468,8 +63607,8 @@ void Pack_2048_32_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64507,8 +63646,8 @@ void Pack_2048_32_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64546,8 +63685,8 @@ void Pack_2048_32_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64585,12 +63724,12 @@ void Pack_2048_32_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 64 * sizeof(uint8_t));
+  uint8_t B_block[1 * 64];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 64) {
@@ -64624,12 +63763,11 @@ void Pack_2048_64_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(2 * 64 * sizeof(uint8_t));
+  uint8_t B_block[2 * 64];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 2 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 64) {
@@ -64663,8 +63801,7 @@ void Pack_2048_64_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64702,8 +63839,8 @@ void Pack_2048_64_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64741,8 +63878,8 @@ void Pack_2048_64_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64780,8 +63917,8 @@ void Pack_2048_64_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64819,8 +63956,8 @@ void Pack_2048_64_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64858,8 +63995,8 @@ void Pack_2048_64_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64897,8 +64034,8 @@ void Pack_2048_64_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64936,8 +64073,8 @@ void Pack_2048_64_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -64975,8 +64112,8 @@ void Pack_2048_64_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65014,8 +64151,8 @@ void Pack_2048_64_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65053,12 +64190,12 @@ void Pack_2048_64_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
-  uint8_t *restrict B_block = (uint8_t *)malloc(1 * 128 * sizeof(uint8_t));
+  uint8_t B_block[1 * 128];
   uint8_t *restrict A_block = (uint8_t *)malloc(2048 * 1 * sizeof(uint8_t));
 
   for (int n = 0; n < N; n += 128) {
@@ -65092,8 +64229,7 @@ void Pack_2048_128_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
 }
 
 void Pack_2048_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65131,8 +64267,8 @@ void Pack_2048_128_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65170,8 +64306,8 @@ void Pack_2048_128_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65209,8 +64345,8 @@ void Pack_2048_128_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65248,8 +64384,8 @@ void Pack_2048_128_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65287,8 +64423,8 @@ void Pack_2048_128_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65326,8 +64462,8 @@ void Pack_2048_128_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65365,8 +64501,8 @@ void Pack_2048_128_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65404,8 +64540,8 @@ void Pack_2048_128_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65443,8 +64579,8 @@ void Pack_2048_128_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65482,8 +64618,8 @@ void Pack_2048_128_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65521,8 +64657,8 @@ void Pack_2048_128_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65560,8 +64696,8 @@ void Pack_2048_256_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65599,8 +64735,8 @@ void Pack_2048_256_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65638,8 +64774,8 @@ void Pack_2048_256_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65677,8 +64813,8 @@ void Pack_2048_256_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65716,8 +64852,8 @@ void Pack_2048_256_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65755,8 +64891,8 @@ void Pack_2048_256_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65794,8 +64930,8 @@ void Pack_2048_256_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65833,8 +64969,8 @@ void Pack_2048_256_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65872,8 +65008,8 @@ void Pack_2048_256_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65911,8 +65047,8 @@ void Pack_2048_256_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65950,8 +65086,8 @@ void Pack_2048_256_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -65989,8 +65125,8 @@ void Pack_2048_256_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66028,8 +65164,8 @@ void Pack_2048_512_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66067,8 +65203,8 @@ void Pack_2048_512_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66106,8 +65242,8 @@ void Pack_2048_512_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66145,8 +65281,8 @@ void Pack_2048_512_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66184,8 +65320,8 @@ void Pack_2048_512_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66223,8 +65359,8 @@ void Pack_2048_512_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66262,8 +65398,8 @@ void Pack_2048_512_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66301,8 +65437,8 @@ void Pack_2048_512_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66340,8 +65476,8 @@ void Pack_2048_512_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66379,8 +65515,8 @@ void Pack_2048_512_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66418,8 +65554,8 @@ void Pack_2048_512_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66457,8 +65593,8 @@ void Pack_2048_512_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66496,8 +65632,8 @@ void Pack_2048_1024_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66535,8 +65671,8 @@ void Pack_2048_1024_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66574,8 +65710,8 @@ void Pack_2048_1024_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66613,8 +65749,8 @@ void Pack_2048_1024_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66652,8 +65788,8 @@ void Pack_2048_1024_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66691,8 +65827,8 @@ void Pack_2048_1024_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66730,8 +65866,8 @@ void Pack_2048_1024_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66769,8 +65905,8 @@ void Pack_2048_1024_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66808,8 +65944,8 @@ void Pack_2048_1024_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66847,8 +65983,8 @@ void Pack_2048_1024_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66886,8 +66022,8 @@ void Pack_2048_1024_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66925,8 +66061,8 @@ void Pack_2048_1024_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -66964,8 +66100,8 @@ void Pack_2048_2048_1(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -67003,8 +66139,8 @@ void Pack_2048_2048_2(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -67042,8 +66178,8 @@ void Pack_2048_2048_4(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -67081,8 +66217,8 @@ void Pack_2048_2048_8(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -67120,8 +66256,8 @@ void Pack_2048_2048_16(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -67159,8 +66295,8 @@ void Pack_2048_2048_32(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -67198,8 +66334,8 @@ void Pack_2048_2048_64(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -67237,8 +66373,8 @@ void Pack_2048_2048_128(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -67276,8 +66412,8 @@ void Pack_2048_2048_256(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -67315,8 +66451,8 @@ void Pack_2048_2048_512(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -67354,8 +66490,8 @@ void Pack_2048_2048_1024(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 
 void Pack_2048_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
@@ -67393,7 +66529,7 @@ void Pack_2048_2048_2048(uint8_t *A, uint8_t *B, uint8_t *restrict C) {
     }
   }
 
-  free(A_block);
-  free(B_block);
+    free(A_block);
+    free(B_block);
 }
 

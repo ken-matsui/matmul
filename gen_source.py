@@ -32,11 +32,7 @@ void Block_{mc}_{nc}_{kc}(uint8_t *restrict A, uint8_t *restrict B, uint8_t *res
 """
 
 
-pack_impl = """
-void Pack_{mc}_{nc}_{kc}(uint8_t *A, uint8_t *B, uint8_t *restrict C) {{
-  uint8_t *restrict B_block = (uint8_t *)malloc({kc} * {nc} * sizeof(uint8_t));
-  uint8_t *restrict A_block = (uint8_t *)malloc({mc} * {kc} * sizeof(uint8_t));
-
+pack_impl_body = """
   for (int n = 0; n < N; n += {nc}) {{
     for (int k = 0; k < K; k += {kc}) {{
       // Pack into B
@@ -67,11 +63,56 @@ void Pack_{mc}_{nc}_{kc}(uint8_t *A, uint8_t *B, uint8_t *restrict C) {{
       }}
     }}
   }}
-
-  free(A_block);
-  free(B_block);
-}}
 """
+
+
+STACK_CUTOFF = 256
+
+
+def pack_impl_prologue(mc, nc, kc):
+    code = """
+void Pack_{mc}_{nc}_{kc}(uint8_t *A, uint8_t *B, uint8_t *restrict C) {{"""
+
+    if (kc * nc) * 1 < STACK_CUTOFF:  # uint8_t (1 byte)
+        # Stack allocation
+        code += """
+  uint8_t B_block[{kc} * {nc}];"""
+    else:
+        # Heap allocation
+        code += """
+  uint8_t *restrict B_block = (uint8_t *)malloc({kc} * {nc} * sizeof(uint8_t));"""
+
+    if (mc * kc) * 1 < STACK_CUTOFF:  # uint8_t (1 byte)
+        # Stack allocation
+        code += """
+  uint8_t A_block[{mc} * {kc}];
+"""
+    else:
+        # Heap allocation
+        code += """
+  uint8_t *restrict A_block = (uint8_t *)malloc({mc} * {kc} * sizeof(uint8_t));
+"""
+
+    return code.format(mc=mc, nc=nc, kc=kc)
+
+
+def pack_impl_epilogue(mc, nc, kc):
+    code = ""
+
+    if (mc * kc) * 1 >= STACK_CUTOFF:  # uint8_t (1 byte)
+        # Heap allocation
+        code += """
+    free(A_block);"""
+
+    if (kc * nc) * 1 >= STACK_CUTOFF:  # uint8_t (1 byte)
+        # Heap allocation
+        code += """
+    free(B_block);"""
+
+    code += """
+}
+"""
+    return code
 
 
 # name: Block or Pack
@@ -82,17 +123,21 @@ def generate_code(size, name):
     code += headers.format(name=name)
 
     if name == "Block":
-        impl = block_impl
+        pass
     elif name == "Pack":
         code += pack_headers
-        impl = pack_impl
     else:
         raise ValueError("Unknown name: {}".format(name))
 
     for mc in range(0, size + 1):
         for nc in range(0, size + 1):
             for kc in range(0, size + 1):
-                code += impl.format(mc=2**mc, nc=2**nc, kc=2**kc)
+                if name == "Block":
+                    code += block_impl.format(mc=2**mc, nc=2**nc, kc=2**kc)
+                elif name == "Pack":
+                    code += pack_impl_prologue(mc=2**mc, nc=2**nc, kc=2**kc)
+                    code += pack_impl_body.format(mc=2**mc, nc=2**nc, kc=2**kc)
+                    code += pack_impl_epilogue(mc=2**mc, nc=2**nc, kc=2**kc)
     return code
 
 
