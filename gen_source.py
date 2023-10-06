@@ -34,10 +34,12 @@ void Block_{mc}_{nc}_{kc}(uint8_t *restrict A, uint8_t *restrict B, uint8_t *res
 
 pack_impl = """
 void Pack_{mc}_{nc}_{kc}(uint8_t *A, uint8_t *B, uint8_t *restrict C) {{
+  uint8_t *restrict B_block = (uint8_t *)malloc({kc} * {nc} * sizeof(uint8_t));
+  uint8_t *restrict A_block = (uint8_t *)malloc({mc} * {kc} * sizeof(uint8_t));
+
   for (int n = 0; n < N; n += {nc}) {{
     for (int k = 0; k < K; k += {kc}) {{
       // Pack into B
-      uint8_t *restrict B_block = (uint8_t *)malloc({kc} * {nc} * sizeof(uint8_t));
       for (int kk = k; kk < k + {kc}; ++kk) {{
         for (int nn = n; nn < n + {nc}; ++nn) {{
           B_block[(kk - k) * {nc} + (nn - n)] = B[kk * N + nn];
@@ -46,7 +48,6 @@ void Pack_{mc}_{nc}_{kc}(uint8_t *A, uint8_t *B, uint8_t *restrict C) {{
 
       for (int m = 0; m < M; m += {mc}) {{
         // Pack into A
-        uint8_t *restrict A_block = (uint8_t *)malloc({mc} * {kc} * sizeof(uint8_t));
         for (int mm = m; mm < m + {mc}; ++mm) {{
           for (int kk = k; kk < k + {kc}; ++kk) {{
             A_block[(mm - m) * {kc} + (kk - k)] = A[mm * K + kk];
@@ -63,12 +64,12 @@ void Pack_{mc}_{nc}_{kc}(uint8_t *A, uint8_t *B, uint8_t *restrict C) {{
             }}
           }}
         }}
-
-        free(A_block);
       }}
-      free(B_block);
     }}
   }}
+
+  free(A_block);
+  free(B_block);
 }}
 """
 
