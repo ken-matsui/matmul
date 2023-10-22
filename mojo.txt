@@ -1,0 +1,6 @@
+Naive:          2s 2776003000ns
+Vectorized:     0s 757333000ns
+Parallelized:   0s 317160571ns
+Tiled:          0s 360840666ns
+Unrolled:       0s 311392714ns
+Accumulated:    0s 140806000ns
