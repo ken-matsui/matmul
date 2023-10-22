@@ -25,9 +25,6 @@ from tensor import Tensor
 from utils.index import Index
 from memory.buffer import NDBuffer
 
-#alias M = 512
-#alias N = 512
-#alias K = 4096
 alias M = 2048
 alias N = 2048
 alias K = 2048
@@ -322,12 +319,6 @@ fn main() raises:
     # Uncomment below to test correctness of Matmuls
     # test_all()
     #let python_gflops = run_matmul_python(128, 128, 128)
-    #benchmark[matmul_naive](python_gflops, "Naive:")
-    #benchmark[matmul_vectorized](python_gflops, "Vectorized:")
-    #benchmark[matmul_parallelized](python_gflops, "Parallelized:")
-    #benchmark[matmul_tiled](python_gflops, "Tiled:")
-    #benchmark[matmul_unroll](python_gflops, "Unrolled:")
-    #benchmark[accumulate_registers](python_gflops, "Accumulated:")
     benchmark[matmul_naive]("Naive:")
     benchmark[matmul_vectorized]("Vectorized:")
     benchmark[matmul_parallelized]("Parallelized:")
